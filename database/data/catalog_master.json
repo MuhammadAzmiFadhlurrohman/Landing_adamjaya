@@ -1,0 +1,4920 @@
+[
+    {
+        "id": 74,
+        "nama_barang": "Jangka",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273801_993.webp",
+        "min_price": 1250000,
+        "max_price": 1250000,
+        "variants": [
+            {
+                "id": 177,
+                "nama_jenis": "stenles",
+                "stok": 10,
+                "satuan": "unit",
+                "harga": 1250000
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "nama_barang": "Bebedogan",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273375_654.webp",
+        "min_price": 50000,
+        "max_price": 50000,
+        "variants": [
+            {
+                "id": 152,
+                "nama_jenis": "Jati",
+                "stok": 21,
+                "satuan": "unit",
+                "harga": 50000
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "nama_barang": "BLOWER",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273573_958.webp",
+        "min_price": 300000,
+        "max_price": 300000,
+        "variants": [
+            {
+                "id": 49,
+                "nama_jenis": "D 2 inc",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 300000
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "nama_barang": "Tahang steinlest",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274933_793.webp",
+        "min_price": 1250000,
+        "max_price": 2250000,
+        "variants": [
+            {
+                "id": 171,
+                "nama_jenis": "80x80",
+                "stok": 21,
+                "satuan": "unit",
+                "harga": 1750000
+            },
+            {
+                "id": 264,
+                "nama_jenis": "90x90",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 1250000
+            },
+            {
+                "id": 620,
+                "nama_jenis": "D90",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 2250000
+            },
+            {
+                "id": 789,
+                "nama_jenis": "Tangok Normal D90",
+                "stok": 9,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "nama_barang": "Tangok stenlis",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274960_275.webp",
+        "min_price": 1250000,
+        "max_price": 1750000,
+        "variants": [
+            {
+                "id": 785,
+                "nama_jenis": "Tangok Normal 90 meter",
+                "stok": 7,
+                "satuan": "unit",
+                "harga": 1250000
+            },
+            {
+                "id": 787,
+                "nama_jenis": "Tangok Ceper D 100",
+                "stok": 5,
+                "satuan": "unit",
+                "harga": 1500000
+            },
+            {
+                "id": 788,
+                "nama_jenis": "Tangok ceper D90",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 1250000
+            },
+            {
+                "id": 790,
+                "nama_jenis": "Tangok Normal D100",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 1750000
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "nama_barang": "Sendok Aci",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274874_438.webp",
+        "min_price": 150000,
+        "max_price": 250000,
+        "variants": [
+            {
+                "id": 196,
+                "nama_jenis": "alum 30 cm",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 150000
+            },
+            {
+                "id": 290,
+                "nama_jenis": "alum 35 cm",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 250000
+            },
+            {
+                "id": 561,
+                "nama_jenis": "stenles 32",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 562,
+                "nama_jenis": "stenles 30cm",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 626,
+                "nama_jenis": "alum 32cm",
+                "stok": 27,
+                "satuan": "unit",
+                "harga": 150000
+            }
+        ]
+    },
+    {
+        "id": 155,
+        "nama_barang": "Mesin giling kedele",
+        "category": "mesin-tahu",
+        "category_label": "Mesin Produksi Tahu",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274743_688.webp",
+        "min_price": 60000,
+        "max_price": 8500000,
+        "variants": [
+            {
+                "id": 282,
+                "nama_jenis": "ukuran 10 inc",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 283,
+                "nama_jenis": "ukuran 8inc",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 8500000
+            },
+            {
+                "id": 648,
+                "nama_jenis": "dudukan\/kaki mesin",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 1000000
+            },
+            {
+                "id": 649,
+                "nama_jenis": "tanpa kaki dan dinamo",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 6500000
+            },
+            {
+                "id": 655,
+                "nama_jenis": "kunci mesin",
+                "stok": 8,
+                "satuan": "unit",
+                "harga": 60000
+            },
+            {
+                "id": 656,
+                "nama_jenis": "mesin saja 8inc tanpa dinamo",
+                "stok": 4,
+                "satuan": "unit",
+                "harga": 6000000
+            },
+            {
+                "id": 667,
+                "nama_jenis": "mesin bahan stenles",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 165,
+        "nama_barang": "Cucuntik",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273675_101.webp",
+        "min_price": 50000,
+        "max_price": 80000,
+        "variants": [
+            {
+                "id": 157,
+                "nama_jenis": "kabel",
+                "stok": 35,
+                "satuan": "unit",
+                "harga": 80000
+            },
+            {
+                "id": 647,
+                "nama_jenis": "Jati",
+                "stok": 38,
+                "satuan": "unit",
+                "harga": 50000
+            }
+        ]
+    },
+    {
+        "id": 166,
+        "nama_barang": "Batu Gilingan",
+        "category": "mesin-tahu",
+        "category_label": "Mesin Produksi Tahu",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273522_191.webp",
+        "min_price": 100000,
+        "max_price": 400000,
+        "variants": [
+            {
+                "id": 180,
+                "nama_jenis": "8 inc LB",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 150000
+            },
+            {
+                "id": 298,
+                "nama_jenis": "8 inc LK",
+                "stok": 4,
+                "satuan": "unit",
+                "harga": 100000
+            },
+            {
+                "id": 563,
+                "nama_jenis": "12 inc LB",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 400000
+            },
+            {
+                "id": 564,
+                "nama_jenis": "12 inc LK",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 350000
+            },
+            {
+                "id": 641,
+                "nama_jenis": "10 inc LB",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 300000
+            },
+            {
+                "id": 642,
+                "nama_jenis": "10 inc LK",
+                "stok": 18,
+                "satuan": "unit",
+                "harga": 200000
+            }
+        ]
+    },
+    {
+        "id": 171,
+        "nama_barang": "kain peresan",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273963_921.webp",
+        "min_price": 16000,
+        "max_price": 25000,
+        "variants": [
+            {
+                "id": 182,
+                "nama_jenis": "150x150",
+                "stok": 163,
+                "satuan": "unit",
+                "harga": 16000
+            },
+            {
+                "id": 650,
+                "nama_jenis": "180x180",
+                "stok": 153,
+                "satuan": "unit",
+                "harga": 16000
+            },
+            {
+                "id": 651,
+                "nama_jenis": "jumbo 2m",
+                "stok": 52,
+                "satuan": "unit",
+                "harga": 25000
+            },
+            {
+                "id": 766,
+                "nama_jenis": "180x75",
+                "stok": 124,
+                "satuan": "unit",
+                "harga": 16000
+            }
+        ]
+    },
+    {
+        "id": 180,
+        "nama_barang": "Plat Takus",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 75000,
+        "max_price": 75000,
+        "variants": [
+            {
+                "id": 668,
+                "nama_jenis": "10x11-52",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 669,
+                "nama_jenis": "11x11-52",
+                "stok": 11,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 670,
+                "nama_jenis": "6x18-52",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 671,
+                "nama_jenis": "9x10-52",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 672,
+                "nama_jenis": "8x8-52",
+                "stok": 5,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 673,
+                "nama_jenis": "7x7-52",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 674,
+                "nama_jenis": "9x9-50",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 675,
+                "nama_jenis": "13x13-50",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 676,
+                "nama_jenis": "11x11-53",
+                "stok": 5,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 677,
+                "nama_jenis": "10x11-53",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 678,
+                "nama_jenis": "9x9-53",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 679,
+                "nama_jenis": "9x10-53",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 680,
+                "nama_jenis": "6x10-53",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 681,
+                "nama_jenis": "6x6-53",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 682,
+                "nama_jenis": "5x5-53",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 683,
+                "nama_jenis": "9x9-47",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 684,
+                "nama_jenis": "6x6-44",
+                "stok": 5,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 685,
+                "nama_jenis": "10x10-45",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 730,
+                "nama_jenis": "10x10-52",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 75000
+            },
+            {
+                "id": 813,
+                "nama_jenis": "9x9-52",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 189,
+        "nama_barang": "plat takus stanles",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 175000,
+        "max_price": 175000,
+        "variants": [
+            {
+                "id": 686,
+                "nama_jenis": "10x10-52",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 687,
+                "nama_jenis": "9x9-52",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 688,
+                "nama_jenis": "8x8-52",
+                "stok": 5,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 689,
+                "nama_jenis": "10x11-52",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 690,
+                "nama_jenis": "6x18-52",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 691,
+                "nama_jenis": "13x13-52",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 692,
+                "nama_jenis": "12x12-52",
+                "stok": 4,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 693,
+                "nama_jenis": "12x11-52",
+                "stok": 11,
+                "satuan": "unit",
+                "harga": 175000
+            },
+            {
+                "id": 694,
+                "nama_jenis": "9x10-52",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 695,
+                "nama_jenis": "10x16-52",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 696,
+                "nama_jenis": "6x13-53",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 697,
+                "nama_jenis": "11x11-50",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 698,
+                "nama_jenis": "9x9-50",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 699,
+                "nama_jenis": "13x13-50",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 700,
+                "nama_jenis": "5x5-52",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 701,
+                "nama_jenis": "8x9-52",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 702,
+                "nama_jenis": "9x9-52",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 175000
+            },
+            {
+                "id": 703,
+                "nama_jenis": "10x10-53",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 175000
+            },
+            {
+                "id": 704,
+                "nama_jenis": "12x12-53",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 705,
+                "nama_jenis": "10x10-40",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 706,
+                "nama_jenis": "6x6-43",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 707,
+                "nama_jenis": "6x8-45",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 708,
+                "nama_jenis": "8x8-40",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 709,
+                "nama_jenis": "11x11-51",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 758,
+                "nama_jenis": "11x11-52",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 175000
+            },
+            {
+                "id": 798,
+                "nama_jenis": "9x9-53",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 194,
+        "nama_barang": "Pully",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 150000,
+        "max_price": 200000,
+        "variants": [
+            {
+                "id": 284,
+                "nama_jenis": "5 inc besar",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 285,
+                "nama_jenis": "4 inc sedang",
+                "stok": 30,
+                "satuan": "unit",
+                "harga": 200000
+            },
+            {
+                "id": 286,
+                "nama_jenis": "3 inc kecil",
+                "stok": 56,
+                "satuan": "unit",
+                "harga": 150000
+            },
+            {
+                "id": 559,
+                "nama_jenis": "pully besar biru",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 560,
+                "nama_jenis": "3,5 inc",
+                "stok": 4,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 195,
+        "nama_barang": "Kipas Spiral",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274278_603.webp",
+        "min_price": 75000,
+        "max_price": 75000,
+        "variants": [
+            {
+                "id": 187,
+                "nama_jenis": "spiral Dinamo",
+                "stok": 35,
+                "satuan": "unit",
+                "harga": 75000
+            },
+            {
+                "id": 235,
+                "nama_jenis": "Spiral disel",
+                "stok": 14,
+                "satuan": "unit",
+                "harga": 75000
+            },
+            {
+                "id": 584,
+                "nama_jenis": "Kipas Dinamo",
+                "stok": 14,
+                "satuan": "unit",
+                "harga": 75000
+            },
+            {
+                "id": 585,
+                "nama_jenis": "Kipas Disel",
+                "stok": 14,
+                "satuan": "unit",
+                "harga": 75000
+            }
+        ]
+    },
+    {
+        "id": 199,
+        "nama_barang": "Kain Batis",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273935_722.webp",
+        "min_price": 25000,
+        "max_price": 25000,
+        "variants": [
+            {
+                "id": 159,
+                "nama_jenis": "kain",
+                "stok": 99,
+                "satuan": "unit",
+                "harga": 25000
+            }
+        ]
+    },
+    {
+        "id": 200,
+        "nama_barang": "Mesin Giling Kunyit",
+        "category": "mesin-tahu",
+        "category_label": "Mesin Produksi Tahu",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274797_995.webp",
+        "min_price": 5000000,
+        "max_price": 5000000,
+        "variants": [
+            {
+                "id": 160,
+                "nama_jenis": "mesin",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 5000000
+            }
+        ]
+    },
+    {
+        "id": 204,
+        "nama_barang": "Kancah",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274118_287.webp",
+        "min_price": 1500000,
+        "max_price": 1500000,
+        "variants": [
+            {
+                "id": 189,
+                "nama_jenis": "ST 90 2 mili",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 1500000
+            },
+            {
+                "id": 288,
+                "nama_jenis": "ST 80 3ml",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 529,
+                "nama_jenis": "plat 90 2ml",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 530,
+                "nama_jenis": "plat 80 3ml",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 531,
+                "nama_jenis": "plat 90 3ml",
+                "stok": 4,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 532,
+                "nama_jenis": "ST 80 1,5ml",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 533,
+                "nama_jenis": "ST 80 2ml",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 213,
+        "nama_barang": "Mesin Pemcah Kulit ari kedelai",
+        "category": "mesin-tahu",
+        "category_label": "Mesin Produksi Tahu",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274834_839.webp",
+        "min_price": 8000000,
+        "max_price": 8000000,
+        "variants": [
+            {
+                "id": 183,
+                "nama_jenis": "Mesin",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 8000000
+            }
+        ]
+    },
+    {
+        "id": 214,
+        "nama_barang": "Tangok awi\/bambu D90",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": []
+    },
+    {
+        "id": 216,
+        "nama_barang": "kompor semawar",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274309_180.webp",
+        "min_price": 750000,
+        "max_price": 750000,
+        "variants": [
+            {
+                "id": 195,
+                "nama_jenis": "kompor",
+                "stok": 7,
+                "satuan": "unit",
+                "harga": 750000
+            }
+        ]
+    },
+    {
+        "id": 219,
+        "nama_barang": "AS",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273230_102.webp",
+        "min_price": 200000,
+        "max_price": 250000,
+        "variants": [
+            {
+                "id": 213,
+                "nama_jenis": "As 32",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 200000
+            },
+            {
+                "id": 297,
+                "nama_jenis": "As 35",
+                "stok": 5,
+                "satuan": "unit",
+                "harga": 250000
+            }
+        ]
+    },
+    {
+        "id": 223,
+        "nama_barang": "Katel Jubung",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274148_672.webp",
+        "min_price": 2000000,
+        "max_price": 4500000,
+        "variants": [
+            {
+                "id": 265,
+                "nama_jenis": "Jubung  D 100 T20",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 4500000
+            },
+            {
+                "id": 535,
+                "nama_jenis": "Jubung D90 TG40 TB 3ml,2ml,1,5ml",
+                "stok": 20,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 582,
+                "nama_jenis": "Jubung D80 T40",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 2000000
+            }
+        ]
+    },
+    {
+        "id": 225,
+        "nama_barang": "Jidar Alumunium",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273831_155.webp",
+        "min_price": 100000,
+        "max_price": 100000,
+        "variants": [
+            {
+                "id": 243,
+                "nama_jenis": "15x15-52",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 100000
+            },
+            {
+                "id": 659,
+                "nama_jenis": "14x14-52",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 660,
+                "nama_jenis": "13x13-52",
+                "stok": 5,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 661,
+                "nama_jenis": "9x9-52",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 662,
+                "nama_jenis": "16x16-52",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 663,
+                "nama_jenis": "10x10-52",
+                "stok": 2,
+                "satuan": "unit",
+                "harga": 100000
+            },
+            {
+                "id": 664,
+                "nama_jenis": "11x11-52",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 665,
+                "nama_jenis": "12x12-52",
+                "stok": 3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 867,
+                "nama_jenis": "9x9-50",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 868,
+                "nama_jenis": "8x8-50",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 231,
+        "nama_barang": "Batu Api",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273460_576.webp",
+        "min_price": 35000,
+        "max_price": 35000,
+        "variants": [
+            {
+                "id": 207,
+                "nama_jenis": "batu",
+                "stok": 156,
+                "satuan": "unit",
+                "harga": 35000
+            }
+        ]
+    },
+    {
+        "id": 232,
+        "nama_barang": "Serok",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274901_750.webp",
+        "min_price": 350000,
+        "max_price": 350000,
+        "variants": [
+            {
+                "id": 208,
+                "nama_jenis": "penggoreng",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 350000
+            }
+        ]
+    },
+    {
+        "id": 235,
+        "nama_barang": "Ayakan",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273271_433.webp",
+        "min_price": 30000,
+        "max_price": 30000,
+        "variants": [
+            {
+                "id": 211,
+                "nama_jenis": "bambu",
+                "stok": 53,
+                "satuan": "unit",
+                "harga": 30000
+            }
+        ]
+    },
+    {
+        "id": 240,
+        "nama_barang": "Kain Takus",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274051_366.webp",
+        "min_price": 40000,
+        "max_price": 45000,
+        "variants": [
+            {
+                "id": 312,
+                "nama_jenis": "lemes",
+                "stok": 120,
+                "satuan": "unit",
+                "harga": 40000
+            },
+            {
+                "id": 652,
+                "nama_jenis": "super putih",
+                "stok": 56,
+                "satuan": "unit",
+                "harga": 45000
+            }
+        ]
+    },
+    {
+        "id": 241,
+        "nama_barang": "Sasag",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 15000,
+        "max_price": 15000,
+        "variants": [
+            {
+                "id": 233,
+                "nama_jenis": "plastik",
+                "stok": 198,
+                "satuan": "unit",
+                "harga": 15000
+            }
+        ]
+    },
+    {
+        "id": 244,
+        "nama_barang": "Tampir",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 25000,
+        "max_price": 200000,
+        "variants": [
+            {
+                "id": 278,
+                "nama_jenis": "plastik tahu goreng",
+                "stok": 74,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 279,
+                "nama_jenis": "plastik tahu kuning",
+                "stok": 87,
+                "satuan": "unit",
+                "harga": 100000
+            },
+            {
+                "id": 280,
+                "nama_jenis": "stenles monel",
+                "stok": 57,
+                "satuan": "unit",
+                "harga": 130000
+            },
+            {
+                "id": 281,
+                "nama_jenis": "kayu tahu kuning",
+                "stok": 14,
+                "satuan": "unit",
+                "harga": 25000
+            },
+            {
+                "id": 295,
+                "nama_jenis": "stenles 304",
+                "stok": 72,
+                "satuan": "unit",
+                "harga": 200000
+            },
+            {
+                "id": 296,
+                "nama_jenis": "kayu tahu goreng",
+                "stok": 65,
+                "satuan": "unit",
+                "harga": 25000
+            },
+            {
+                "id": 869,
+                "nama_jenis": "Stenles monel UK 60x60",
+                "stok": 30,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 245,
+        "nama_barang": "Bering Pilow Blok",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273545_664.webp",
+        "min_price": 150000,
+        "max_price": 150000,
+        "variants": [
+            {
+                "id": 291,
+                "nama_jenis": "D 32",
+                "stok": 10,
+                "satuan": "unit",
+                "harga": 150000
+            },
+            {
+                "id": 299,
+                "nama_jenis": "D 35",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 150000
+            }
+        ]
+    },
+    {
+        "id": 248,
+        "nama_barang": "papan citak biasa jati *",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 350000,
+        "max_price": 350000,
+        "variants": [
+            {
+                "id": 300,
+                "nama_jenis": "53",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 350000
+            },
+            {
+                "id": 301,
+                "nama_jenis": "52",
+                "stok": 26,
+                "satuan": "unit",
+                "harga": 350000
+            },
+            {
+                "id": 633,
+                "nama_jenis": "48",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 350000
+            }
+        ]
+    },
+    {
+        "id": 252,
+        "nama_barang": "papan citak takus jati",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 350000,
+        "max_price": 350000,
+        "variants": [
+            {
+                "id": 302,
+                "nama_jenis": "53",
+                "stok": 8,
+                "satuan": "unit",
+                "harga": 350000
+            },
+            {
+                "id": 303,
+                "nama_jenis": "52",
+                "stok": 21,
+                "satuan": "unit",
+                "harga": 350000
+            }
+        ]
+    },
+    {
+        "id": 253,
+        "nama_barang": "papan citak biasa pinus",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 170000,
+        "max_price": 17000000,
+        "variants": [
+            {
+                "id": 304,
+                "nama_jenis": "Uk 52",
+                "stok": 11,
+                "satuan": "unit",
+                "harga": 17000000
+            },
+            {
+                "id": 305,
+                "nama_jenis": "Uk 50",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 170000
+            },
+            {
+                "id": 306,
+                "nama_jenis": "Uk 48",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 170000
+            },
+            {
+                "id": 792,
+                "nama_jenis": "Uk 53",
+                "stok": 6,
+                "satuan": "unit",
+                "harga": 170000
+            }
+        ]
+    },
+    {
+        "id": 254,
+        "nama_barang": "papan citak takus pinus",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 170000,
+        "max_price": 175000,
+        "variants": [
+            {
+                "id": 307,
+                "nama_jenis": "UK 50",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 170000
+            },
+            {
+                "id": 308,
+                "nama_jenis": "UK 52",
+                "stok": 27,
+                "satuan": "unit",
+                "harga": 170000
+            },
+            {
+                "id": 309,
+                "nama_jenis": "UK 53",
+                "stok": 13,
+                "satuan": "unit",
+                "harga": 170000
+            },
+            {
+                "id": 637,
+                "nama_jenis": "60",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 175000
+            }
+        ]
+    },
+    {
+        "id": 255,
+        "nama_barang": "tutup jati",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 120000,
+        "max_price": 120000,
+        "variants": [
+            {
+                "id": 310,
+                "nama_jenis": "1",
+                "stok": 47,
+                "satuan": "unit",
+                "harga": 120000
+            }
+        ]
+    },
+    {
+        "id": 256,
+        "nama_barang": "tutup pinus",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 60000,
+        "max_price": 60000,
+        "variants": [
+            {
+                "id": 311,
+                "nama_jenis": "53",
+                "stok": 60,
+                "satuan": "unit",
+                "harga": 60000
+            },
+            {
+                "id": 793,
+                "nama_jenis": "Uk 52",
+                "stok": 25,
+                "satuan": "unit",
+                "harga": 60000
+            },
+            {
+                "id": 850,
+                "nama_jenis": "UK 56",
+                "stok": 20,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 264,
+        "nama_barang": "slinder",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 323,
+                "nama_jenis": "-",
+                "stok": 8,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 265,
+        "nama_barang": "Baut",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 324,
+                "nama_jenis": "baut",
+                "stok": 7,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 267,
+        "nama_barang": "soda api",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 975000,
+        "max_price": 975000,
+        "variants": [
+            {
+                "id": 325,
+                "nama_jenis": "-",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 975000
+            }
+        ]
+    },
+    {
+        "id": 268,
+        "nama_barang": "Box Biru",
+        "category": "mesin-kemasan",
+        "category_label": "Kemasan & Packing",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786273648_949.webp",
+        "min_price": 150000,
+        "max_price": 150000,
+        "variants": [
+            {
+                "id": 326,
+                "nama_jenis": "box",
+                "stok": 12,
+                "satuan": "unit",
+                "harga": 150000
+            }
+        ]
+    },
+    {
+        "id": 270,
+        "nama_barang": "Bak Stenless",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 2500000,
+        "max_price": 2500000,
+        "variants": [
+            {
+                "id": 328,
+                "nama_jenis": "40x80 cm 1ml",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 2500000
+            }
+        ]
+    },
+    {
+        "id": 273,
+        "nama_barang": "Ongkos",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 350000,
+        "max_price": 350000,
+        "variants": [
+            {
+                "id": 332,
+                "nama_jenis": "kirim",
+                "stok": 76,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 657,
+                "nama_jenis": "bongkar pasang",
+                "stok": 95,
+                "satuan": "unit",
+                "harga": 350000
+            }
+        ]
+    },
+    {
+        "id": 277,
+        "nama_barang": "Plastik Tahu Sifa",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 710,
+                "nama_jenis": "22,5 19cm",
+                "stok": 22.5,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 711,
+                "nama_jenis": "19,9 18cm",
+                "stok": 19.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 712,
+                "nama_jenis": "27,7 19cm",
+                "stok": 27.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 713,
+                "nama_jenis": "27,6 19cm",
+                "stok": 27.6,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 714,
+                "nama_jenis": "26,5 18cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 715,
+                "nama_jenis": "26,8 18cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 278,
+        "nama_barang": "Plastik Tahu NR",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 342,
+                "nama_jenis": "27 kg 15cm",
+                "stok": 27,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 343,
+                "nama_jenis": "26 kg 15cm",
+                "stok": 26,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 279,
+        "nama_barang": "Plastik Tahu THT",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 348,
+                "nama_jenis": "B 28,7 16cm",
+                "stok": 28.3,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 716,
+                "nama_jenis": "B 25,8 16cm",
+                "stok": 25.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 717,
+                "nama_jenis": "B 27 16cm",
+                "stok": 27,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 718,
+                "nama_jenis": "B 23,3 16cm",
+                "stok": 23.3,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 719,
+                "nama_jenis": "B 12,8 17cm",
+                "stok": 12.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 720,
+                "nama_jenis": "B 26,3 17cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 721,
+                "nama_jenis": "B 29,4 17cm",
+                "stok": 29.4,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 722,
+                "nama_jenis": "B 30,8 17cm",
+                "stok": 30.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 723,
+                "nama_jenis": "B 28,9 17cm",
+                "stok": 28.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 724,
+                "nama_jenis": "B 28,2 17cm",
+                "stok": 28.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 725,
+                "nama_jenis": "B 18,6 20cm",
+                "stok": 18.6,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 726,
+                "nama_jenis": "B 14,7 18cm",
+                "stok": 14.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 727,
+                "nama_jenis": "B 24,6 18cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 728,
+                "nama_jenis": "B 28 20cm",
+                "stok": 28,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 280,
+        "nama_barang": "Plastik Tahu Cita rasa",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 735,
+                "nama_jenis": "H 29,2 17cm",
+                "stok": 39.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 736,
+                "nama_jenis": "H 32,2 17cm",
+                "stok": 32.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 737,
+                "nama_jenis": "H 28 17cm",
+                "stok": 28,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 738,
+                "nama_jenis": "H 24,2 17cm",
+                "stok": 24.2,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 281,
+        "nama_barang": "Plastik Tahu DNR",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 362,
+                "nama_jenis": "29,1 kg",
+                "stok": 29.1,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 363,
+                "nama_jenis": "27,8 kg",
+                "stok": 27.8,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 282,
+        "nama_barang": "Plastik Tahu IKS",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 364,
+                "nama_jenis": "M 24,9 17cm",
+                "stok": 24.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 365,
+                "nama_jenis": "H 28,2 17cm",
+                "stok": 28.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 366,
+                "nama_jenis": "M 23,5 17cm",
+                "stok": 23.5,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 283,
+        "nama_barang": "Plastik Tahu Idola",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 367,
+                "nama_jenis": "B 25,6 17cm",
+                "stok": 25.6,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 284,
+        "nama_barang": "Plastik Tahu PD Annisa",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 70000,
+        "max_price": 70000,
+        "variants": [
+            {
+                "id": 369,
+                "nama_jenis": "M 26,7 18cm",
+                "stok": 26.7,
+                "satuan": "kg",
+                "harga": 70000
+            },
+            {
+                "id": 370,
+                "nama_jenis": "M 34,7 17cm",
+                "stok": 34.7,
+                "satuan": "kg",
+                "harga": 70000
+            },
+            {
+                "id": 371,
+                "nama_jenis": "M 15,4 17cm",
+                "stok": 15.4,
+                "satuan": "kg",
+                "harga": 70000
+            },
+            {
+                "id": 372,
+                "nama_jenis": "M 26 17cm",
+                "stok": 26,
+                "satuan": "kg",
+                "harga": 70000
+            },
+            {
+                "id": 833,
+                "nama_jenis": "26,8 M 16x20",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 70000
+            },
+            {
+                "id": 834,
+                "nama_jenis": "27,5 M 16x20",
+                "stok": 27.5,
+                "satuan": "kg",
+                "harga": 70000
+            },
+            {
+                "id": 835,
+                "nama_jenis": "10,8 M 16x20",
+                "stok": 10.8,
+                "satuan": "kg",
+                "harga": 70000
+            }
+        ]
+    },
+    {
+        "id": 285,
+        "nama_barang": "Plastik Tahu Adzkiya",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 68000,
+        "variants": [
+            {
+                "id": 373,
+                "nama_jenis": "B 27,5 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 374,
+                "nama_jenis": "B 26,5 18cm Jumbo",
+                "stok": 26.5,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 375,
+                "nama_jenis": "B 28,2 kg",
+                "stok": 28.2,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 376,
+                "nama_jenis": "B 28,5 kg",
+                "stok": 28.5,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 377,
+                "nama_jenis": "H 14,3 15cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 378,
+                "nama_jenis": "H 15,5 15cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 379,
+                "nama_jenis": "H 27,6 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 380,
+                "nama_jenis": "H 30 16cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 381,
+                "nama_jenis": "H 25,9 16cm",
+                "stok": 25.9,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 383,
+                "nama_jenis": "H 27,8 15cm",
+                "stok": 27.8,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 384,
+                "nama_jenis": "O 27,4 18cm",
+                "stok": 27.4,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 385,
+                "nama_jenis": "O 25,6 18cm",
+                "stok": 25.6,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 388,
+                "nama_jenis": "O 28,1 18cm",
+                "stok": 28.1,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 389,
+                "nama_jenis": "O 26,9 20cm",
+                "stok": 26.9,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 390,
+                "nama_jenis": "O 28,8 20cm",
+                "stok": 28.8,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 756,
+                "nama_jenis": "B 27,2 17cm",
+                "stok": 27.2,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 767,
+                "nama_jenis": "O 27,9 17cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 768,
+                "nama_jenis": "O 29,8 uk 17cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 769,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 770,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 771,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 772,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 773,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 774,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 775,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 776,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 777,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 778,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 779,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 780,
+                "nama_jenis": "O 26,8 uk 17cm",
+                "stok": 26.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 795,
+                "nama_jenis": "H 23,9",
+                "stok": 23.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 796,
+                "nama_jenis": "H 27,2",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 797,
+                "nama_jenis": "H 25,4",
+                "stok": 25.4,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 286,
+        "nama_barang": "Plastik Tahu AK Lembang",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 70000,
+        "variants": [
+            {
+                "id": 391,
+                "nama_jenis": "B 28,1 17cm",
+                "stok": 28.1,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 392,
+                "nama_jenis": "M 29,7 18cm",
+                "stok": 29.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 393,
+                "nama_jenis": "B 27,2 17cm",
+                "stok": 27.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 394,
+                "nama_jenis": "M 24,5 18cm",
+                "stok": 29.3,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 395,
+                "nama_jenis": "Biru 28,9 17cm",
+                "stok": 28.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 739,
+                "nama_jenis": "M 29,2 20cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 70000
+            },
+            {
+                "id": 740,
+                "nama_jenis": "M 29,3 20cm",
+                "stok": 29.3,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 755,
+                "nama_jenis": "B 27,4 uk 17cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            }
+        ]
+    },
+    {
+        "id": 287,
+        "nama_barang": "Plastik Tahu FF",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 396,
+                "nama_jenis": "M 14,4 12cm",
+                "stok": 14.4,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 397,
+                "nama_jenis": "M 5,8 14cm",
+                "stok": 5.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 398,
+                "nama_jenis": "M 23,6 12cm",
+                "stok": 23.6,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 399,
+                "nama_jenis": "M 23,9 12cm",
+                "stok": 23.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 400,
+                "nama_jenis": "M 25,4 14cm",
+                "stok": 25.4,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 401,
+                "nama_jenis": "M 29,3 14cm (ditimbang)",
+                "stok": 24.3,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 402,
+                "nama_jenis": "M 25 14cm",
+                "stok": 25,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 288,
+        "nama_barang": "Plastik Tahu Sutra AI",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 403,
+                "nama_jenis": "M 18,9 16cm",
+                "stok": 18.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 404,
+                "nama_jenis": "M 28,6 16cm",
+                "stok": 28.6,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 405,
+                "nama_jenis": "M 27,4 16cm",
+                "stok": 27.4,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 406,
+                "nama_jenis": "M 29,8 16cm",
+                "stok": 29.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 566,
+                "nama_jenis": "O 27 17cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 567,
+                "nama_jenis": "O 26,9 7cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 568,
+                "nama_jenis": "O 25,8 17cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 742,
+                "nama_jenis": "H 28,5 16cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 743,
+                "nama_jenis": "H 26,4 16cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 744,
+                "nama_jenis": "H 26,3 16cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 745,
+                "nama_jenis": "H 23,6 16cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 746,
+                "nama_jenis": "O 21,4 17cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 289,
+        "nama_barang": "Plastik Tahu Mustika",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 68000,
+        "max_price": 68000,
+        "variants": [
+            {
+                "id": 407,
+                "nama_jenis": "M 14,5 kg",
+                "stok": 14.5,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 408,
+                "nama_jenis": "M 15,8 13cm",
+                "stok": 15.8,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 410,
+                "nama_jenis": "M 27,7 15cm",
+                "stok": 17.7,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 411,
+                "nama_jenis": "M 27,1 15cm",
+                "stok": 27.1,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 412,
+                "nama_jenis": "M 27,6 kg",
+                "stok": 27.6,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 413,
+                "nama_jenis": "M 28,1 15cm",
+                "stok": 14.1,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 414,
+                "nama_jenis": "M 25,4 15cm",
+                "stok": 25.4,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 415,
+                "nama_jenis": "H 28,3 17cm",
+                "stok": 3.3,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 416,
+                "nama_jenis": "H 29,5 17cm",
+                "stok": 29.5,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 417,
+                "nama_jenis": "H 26,7 17cm",
+                "stok": 26.7,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 747,
+                "nama_jenis": "H 9,4 17cm",
+                "stok": 2.4,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 753,
+                "nama_jenis": "M 12,6 14cm",
+                "stok": 2.6,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 838,
+                "nama_jenis": "27,2 M 14x35",
+                "stok": 27.2,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 839,
+                "nama_jenis": "24,7 M 14x35",
+                "stok": 24.7,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 840,
+                "nama_jenis": "24,7 M 14x35",
+                "stok": 24.7,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 841,
+                "nama_jenis": "23,5 M 14x35",
+                "stok": 23.5,
+                "satuan": "kg",
+                "harga": 68000
+            }
+        ]
+    },
+    {
+        "id": 290,
+        "nama_barang": "Plastik Tahu TB",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 70000,
+        "variants": [
+            {
+                "id": 418,
+                "nama_jenis": "M 26,9 17cm",
+                "stok": 26.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 419,
+                "nama_jenis": "M 27,9 17cm",
+                "stok": 27.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 754,
+                "nama_jenis": "M 8 17cm",
+                "stok": 1.8,
+                "satuan": "kg",
+                "harga": 70000
+            },
+            {
+                "id": 765,
+                "nama_jenis": "M 22,4 uk 16",
+                "stok": 3.4,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 799,
+                "nama_jenis": "M 4,3 uk 18",
+                "stok": 4.3,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 855,
+                "nama_jenis": "27,8 M 16x25",
+                "stok": 17.8,
+                "satuan": "kg",
+                "harga": 65000
+            }
+        ]
+    },
+    {
+        "id": 291,
+        "nama_barang": "Plastik Tahu NN",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 77000,
+        "max_price": 77000,
+        "variants": [
+            {
+                "id": 421,
+                "nama_jenis": "H 26,2 17cm",
+                "stok": 13.6,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 422,
+                "nama_jenis": "H 31 17cm",
+                "stok": 31,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 423,
+                "nama_jenis": "H 29,6 17cm",
+                "stok": 29.6,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 424,
+                "nama_jenis": "H 28,9 17cm",
+                "stok": 26.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 581,
+                "nama_jenis": "O 5,1 17cm",
+                "stok": 1.2,
+                "satuan": "kg",
+                "harga": 77000
+            },
+            {
+                "id": 729,
+                "nama_jenis": "H 2,5 18,17cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 77000
+            }
+        ]
+    },
+    {
+        "id": 292,
+        "nama_barang": "Plastik Tahu RD",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65,
+        "max_price": 65,
+        "variants": [
+            {
+                "id": 425,
+                "nama_jenis": "H 30,7 20cm",
+                "stok": 30.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 427,
+                "nama_jenis": "B 31 20cm",
+                "stok": 31,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 865,
+                "nama_jenis": "MB 27,7 uk 17,25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65
+            },
+            {
+                "id": 866,
+                "nama_jenis": "MB 30,2 uk 17,25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65
+            }
+        ]
+    },
+    {
+        "id": 293,
+        "nama_barang": "Plastik Tahu NJA",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 428,
+                "nama_jenis": "25,2 kg",
+                "stok": 25.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 429,
+                "nama_jenis": "26,7 kg",
+                "stok": 26.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 430,
+                "nama_jenis": "28,7 kg",
+                "stok": 28.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 431,
+                "nama_jenis": "26,3 kg",
+                "stok": 26.3,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 432,
+                "nama_jenis": "7,4 kg",
+                "stok": 7.4,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 294,
+        "nama_barang": "Plastik Tahu ADN",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 433,
+                "nama_jenis": "9,1 kg",
+                "stok": 9.1,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 434,
+                "nama_jenis": "26,9 kg",
+                "stok": 26.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 435,
+                "nama_jenis": "29,4 kg",
+                "stok": 29.4,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 436,
+                "nama_jenis": "27,8 kg",
+                "stok": 27.8,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 295,
+        "nama_barang": "Plastik Tahu SKF",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 437,
+                "nama_jenis": "M 27,4 kg",
+                "stok": 27.4,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 296,
+        "nama_barang": "Plastik Tahu DSF",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 438,
+                "nama_jenis": "M 25,8 kg",
+                "stok": 25.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 439,
+                "nama_jenis": "M 27,4 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 440,
+                "nama_jenis": "H 28,8 kg",
+                "stok": 28.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 441,
+                "nama_jenis": "H 27,6 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 297,
+        "nama_barang": "Plastik tempe HD",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 442,
+                "nama_jenis": "23,7 kg",
+                "stok": 23.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 443,
+                "nama_jenis": "22,9 kg",
+                "stok": 22.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 444,
+                "nama_jenis": "24,8 kg",
+                "stok": 24.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 445,
+                "nama_jenis": "25,2 kg",
+                "stok": 25.2,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 298,
+        "nama_barang": "Plastik Tahu DY",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 446,
+                "nama_jenis": "M 24,7 kg",
+                "stok": 24.7,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 299,
+        "nama_barang": "Plastik Tahu Eka Jaya",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 60000,
+        "max_price": 60000,
+        "variants": [
+            {
+                "id": 447,
+                "nama_jenis": "28,1 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 60000
+            },
+            {
+                "id": 448,
+                "nama_jenis": "25,9 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 449,
+                "nama_jenis": "27,8 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 450,
+                "nama_jenis": "22 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 60000
+            }
+        ]
+    },
+    {
+        "id": 300,
+        "nama_barang": "Plastik tahu SBM",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 451,
+                "nama_jenis": "24,9 kg",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 452,
+                "nama_jenis": "27,3 kg",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 453,
+                "nama_jenis": "27,7 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 454,
+                "nama_jenis": "28,1 kg",
+                "stok": 28.1,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 455,
+                "nama_jenis": "27,6 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 301,
+        "nama_barang": "Plastik tahu AGS",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 456,
+                "nama_jenis": "M 21,8 kg",
+                "stok": 21.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 457,
+                "nama_jenis": "M 4,2 kg",
+                "stok": 42,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 458,
+                "nama_jenis": "M 30,8 kg",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 459,
+                "nama_jenis": "M 29,7 kg",
+                "stok": 297,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 302,
+        "nama_barang": "Plastik Tahu Ponti",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 460,
+                "nama_jenis": "14 kg",
+                "stok": 14,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 461,
+                "nama_jenis": "27 kg",
+                "stok": 27,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 462,
+                "nama_jenis": "27, 2 kg",
+                "stok": 27.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 463,
+                "nama_jenis": "27,4 kg",
+                "stok": 27.4,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 464,
+                "nama_jenis": "27,5 kg",
+                "stok": 27.5,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 303,
+        "nama_barang": "Plastik Tahu Soybean",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 465,
+                "nama_jenis": "16,9 kg",
+                "stok": 16.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 466,
+                "nama_jenis": "27 kg",
+                "stok": 27,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 467,
+                "nama_jenis": "28,4 kg",
+                "stok": 28.4,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 468,
+                "nama_jenis": "29,7 kg",
+                "stok": 29.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 469,
+                "nama_jenis": "29,4 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 470,
+                "nama_jenis": "30.3 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 471,
+                "nama_jenis": "29,4 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 304,
+        "nama_barang": "Plastik Tahu Qeju DS",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 472,
+                "nama_jenis": "27,7 kg",
+                "stok": 27.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 473,
+                "nama_jenis": "28 kg",
+                "stok": 28,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 474,
+                "nama_jenis": "29,6 kg",
+                "stok": 29.6,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 305,
+        "nama_barang": "Plastik sutra AKS",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 70000,
+        "max_price": 70000,
+        "variants": [
+            {
+                "id": 475,
+                "nama_jenis": "M 29,1 kg",
+                "stok": 29.1,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 476,
+                "nama_jenis": "M 23,2 kg",
+                "stok": 23.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 477,
+                "nama_jenis": "M 13,3 kg",
+                "stok": 13.3,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 478,
+                "nama_jenis": "H 33,1 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 70000
+            }
+        ]
+    },
+    {
+        "id": 306,
+        "nama_barang": "Plastik Tahu Special HM",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 60,
+        "max_price": 68000,
+        "variants": [
+            {
+                "id": 479,
+                "nama_jenis": "24,7",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 863,
+                "nama_jenis": "O 29,1 uk 18x25",
+                "stok": 29.1,
+                "satuan": "kg",
+                "harga": 60
+            },
+            {
+                "id": 864,
+                "nama_jenis": "O 28,7 uk 18x25",
+                "stok": 28.7,
+                "satuan": "kg",
+                "harga": 60
+            }
+        ]
+    },
+    {
+        "id": 307,
+        "nama_barang": "Plastik Tahu Syehan HS",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 480,
+                "nama_jenis": "B 19,7 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 481,
+                "nama_jenis": "B 30 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 482,
+                "nama_jenis": "M 29,6 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 483,
+                "nama_jenis": "M 24,9 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 484,
+                "nama_jenis": "M 7,8 kg",
+                "stok": 7.8,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 308,
+        "nama_barang": "Plastik Tahu Amanda",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65,
+        "max_price": 65000,
+        "variants": [
+            {
+                "id": 485,
+                "nama_jenis": "MB 29,2 kg uk 17x20",
+                "stok": 29.2,
+                "satuan": "kg",
+                "harga": 60000
+            },
+            {
+                "id": 486,
+                "nama_jenis": "MH 28,7 uk 16x20",
+                "stok": 28.7,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 861,
+                "nama_jenis": "MH 24,9 uk 16x20",
+                "stok": 24.9,
+                "satuan": "kg",
+                "harga": 65
+            },
+            {
+                "id": 862,
+                "nama_jenis": "MH 9,2 uk 16x20",
+                "stok": 9.2,
+                "satuan": "kg",
+                "harga": 65
+            }
+        ]
+    },
+    {
+        "id": 309,
+        "nama_barang": "Plastik Tahu DD",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 487,
+                "nama_jenis": "25,4 kg",
+                "stok": 25.4,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 488,
+                "nama_jenis": "28,4 kg",
+                "stok": 28.4,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 489,
+                "nama_jenis": "10,4 kg",
+                "stok": 10.4,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 490,
+                "nama_jenis": "29 kg",
+                "stok": 29,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 491,
+                "nama_jenis": "28,1 kg",
+                "stok": 28.1,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 492,
+                "nama_jenis": "27,8 kg",
+                "stok": 27.8,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 310,
+        "nama_barang": "Plasti Bandung CR",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 68000,
+        "max_price": 68000,
+        "variants": [
+            {
+                "id": 493,
+                "nama_jenis": "M 20,8 16cm",
+                "stok": 20.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 494,
+                "nama_jenis": "25,2 kg",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 495,
+                "nama_jenis": "29,7 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 496,
+                "nama_jenis": "27,1 kg",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 497,
+                "nama_jenis": "26,8 kg",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 498,
+                "nama_jenis": "27 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 68000
+            }
+        ]
+    },
+    {
+        "id": 311,
+        "nama_barang": "Plastik Tahu Super",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 499,
+                "nama_jenis": "23,9 kg",
+                "stok": 23.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 500,
+                "nama_jenis": "21,3 kg",
+                "stok": 21.3,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 313,
+        "nama_barang": "Plastik Qeju AS Premium",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 501,
+                "nama_jenis": "28,1 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 502,
+                "nama_jenis": "28,9 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 314,
+        "nama_barang": "Plastik Tahu Asifa",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 503,
+                "nama_jenis": "25 kg",
+                "stok": 25,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 315,
+        "nama_barang": "Plastik tahu Mekarjaya",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 65000,
+        "variants": [
+            {
+                "id": 504,
+                "nama_jenis": "M 26,3 kg",
+                "stok": 26.3,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 505,
+                "nama_jenis": "M 26 kg",
+                "stok": 26,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 506,
+                "nama_jenis": "M 27,2 kg",
+                "stok": 27.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 507,
+                "nama_jenis": "M 13,1  kg",
+                "stok": 13.1,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 508,
+                "nama_jenis": "M 11 kg",
+                "stok": 11,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 509,
+                "nama_jenis": "M 13,5 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 510,
+                "nama_jenis": "M 12,8 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 646,
+                "nama_jenis": "B 27,2",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            }
+        ]
+    },
+    {
+        "id": 316,
+        "nama_barang": "Plastik Qeju AA Berkah",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 68000,
+        "max_price": 68000,
+        "variants": [
+            {
+                "id": 511,
+                "nama_jenis": "12,2 kg",
+                "stok": 12.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 512,
+                "nama_jenis": "6,9 kg",
+                "stok": 6.9,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 513,
+                "nama_jenis": "24,5 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 68000
+            },
+            {
+                "id": 514,
+                "nama_jenis": "27,4 kg",
+                "stok": 27.4,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 317,
+        "nama_barang": "Plastik Tahu Laksana",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 515,
+                "nama_jenis": "30,4 kg",
+                "stok": 16.4,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 318,
+        "nama_barang": "Plastik MD Medong",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 516,
+                "nama_jenis": "16,2 kg",
+                "stok": 16.2,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 517,
+                "nama_jenis": "22,7 kg",
+                "stok": 22.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 518,
+                "nama_jenis": "27,7 kg",
+                "stok": 27.7,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 519,
+                "nama_jenis": "28,1 kg",
+                "stok": 28.1,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 319,
+        "nama_barang": "Plastik Kuning Bintang",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 520,
+                "nama_jenis": "33,3 kg",
+                "stok": 33.3,
+                "satuan": "unit",
+                "harga": 0
+            },
+            {
+                "id": 521,
+                "nama_jenis": "25 kg",
+                "stok": 25,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 522,
+                "nama_jenis": "12,7 kg",
+                "stok": 12.7,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 320,
+        "nama_barang": "Plastik MA Onoh",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 523,
+                "nama_jenis": "M 26,5 kg 18cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 524,
+                "nama_jenis": "M 28,1 18cm",
+                "stok": 28.1,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 321,
+        "nama_barang": "Plastik Bintang Dimastira",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 525,
+                "nama_jenis": "28,8 kg",
+                "stok": 28.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 526,
+                "nama_jenis": "27,1 kg",
+                "stok": 27.1,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 322,
+        "nama_barang": "Centong Tahu",
+        "category": "mesin-kemasan",
+        "category_label": "Kemasan & Packing",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 150000,
+        "max_price": 150000,
+        "variants": [
+            {
+                "id": 527,
+                "nama_jenis": "centong",
+                "stok": 8,
+                "satuan": "unit",
+                "harga": 150000
+            }
+        ]
+    },
+    {
+        "id": 323,
+        "nama_barang": "Plastik Tahu PMJ",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 65000,
+        "variants": [
+            {
+                "id": 569,
+                "nama_jenis": "26,9kg",
+                "stok": 26.9,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 570,
+                "nama_jenis": "7,9kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 571,
+                "nama_jenis": "29,6kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            }
+        ]
+    },
+    {
+        "id": 324,
+        "nama_barang": "Plastik Tahu ZIM\u2019s Holis",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 572,
+                "nama_jenis": "26,4kg",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 328,
+        "nama_barang": "Packing",
+        "category": "mesin-kemasan",
+        "category_label": "Kemasan & Packing",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 50000,
+        "max_price": 50000,
+        "variants": [
+            {
+                "id": 576,
+                "nama_jenis": "Kayu",
+                "stok": 49,
+                "satuan": "unit",
+                "harga": 50000
+            }
+        ]
+    },
+    {
+        "id": 329,
+        "nama_barang": "Plastik Tahu susu RA",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 65000,
+        "variants": [
+            {
+                "id": 577,
+                "nama_jenis": "Merah 9,8 kg",
+                "stok": 9.8,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 579,
+                "nama_jenis": "Merah 27,6",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            }
+        ]
+    },
+    {
+        "id": 337,
+        "nama_barang": "Plastik i love tahu",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 50000,
+        "max_price": 50000,
+        "variants": [
+            {
+                "id": 599,
+                "nama_jenis": "M 18 cm (27,9 kg)",
+                "stok": 27.9,
+                "satuan": "kg",
+                "harga": 50000
+            },
+            {
+                "id": 600,
+                "nama_jenis": "M 18cm (30 kg)",
+                "stok": 30,
+                "satuan": "kg",
+                "harga": 50000
+            },
+            {
+                "id": 601,
+                "nama_jenis": "M 18cm (31,1kg)",
+                "stok": 31.1,
+                "satuan": "kg",
+                "harga": 50000
+            },
+            {
+                "id": 602,
+                "nama_jenis": "M 18cm (31,9kg)",
+                "stok": 31.9,
+                "satuan": "kg",
+                "harga": 50000
+            },
+            {
+                "id": 603,
+                "nama_jenis": "M 18cm (23,6kg)",
+                "stok": 23.6,
+                "satuan": "kg",
+                "harga": 50000
+            }
+        ]
+    },
+    {
+        "id": 338,
+        "nama_barang": "plastik nd jempol",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 65000,
+        "variants": [
+            {
+                "id": 604,
+                "nama_jenis": "15cm 26,6kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 605,
+                "nama_jenis": "15cm 25,8kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 606,
+                "nama_jenis": "15cm 26,6kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 607,
+                "nama_jenis": "15cm 28,2kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 608,
+                "nama_jenis": "15cm 28,3kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 609,
+                "nama_jenis": "15cm 27,1kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 610,
+                "nama_jenis": "15cm 27,2kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 611,
+                "nama_jenis": "15cm 22,2",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 612,
+                "nama_jenis": "15cm 27,5kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 613,
+                "nama_jenis": "15cm 23,9kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 614,
+                "nama_jenis": "15cm 23,8kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 615,
+                "nama_jenis": "15cm 13,1kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            }
+        ]
+    },
+    {
+        "id": 341,
+        "nama_barang": "Service dinamo",
+        "category": "mesin-tahu",
+        "category_label": "Mesin Produksi Tahu",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 500000,
+        "max_price": 6000000,
+        "variants": [
+            {
+                "id": 616,
+                "nama_jenis": "Ganti capasitor+service platina",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 500000
+            },
+            {
+                "id": 617,
+                "nama_jenis": "Service tabeng+dudukan bahan stain 304+TB 2mm HL",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 6000000
+            }
+        ]
+    },
+    {
+        "id": 343,
+        "nama_barang": "Tong biru untuk Air",
+        "category": "mesin-kemasan",
+        "category_label": "Kemasan & Packing",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 300000,
+        "max_price": 300000,
+        "variants": [
+            {
+                "id": 621,
+                "nama_jenis": "Tong biru air",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 300000
+            }
+        ]
+    },
+    {
+        "id": 344,
+        "nama_barang": "Pipa SS 2in 1,5 meter",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 250000,
+        "max_price": 250000,
+        "variants": [
+            {
+                "id": 622,
+                "nama_jenis": "Pipa",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 250000
+            }
+        ]
+    },
+    {
+        "id": 345,
+        "nama_barang": "Plastik tahu Citra",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 63000,
+        "max_price": 63000,
+        "variants": [
+            {
+                "id": 624,
+                "nama_jenis": "H 17x30cm 27,1kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 63000
+            },
+            {
+                "id": 625,
+                "nama_jenis": "H 17x30cm 30kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 63000
+            }
+        ]
+    },
+    {
+        "id": 346,
+        "nama_barang": "Plastik SMB merah 16x35",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 55000,
+        "max_price": 55000,
+        "variants": [
+            {
+                "id": 629,
+                "nama_jenis": "Merah 328,6 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 55000
+            }
+        ]
+    },
+    {
+        "id": 348,
+        "nama_barang": "Plastik Ex jaya bogor",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 60000,
+        "max_price": 60000,
+        "variants": [
+            {
+                "id": 638,
+                "nama_jenis": "96,5kg",
+                "stok": 26.5,
+                "satuan": "kg",
+                "harga": 60000
+            }
+        ]
+    },
+    {
+        "id": 350,
+        "nama_barang": "tes",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 5000,
+        "max_price": 50000,
+        "variants": [
+            {
+                "id": 658,
+                "nama_jenis": "AS 32",
+                "stok": 99,
+                "satuan": "unit",
+                "harga": 5000
+            },
+            {
+                "id": 666,
+                "nama_jenis": "UK 52CM T 1,2MM",
+                "stok": 90,
+                "satuan": "unit",
+                "harga": 10000
+            },
+            {
+                "id": 791,
+                "nama_jenis": "uk 90",
+                "stok": 30,
+                "satuan": "unit",
+                "harga": 10000
+            },
+            {
+                "id": 794,
+                "nama_jenis": "uk 90",
+                "stok": 10,
+                "satuan": "unit",
+                "harga": 50000
+            }
+        ]
+    },
+    {
+        "id": 355,
+        "nama_barang": "Mesin sedot aci",
+        "category": "mesin-tahu",
+        "category_label": "Mesin Produksi Tahu",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 3500000,
+        "max_price": 3500000,
+        "variants": [
+            {
+                "id": 731,
+                "nama_jenis": "Mesin sedot Aci MSU 50 dinamo 1 Pk 1 Pas",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 3500000
+            }
+        ]
+    },
+    {
+        "id": 356,
+        "nama_barang": "Plastik MMP",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 65000,
+        "variants": [
+            {
+                "id": 732,
+                "nama_jenis": "M 27,4 KG uk 17x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 733,
+                "nama_jenis": "M 27,4 KG uk 17x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 762,
+                "nama_jenis": "M 22,9 KG uk 18x25",
+                "stok": 22.9,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 763,
+                "nama_jenis": "M 31 KG uk 18x25",
+                "stok": 31,
+                "satuan": "kg",
+                "harga": 65000
+            }
+        ]
+    },
+    {
+        "id": 357,
+        "nama_barang": "Tes 22",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 20000,
+        "max_price": 20000,
+        "variants": [
+            {
+                "id": 734,
+                "nama_jenis": "Tes",
+                "stok": 96,
+                "satuan": "unit",
+                "harga": 20000
+            }
+        ]
+    },
+    {
+        "id": 358,
+        "nama_barang": "Plastik Tahu Super 3 Daun",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 750,
+                "nama_jenis": "M 4,4 13x19cm",
+                "stok": 4.4,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 359,
+        "nama_barang": "Tahu Qeju LS",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 751,
+                "nama_jenis": "B 22,1 17cm",
+                "stok": 22.1,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 360,
+        "nama_barang": "Plastik Tahu DJ Barokah",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 752,
+                "nama_jenis": "M 35,8 16x19cm",
+                "stok": 25.8,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 361,
+        "nama_barang": "Plastik Pa Dudu",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 50000,
+        "max_price": 50000,
+        "variants": [
+            {
+                "id": 757,
+                "nama_jenis": "M 61,3 uk 10cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 50000
+            }
+        ]
+    },
+    {
+        "id": 362,
+        "nama_barang": "Plastik SHD",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 57000,
+        "max_price": 57000,
+        "variants": [
+            {
+                "id": 759,
+                "nama_jenis": "M 26,7 uk 15cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 57000
+            },
+            {
+                "id": 760,
+                "nama_jenis": "M 28,4 15cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 57000
+            },
+            {
+                "id": 761,
+                "nama_jenis": "M 10,4 15cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 57000
+            }
+        ]
+    },
+    {
+        "id": 364,
+        "nama_barang": "Mesin giling kedelai pak ukat",
+        "category": "mesin-tahu",
+        "category_label": "Mesin Produksi Tahu",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274451_940.webp",
+        "min_price": 7500000,
+        "max_price": 7500000,
+        "variants": [
+            {
+                "id": 764,
+                "nama_jenis": "Ukuran 8in",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 7500000
+            }
+        ]
+    },
+    {
+        "id": 365,
+        "nama_barang": "Katel saja",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1786274236_240.webp",
+        "min_price": 1400000,
+        "max_price": 2250000,
+        "variants": [
+            {
+                "id": 781,
+                "nama_jenis": "D90 1,5 mill ST",
+                "stok": 10,
+                "satuan": "unit",
+                "harga": 1400000
+            },
+            {
+                "id": 782,
+                "nama_jenis": "D90 2mill ST",
+                "stok": 1,
+                "satuan": "unit",
+                "harga": 1700000
+            },
+            {
+                "id": 783,
+                "nama_jenis": "D90 3 mili",
+                "stok": 9,
+                "satuan": "unit",
+                "harga": 2250000
+            },
+            {
+                "id": 814,
+                "nama_jenis": "D100 2mili",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 368,
+        "nama_barang": "Plastik putra mandiri",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 65000,
+        "variants": [
+            {
+                "id": 818,
+                "nama_jenis": "29,6 M 16x20",
+                "stok": 29.6,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 819,
+                "nama_jenis": "27,8 M 16x20",
+                "stok": 27.8,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 820,
+                "nama_jenis": "27 M 16x20",
+                "stok": 27,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 821,
+                "nama_jenis": "26,9 M 16x20",
+                "stok": 26.9,
+                "satuan": "kg",
+                "harga": 65000
+            }
+        ]
+    },
+    {
+        "id": 369,
+        "nama_barang": "M 28,9 16cm",
+        "category": "lainnya",
+        "category_label": "Perlengkapan Pabrik",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": []
+    },
+    {
+        "id": 370,
+        "nama_barang": "Plastik Bandung CSR",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 803,
+                "nama_jenis": "M 29,8 17cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 804,
+                "nama_jenis": "M 23,6 17 cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 371,
+        "nama_barang": "Plastik Tahu BN",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 805,
+                "nama_jenis": "M 25 kg 15cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 806,
+                "nama_jenis": "M 26,5 kg 15cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 807,
+                "nama_jenis": "M 25,3 kg 15cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 808,
+                "nama_jenis": "M 30kg 15cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 809,
+                "nama_jenis": "M 28 kg 16cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 810,
+                "nama_jenis": "M 27,3 kg 16cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 811,
+                "nama_jenis": "M 27,6 kg 16cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 812,
+                "nama_jenis": "M 18,6 kg 16cm",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 372,
+        "nama_barang": "Plastik FR",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 63000,
+        "max_price": 63000,
+        "variants": [
+            {
+                "id": 815,
+                "nama_jenis": "27,5 M 16x30 2ball",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 63000
+            },
+            {
+                "id": 816,
+                "nama_jenis": "24 M 16x30",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 63000
+            },
+            {
+                "id": 817,
+                "nama_jenis": "23,4 M 16x30",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 63000
+            }
+        ]
+    },
+    {
+        "id": 373,
+        "nama_barang": "Plastik Tahu Rasa ME",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 55000,
+        "max_price": 55000,
+        "variants": [
+            {
+                "id": 822,
+                "nama_jenis": "27,2 M 16x35",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 55000
+            },
+            {
+                "id": 823,
+                "nama_jenis": "29,8 M 16x35",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 55000
+            },
+            {
+                "id": 824,
+                "nama_jenis": "28,8 M 16x35",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 55000
+            },
+            {
+                "id": 825,
+                "nama_jenis": "29 M 16x35",
+                "stok": 0,
+                "satuan": "unit",
+                "harga": 55000
+            },
+            {
+                "id": 826,
+                "nama_jenis": "28,3 M 16x35",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 55000
+            },
+            {
+                "id": 827,
+                "nama_jenis": "27,7 M 16x35",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 55000
+            },
+            {
+                "id": 828,
+                "nama_jenis": "13,7 M 16x35",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 55000
+            }
+        ]
+    },
+    {
+        "id": 374,
+        "nama_barang": "Plastik Tahu Sari Rasa Kalijati",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 65000,
+        "max_price": 65000,
+        "variants": [
+            {
+                "id": 829,
+                "nama_jenis": "31,3 M 17x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 830,
+                "nama_jenis": "29,6 M 17x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 831,
+                "nama_jenis": "27,9 M 17x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            },
+            {
+                "id": 832,
+                "nama_jenis": "18,7 M 17x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 65000
+            }
+        ]
+    },
+    {
+        "id": 375,
+        "nama_barang": "Plastik NDR",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 50000,
+        "max_price": 50000,
+        "variants": [
+            {
+                "id": 836,
+                "nama_jenis": "30,9 17x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 50000
+            },
+            {
+                "id": 837,
+                "nama_jenis": "24,9 17x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 50000
+            }
+        ]
+    },
+    {
+        "id": 376,
+        "nama_barang": "Plastik DA bdg",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 58000,
+        "max_price": 58000,
+        "variants": [
+            {
+                "id": 842,
+                "nama_jenis": "28,6 B 18x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 58000
+            },
+            {
+                "id": 843,
+                "nama_jenis": "22,3 B 18x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 58000
+            },
+            {
+                "id": 844,
+                "nama_jenis": "28,5 B 20x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 58000
+            },
+            {
+                "id": 845,
+                "nama_jenis": "28,6 B 20x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 58000
+            }
+        ]
+    },
+    {
+        "id": 377,
+        "nama_barang": "Plastik Rabbani",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 55000,
+        "max_price": 55000,
+        "variants": [
+            {
+                "id": 846,
+                "nama_jenis": "30,8 M\/B 18x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 55000
+            },
+            {
+                "id": 847,
+                "nama_jenis": "25,6 M\/B 18x25",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 55000
+            }
+        ]
+    },
+    {
+        "id": 378,
+        "nama_barang": "Plastik AS Fremium",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 50,
+        "max_price": 59,
+        "variants": [
+            {
+                "id": 848,
+                "nama_jenis": "26,9 HJ 17x25",
+                "stok": 26.9,
+                "satuan": "kg",
+                "harga": 50
+            },
+            {
+                "id": 849,
+                "nama_jenis": "26,6 HJ 17x25",
+                "stok": 26.6,
+                "satuan": "kg",
+                "harga": 59
+            }
+        ]
+    },
+    {
+        "id": 379,
+        "nama_barang": "Plastik Macakal",
+        "category": "mesin-plastik",
+        "category_label": "Plastik Sablon Kemasan",
+        "jumlah": 0,
+        "gambar": null,
+        "min_price": 0,
+        "max_price": 0,
+        "variants": [
+            {
+                "id": 851,
+                "nama_jenis": "28,5 M 15x30",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 852,
+                "nama_jenis": "28,2 M 15x30",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 853,
+                "nama_jenis": "30,2 M 15x30",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            },
+            {
+                "id": 854,
+                "nama_jenis": "8,4 M 15x30",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 0
+            }
+        ]
+    },
+    {
+        "id": 380,
+        "nama_barang": "Katel cor Almunium",
+        "category": "sparepart",
+        "category_label": "Peralatan & Sparepart",
+        "jumlah": 0,
+        "gambar": "uploads\/barang\/barang_1787627776_321.jpg",
+        "min_price": 85000,
+        "max_price": 85000,
+        "variants": [
+            {
+                "id": 856,
+                "nama_jenis": "D115 60kg",
+                "stok": 60,
+                "satuan": "kg",
+                "harga": 85000
+            },
+            {
+                "id": 857,
+                "nama_jenis": "D80 19 kg",
+                "stok": 0,
+                "satuan": "kg",
+                "harga": 85000
+            },
+            {
+                "id": 858,
+                "nama_jenis": "D90 36kg",
+                "stok": 36,
+                "satuan": "kg",
+                "harga": 85000
+            },
+            {
+                "id": 859,
+                "nama_jenis": "D110 52kg",
+                "stok": 52,
+                "satuan": "kg",
+                "harga": 85000
+            },
+            {
+                "id": 860,
+                "nama_jenis": "D100",
+                "stok": 1,
+                "satuan": "kg",
+                "harga": 85000
+            }
+        ]
+    }
+]
