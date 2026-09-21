@@ -37,7 +37,6 @@
             <ul class="nav-links">
                 <li><a href="#beranda" class="nav-link active">Beranda</a></li>
                 <li><a href="#katalog-stok" class="nav-link">Katalog Produk</a></li>
-                <li><a href="#kalkulator-roi" class="nav-link">Kalkulator ROI</a></li>
                 <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
                 <li><a href="#proyek" class="nav-link">Fabrikasi</a></li>
                 <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
@@ -60,7 +59,6 @@
         <ul>
             <li><a href="#beranda" onclick="toggleMobileDrawer()">Beranda</a></li>
             <li><a href="#katalog-stok" onclick="toggleMobileDrawer()">Katalog Produk</a></li>
-            <li><a href="#kalkulator-roi" onclick="toggleMobileDrawer()">Kalkulator ROI &amp; Efisiensi</a></li>
             <li><a href="#keunggulan" onclick="toggleMobileDrawer()">Keunggulan Mesin</a></li>
             <li><a href="#proyek" onclick="toggleMobileDrawer()">Bukti Fabrikasi</a></li>
             <li><a href="#testimoni" onclick="toggleMobileDrawer()">Testimoni Klien</a></li>
@@ -606,164 +604,7 @@
         </div>
     </section>
 
-    <!-- Wave into Dark Section -->
-    <div class="section-wave-bottom" style="background:#F8FAFC;">
-        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,20 C360,55 720,5 1080,40 C1260,55 1380,22 1440,28 L1440,60 L0,60 Z" fill="#380812"></path>
-        </svg>
-    </div>
 
-    <!-- ═══ 6. INTERACTIVE FINANCIAL SIMULATOR & KALKULATOR ROI ═══ -->
-    <section class="section section-dark" id="kalkulator-roi">
-        <div class="container">
-            <div class="section-head">
-                <h2 class="section-title story-reveal delay-2">Simulasi Bisnis &amp; <span class="gold-gradient-text">Kalkulator Balik Modal (ROI)</span></h2>
-                <p class="section-desc story-reveal delay-3">Geser slider interaktif di bawah untuk menghitung potensi omzet, laba bersih bulanan, dan estimasi waktu balik modal (BEP) mesin pengolah kedelai Adam Jaya secara akurat.</p>
-            </div>
-
-            <div class="roi-simulator-card story-scale-up delay-2">
-                <div class="roi-simulator-grid">
-                    
-                    <!-- LEFT COLUMN: Interactive Parameter Controls -->
-                    <div class="roi-controls-column">
-                        
-                        <!-- Quick Machine Presets -->
-                        <div class="roi-presets-wrap">
-                            <div class="roi-presets-label">
-                                <i class="fa-solid fa-bolt" style="color:#DFC183;"></i> <span>Pilih Preset Mesin / Modal:</span>
-                            </div>
-                            <div class="roi-preset-buttons">
-                                <button type="button" class="roi-preset-btn active" data-price="10710000" onclick="applyRoiPreset(10710000, 200, 26, 1500, this)">
-                                    <i class="fa-solid fa-gears"></i> Mesin Giling (Rp 10,7 Jt)
-                                </button>
-                                <button type="button" class="roi-preset-btn" data-price="12500000" onclick="applyRoiPreset(12500000, 250, 26, 1500, this)">
-                                    <i class="fa-solid fa-star"></i> Pak Ukat (Rp 12,5 Jt)
-                                </button>
-                                <button type="button" class="roi-preset-btn" data-price="8900000" onclick="applyRoiPreset(8900000, 200, 26, 1500, this)">
-                                    <i class="fa-solid fa-wind"></i> Pemecah Kulit (Rp 8,9 Jt)
-                                </button>
-                                <button type="button" class="roi-preset-btn" data-price="7800000" onclick="applyRoiPreset(7800000, 150, 26, 1500, this)">
-                                    <i class="fa-solid fa-box-archive"></i> Band Sealer (Rp 7,8 Jt)
-                                </button>
-                            </div>
-                        </div>
-
-                        <!-- Slider 1: Modal Mesin / Investasi Awal -->
-                        <div class="roi-slider-group">
-                            <div class="roi-slider-head">
-                                <div class="roi-slider-title-box">
-                                    <span class="roi-slider-title"><i class="fa-solid fa-wallet" style="color:#DFC183;"></i> Modal Mesin / Investasi</span>
-                                    <span class="roi-slider-subtitle">Biaya unit mesin &amp; perlengkapan pabrik</span>
-                                </div>
-                                <span class="roi-slider-val-badge" id="valModalMesin">Rp 10.710.000</span>
-                            </div>
-                            <input type="range" min="3000000" max="50000000" step="100000" value="10710000" class="roi-range-input" id="rangeModalMesin" oninput="handleRoiInputChange()">
-                        </div>
-
-                        <!-- Slider 2: Kapasitas Kedelai Olahan / Hari -->
-                        <div class="roi-slider-group">
-                            <div class="roi-slider-head">
-                                <div class="roi-slider-title-box">
-                                    <span class="roi-slider-title"><i class="fa-solid fa-cubes-stacked" style="color:#DFC183;"></i> Produksi Kedelai / Hari</span>
-                                    <span class="roi-slider-subtitle">Kapasitas giling bahan baku kedelai harian</span>
-                                </div>
-                                <span class="roi-slider-val-badge" id="valProduksiHari">200 kg</span>
-                            </div>
-                            <input type="range" min="30" max="1000" step="10" value="200" class="roi-range-input" id="rangeProduksiHari" oninput="handleRoiInputChange()">
-                        </div>
-
-                        <!-- Slider 3: Hari Operasional Produksi / Bulan -->
-                        <div class="roi-slider-group">
-                            <div class="roi-slider-head">
-                                <div class="roi-slider-title-box">
-                                    <span class="roi-slider-title"><i class="fa-solid fa-calendar-days" style="color:#DFC183;"></i> Hari Kerja / Bulan</span>
-                                    <span class="roi-slider-subtitle">Hari aktif pabrik beroperasi tiap bulan</span>
-                                </div>
-                                <span class="roi-slider-val-badge" id="valHariKerja">26 hari</span>
-                            </div>
-                            <input type="range" min="15" max="30" step="1" value="26" class="roi-range-input" id="rangeHariKerja" oninput="handleRoiInputChange()">
-                        </div>
-
-                        <!-- Slider 4: Margin Keuntungan Bersih / kg Kedelai -->
-                        <div class="roi-slider-group">
-                            <div class="roi-slider-head">
-                                <div class="roi-slider-title-box">
-                                    <span class="roi-slider-title"><i class="fa-solid fa-sack-dollar" style="color:#DFC183;"></i> Margin Bersih / kg Kedelai</span>
-                                    <span class="roi-slider-subtitle">Nett profit setelah dipotong bahan &amp; operasional</span>
-                                </div>
-                                <span class="roi-slider-val-badge" id="valMarginKg">Rp 1.500 / kg</span>
-                            </div>
-                            <input type="range" min="500" max="5000" step="50" value="1500" class="roi-range-input" id="rangeMarginKg" oninput="handleRoiInputChange()">
-                        </div>
-
-                    </div>
-
-                    <!-- RIGHT COLUMN: Real-Time Executive Financial Summary -->
-                    <div class="roi-results-board">
-                        
-                        <!-- Top 2 Metrics: Omzet & Output -->
-                        <div class="roi-result-cards-grid">
-                            <div class="roi-metric-card">
-                                <span class="roi-metric-label"><i class="fa-solid fa-chart-line" style="color:#38BDF8;"></i> Estimasi Omzet</span>
-                                <div class="roi-metric-value" id="roiLiveOmzet">Rp 78.000.000</div>
-                                <span class="roi-metric-sub" id="roiLiveOmzetSub">Perputaran tahu / bulan</span>
-                            </div>
-
-                            <div class="roi-metric-card">
-                                <span class="roi-metric-label"><i class="fa-solid fa-scale-balanced" style="color:#A78BFA;"></i> Total Olahan</span>
-                                <div class="roi-metric-value" id="roiLiveVolume">5.200 kg</div>
-                                <span class="roi-metric-sub" id="roiLiveVolumeSub">Bahan baku / bulan</span>
-                            </div>
-                        </div>
-
-                        <!-- Center Spotlight: Estimasi Laba Bersih -->
-                        <div class="roi-profit-banner">
-                            <div class="banner-label"><i class="fa-solid fa-coins"></i> Estimasi Laba Bersih Bulanan</div>
-                            <div class="banner-amount" id="roiLiveLaba">Rp 7.800.000</div>
-                            <div class="banner-sub">
-                                <span>Potensi profit tahunan: <strong id="roiLiveLabaYear" style="color:#DFC183;">Rp 93.600.000</strong> / tahun</span>
-                            </div>
-                        </div>
-
-                        <!-- BEP Payback Timeline & Speedometer -->
-                        <div class="roi-bep-box">
-                            <div class="roi-bep-head">
-                                <span class="roi-bep-title"><i class="fa-solid fa-stopwatch" style="color:#10B981;"></i> Break Even Point (BEP)</span>
-                                <span class="roi-bep-badge" id="roiLiveBep">± 1,4 Bulan</span>
-                            </div>
-                            <div class="roi-payback-progress">
-                                <div class="roi-payback-fill" id="roiPaybackFill" style="width: 72%;"></div>
-                            </div>
-                            <div class="roi-bep-legend">
-                                <span>Investasi Awal</span>
-                                <span id="roiBepDaysLabel">Balik Modal (± 36 Hari)</span>
-                                <span>Profit Penuh 🚀</span>
-                            </div>
-                        </div>
-
-                        <!-- Efficiency Highlights -->
-                        <div style="display:flex; justify-content:space-between; margin-bottom:1.2rem; font-size:0.78rem; color:rgba(255,255,255,0.7); background:rgba(255,255,255,0.03); padding:0.6rem 0.9rem; border-radius:8px; border:1px solid rgba(255,255,255,0.06);">
-                            <span><i class="fa-solid fa-clock" style="color:#DFC183;"></i> Hemat Waktu: <strong>± 3.5 Jam/Hari</strong></span>
-                            <span><i class="fa-solid fa-droplet" style="color:#38BDF8;"></i> Ekstraksi Sari: <strong>+15% Lebih Banyak</strong></span>
-                        </div>
-
-                        <!-- WhatsApp Action CTA -->
-                        <button class="btn btn-gold btn-lg" onclick="consultRoiSimulation()" style="width:100%;">
-                            <i class="fa-brands fa-whatsapp"></i> Konsultasikan Rencana Investasi Ini
-                        </button>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Wave out of Dark Section into Light -->
-    <div class="section-wave-top" style="background:#380812;">
-        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,25 C320,55 640,10 960,40 C1200,55 1360,18 1440,25 L1440,60 L0,60 Z" fill="#FAF8F5"></path>
-        </svg>
-    </div>
 
     <!-- ═══ 7. SECTION KENAPA MEMILIH ADAM JAYA (VISUAL ARCHITECTURE & ANIMATED STATS) ═══ -->
     <section class="section section-alt why-section-wrapper" id="keunggulan">
@@ -1414,7 +1255,6 @@
                     <ul class="footer-links">
                         <li><a href="#beranda">Beranda</a></li>
                         <li><a href="#katalog-stok">Master Stok Barang</a></li>
-                        <li><a href="#kalkulator-roi">Kalkulator Efisiensi ROI</a></li>
                         <li><a href="#keunggulan">Keunggulan Mutu</a></li>
                         <li><a href="#proyek">Galeri Fabrikasi</a></li>
                         <li><a href="http://localhost/adamjaya-enterprise/login.php" target="_blank">Portal Enterprise B2B</a></li>
@@ -1802,164 +1642,7 @@
         applyCatalogFilters();
     });
 
-    // ═══════════════════════════════════════════════════════════
-    // ── 6. REAL-TIME ROI & FINANCIAL SIMULATOR ENGINE ──
-    // ═══════════════════════════════════════════════════════════
-    let currentRoiState = {
-        omzet: 0,
-        volume: 0,
-        laba: 0,
-        labaYear: 0,
-        bep: 0
-    };
 
-    function formatRupiah(number) {
-        return new Intl.NumberFormat('id-ID', {
-            style: 'currency',
-            currency: 'IDR',
-            maximumFractionDigits: 0
-        }).format(Math.round(number));
-    }
-
-    function formatNumber(number) {
-        return new Intl.NumberFormat('id-ID').format(Math.round(number));
-    }
-
-    // Smooth Number Animator using RequestAnimationFrame
-    function animateCounter(elementId, startVal, endVal, duration, formatter) {
-        const el = document.getElementById(elementId);
-        if (!el) return;
-        
-        let startTimestamp = null;
-        const diff = endVal - startVal;
-        
-        function step(timestamp) {
-            if (!startTimestamp) startTimestamp = timestamp;
-            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-            const easeProgress = 1 - (1 - progress) * (1 - progress);
-            const currentVal = startVal + diff * easeProgress;
-            
-            el.textContent = formatter(currentVal);
-            
-            if (progress < 1) {
-                window.requestAnimationFrame(step);
-            } else {
-                el.textContent = formatter(endVal);
-            }
-        }
-        
-        window.requestAnimationFrame(step);
-    }
-
-    function applyRoiPreset(modal, prod, hari, margin, btn) {
-        document.querySelectorAll('.roi-preset-btn').forEach(b => b.classList.remove('active'));
-        if (btn) btn.classList.add('active');
-
-        document.getElementById('rangeModalMesin').value = modal;
-        document.getElementById('rangeProduksiHari').value = prod;
-        document.getElementById('rangeHariKerja').value = hari;
-        document.getElementById('rangeMarginKg').value = margin;
-
-        calculateROI();
-    }
-
-    function handleRoiInputChange() {
-        document.querySelectorAll('.roi-preset-btn').forEach(b => {
-            const presetPrice = parseInt(b.dataset.price || '0');
-            const currentPrice = parseInt(document.getElementById('rangeModalMesin').value);
-            if (presetPrice === currentPrice) {
-                b.classList.add('active');
-            } else {
-                b.classList.remove('active');
-            }
-        });
-
-        calculateROI();
-    }
-
-    function calculateROI() {
-        const modalMesin = parseInt(document.getElementById('rangeModalMesin').value);
-        const produksiHari = parseInt(document.getElementById('rangeProduksiHari').value);
-        const hariKerja = parseInt(document.getElementById('rangeHariKerja').value);
-        const marginKg = parseInt(document.getElementById('rangeMarginKg').value);
-
-        // Update Slider Badges Realtime
-        document.getElementById('valModalMesin').textContent = formatRupiah(modalMesin);
-        document.getElementById('valProduksiHari').textContent = `${produksiHari} kg / hari`;
-        document.getElementById('valHariKerja').textContent = `${hariKerja} hari / bln`;
-        document.getElementById('valMarginKg').textContent = `${formatRupiah(marginKg)} / kg`;
-
-        // Financial Math
-        const totalKedelaiBulan = produksiHari * hariKerja;
-        const hargaJualPerKgKedelai = 15000; // Konversi nilai jual olahan tahu per kg kedelai
-        const estimasiOmzetBulan = totalKedelaiBulan * hargaJualPerKgKedelai;
-        const estimasiLabaBulan = totalKedelaiBulan * marginKg;
-        const estimasiLabaTahun = estimasiLabaBulan * 12;
-
-        // BEP in Months
-        const bepMonths = estimasiLabaBulan > 0 ? (modalMesin / estimasiLabaBulan) : 99;
-        const bepDays = Math.round(bepMonths * (hariKerja / 30) * 30);
-
-        // Animate Results with RequestAnimationFrame
-        animateCounter('roiLiveOmzet', currentRoiState.omzet, estimasiOmzetBulan, 300, (val) => formatRupiah(val));
-        animateCounter('roiLiveVolume', currentRoiState.volume, totalKedelaiBulan, 300, (val) => `${formatNumber(val)} kg`);
-        animateCounter('roiLiveLaba', currentRoiState.laba, estimasiLabaBulan, 350, (val) => formatRupiah(val));
-        animateCounter('roiLiveLabaYear', currentRoiState.labaYear, estimasiLabaTahun, 350, (val) => formatRupiah(val));
-
-        // Update BEP & Gauge
-        const bepEl = document.getElementById('roiLiveBep');
-        const bepText = bepMonths <= 12 ? `± ${bepMonths.toFixed(1).replace('.', ',')} Bulan` : `> 1 Tahun`;
-        bepEl.textContent = bepText;
-
-        const bepDaysLabel = document.getElementById('roiBepDaysLabel');
-        if (bepDaysLabel) {
-            bepDaysLabel.textContent = `Balik Modal (± ${bepDays} Hari)`;
-        }
-
-        const paybackFill = document.getElementById('roiPaybackFill');
-        if (paybackFill) {
-            const pct = Math.min(100, Math.max(15, Math.round((2.5 / Math.max(bepMonths, 0.5)) * 100)));
-            paybackFill.style.width = `${pct}%`;
-        }
-
-        // Save current state for next animation step
-        currentRoiState = {
-            omzet: estimasiOmzetBulan,
-            volume: totalKedelaiBulan,
-            laba: estimasiLabaBulan,
-            labaYear: estimasiLabaTahun,
-            bep: bepMonths
-        };
-    }
-
-    function consultRoiSimulation() {
-        const modal = document.getElementById('valModalMesin').textContent;
-        const prod = document.getElementById('valProduksiHari').textContent;
-        const hari = document.getElementById('valHariKerja').textContent;
-        const margin = document.getElementById('valMarginKg').textContent;
-        const omzet = document.getElementById('roiLiveOmzet').textContent;
-        const laba = document.getElementById('roiLiveLaba').textContent;
-        const bep = document.getElementById('roiLiveBep').textContent;
-
-        const msg = encodeURIComponent(
-`Halo PT Adam Jaya Enterprise Bandung,
-Saya telah mencoba *Financial Simulator & Kalkulator ROI* di website:
-
-📊 *Parameter Simulasi Saya:*
-• Modal Investasi: ${modal}
-• Kapasitas Kedelai: ${prod}
-• Hari Operasional: ${hari}
-• Margin Bersih: ${margin}
-
-💰 *Hasil Estimasi Real-Time:*
-• Estimasi Omzet: ${omzet} / bulan
-• Estimasi Laba Bersih: ${laba} / bulan
-• Break Even Point (BEP): ${bep}
-
-Mohon konsultasi teknis pemilihan mesin dan spesifikasi terbaik untuk pabrik saya.`);
-
-        window.open(`https://wa.me/6281221601558?text=${msg}`, '_blank');
-    }
 
     // ═══════════════════════════════════════════════════════════
     // ── 7. ANIMATED STATISTICS COUNT-UP OBSERVER ──
