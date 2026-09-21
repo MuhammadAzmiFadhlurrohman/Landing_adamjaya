@@ -7,6 +7,11 @@
     <meta name="description" content="PT Adam Jaya Enterprise — Produsen & workshop spesialis mesin pengolah kedelai, cetakan tahu stainless SUS 304, katel uap, dan alat sablon plastik kemasan di Bandung. Pelayanan 24 jam nonstop.">
     <meta name="keywords" content="mesin tahu bandung, pabrikasi mesin tahu, adam jaya enterprise, mesin giling kedelai, tahang stainless, cetakan tahu jati, plastik sablon tahu">
     
+    <!-- Favicon / Tab Logo -->
+    <link rel="icon" type="image/png" href="{{ asset('assets/adamjaya.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('assets/adamjaya.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('assets/adamjaya.png') }}">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
