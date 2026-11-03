@@ -3,1359 +3,1096 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam Jaya Enterprise — Solusi Peralatan & Mesin Produksi Tahu Berkualitas (Bandung)</title>
-    <meta name="description" content="PT Adam Jaya Enterprise — Produsen & workshop spesialis mesin pengolah kedelai, cetakan tahu stainless SUS 304, katel uap, dan alat sablon plastik kemasan di Bandung. Pelayanan 24 jam nonstop.">
-    <meta name="keywords" content="mesin tahu bandung, pabrikasi mesin tahu, adam jaya enterprise, mesin giling kedelai, tahang stainless, cetakan tahu jati, plastik sablon tahu">
-    
-    <!-- Favicon / Tab Logo -->
+    <title>PT Adam Jaya Enterprise — Manufaktur Mesin Pengolah Kedelai &amp; Fabrikasi SUS 304 (Bandung)</title>
+    <meta name="description" content="PT Adam Jaya Enterprise — Produsen dan workshop spesialis mesin pengolah kedelai, tahang stainless SUS 304 food-grade, ketel uap, dan sistem kemasan sablon plastik di Bandung. Pelayanan mekanik 24 jam.">
+    <meta name="keywords" content="mesin tahu bandung, pabrikasi mesin tahu, adam jaya enterprise, mesin giling kedelai, tahang stainless SUS 304, cetakan tahu jati, plastik sablon tahu">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('assets/adamjaya.png') }}">
     <link rel="shortcut icon" type="image/png" href="{{ asset('assets/adamjaya.png') }}">
     <link rel="apple-touch-icon" href="{{ asset('assets/adamjaya.png') }}">
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts: Plus Jakarta Sans, Inter & IBM Plex Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
     <!-- FontAwesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- Luxury Executive CSS -->
+
+    <!-- Premium SaaS + Oneshot Hero + UI/UX Pro Max Stylesheet -->
     <link rel="stylesheet" href="{{ asset('css/luxury-landing.css') }}?v={{ time() }}">
-    
-    <!-- SweetAlert2 -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Organization Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@@context": "https://schema.org",
+        "@@type": "Organization",
+        "name": "PT Adam Jaya Enterprise",
+        "url": "{{ url('/') }}",
+        "logo": "{{ asset('assets/adamjaya.png') }}",
+        "foundingDate": "2002",
+        "address": {
+            "@@type": "PostalAddress",
+            "streetAddress": "Jl. Aki Padma No.51, Babakan, Kec. Babakan Ciparay",
+            "addressLocality": "Kota Bandung",
+            "addressRegion": "Jawa Barat",
+            "postalCode": "40222",
+            "addressCountry": "ID"
+        },
+        "contactPoint": {
+            "@@type": "ContactPoint",
+            "telephone": "+62-812-2160-1558",
+            "contactType": "customer service"
+        },
+        "aggregateRating": {
+            "@@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "4211"
+        }
+    }
+    </script>
 </head>
 <body>
 
-    <!-- ═══ 1. FIXED GLASSMORPHISM NAVBAR ═══ -->
-    <div class="navbar-wrap">
-        <nav class="navbar" id="mainNavbar">
+    <!-- ═══════════════════════════════════════════════════════════════════
+         1. FLOATING GLASS PILL NAVBAR (premium-saas-web + Oneshot-Hero)
+         ═══════════════════════════════════════════════════════════════════ -->
+    <header class="nav-floating-wrap" id="navWrap">
+        <nav class="nav-floating-pill" aria-label="Navigasi Utama">
             <a href="#beranda" class="nav-brand">
-                <img src="{{ asset('assets/adamjaya.png') }}" alt="Logo Adam Jaya">
-                <div class="nav-brand-text">
-                    <span class="nav-brand-name">ADAM JAYA</span>
+                <img src="{{ asset('assets/adamjaya.png') }}" alt="Logo PT Adam Jaya Enterprise" width="38" height="38">
+                <div>
+                    <span class="nav-brand-title">ADAM JAYA</span>
                     <span class="nav-brand-sub">Enterprise System</span>
                 </div>
             </a>
 
+            <!-- Focused Editorial Links -->
             <ul class="nav-links">
                 <li><a href="#beranda" class="nav-link active">Beranda</a></li>
-                <li><a href="#katalog-stok" class="nav-link">Katalog Produk</a></li>
-                <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
-                <li><a href="#proyek" class="nav-link">Fabrikasi</a></li>
-                <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
-                <li><a href="#lokasi" class="nav-link">Lokasi</a></li>
+                <li><a href="#katalog-stok" class="nav-link">Katalog Mesin</a></li>
+                <li><a href="#keunggulan" class="nav-link">Arsitektur &amp; Mutu</a></li>
+                <li><a href="#testimoni" class="nav-link">Bukti &amp; Ulasan</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#lokasi" class="nav-link">Workshop</a></li>
             </ul>
 
-            <div class="nav-actions">
-                <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20saya%20ingin%20konsultasi%20peralatan%20produksi%20tahu" target="_blank" class="btn-nav-wa">
-                    <i class="fa-brands fa-whatsapp"></i> <span>Hubungi WA</span>
+            <div class="nav-right">
+                <a href="http://localhost/adamjaya-enterprise/login.php" target="_blank" rel="noopener" class="nav-portal-chip" title="Portal Internal Enterprise">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Portal B2B</span>
                 </a>
-                <button class="mobile-toggle" id="mobileNavToggle" onclick="toggleMobileDrawer()" aria-label="Menu">
+                <a href="https://wa.me/6281221601558?text=Halo%20PT%20Adam%20Jaya%20Enterprise,%20saya%20ingin%20konsultasi%20mesin%20dan%20peralatan%20produksi%20tahu" target="_blank" rel="noopener" class="btn-gold-tactile" style="padding: 0.55rem 1.05rem; min-height: 38px; font-size: 0.82rem;">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Konsultasi WA</span>
+                </a>
+                <button type="button" class="mobile-toggle-btn" id="mobileNavToggle" onclick="toggleMobileDrawer()" aria-label="Buka Menu Navigasi" aria-expanded="false">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
         </nav>
-    </div>
 
-    <!-- Mobile Drawer Menu -->
-    <div class="mobile-drawer" id="mobileDrawer">
-        <ul>
-            <li><a href="#beranda" onclick="toggleMobileDrawer()">Beranda</a></li>
-            <li><a href="#katalog-stok" onclick="toggleMobileDrawer()">Katalog Produk</a></li>
-            <li><a href="#keunggulan" onclick="toggleMobileDrawer()">Keunggulan Mesin</a></li>
-            <li><a href="#proyek" onclick="toggleMobileDrawer()">Bukti Fabrikasi</a></li>
-            <li><a href="#testimoni" onclick="toggleMobileDrawer()">Testimoni Klien</a></li>
-            <li><a href="#lokasi" onclick="toggleMobileDrawer()">Workshop &amp; Peta</a></li>
-        </ul>
-        <div style="display:flex; flex-direction:column; gap:0.6rem;">
-            <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20konsultasi%20via%20HP" target="_blank" class="btn btn-wine btn-md" style="width:100%;">
-                <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp 24 Jam
-            </a>
+        <!-- Mobile Sheet Menu -->
+        <div class="mobile-sheet" id="mobileDrawer">
+            <ul>
+                <li><a href="#beranda" class="sheet-link" onclick="toggleMobileDrawer()">Beranda</a></li>
+                <li><a href="#katalog-stok" class="sheet-link" onclick="toggleMobileDrawer()">Master Katalog Produk</a></li>
+                <li><a href="#keunggulan" class="sheet-link" onclick="toggleMobileDrawer()">Arsitektur &amp; Keunggulan</a></li>
+                <li><a href="#testimoni" class="sheet-link" onclick="toggleMobileDrawer()">Galeri Fabrikasi &amp; Ulasan</a></li>
+                <li><a href="#faq" class="sheet-link" onclick="toggleMobileDrawer()">Tanya Jawab (FAQ)</a></li>
+                <li><a href="#lokasi" class="sheet-link" onclick="toggleMobileDrawer()">Lokasi Workshop Bandung</a></li>
+            </ul>
+            <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+                <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20konsultasi%20mesin%20produksi%20tahu" target="_blank" rel="noopener" class="btn-gold-tactile" style="width: 100%;">
+                    <i class="fa-brands fa-whatsapp"></i> Hubungi Hotline 24 Jam
+                </a>
+                <a href="http://localhost/adamjaya-enterprise/login.php" target="_blank" rel="noopener" class="btn-glass" style="width: 100%;">
+                    <i class="fa-solid fa-lock"></i> Akses Portal Enterprise B2B
+                </a>
+            </div>
         </div>
-    </div>
+    </header>
 
-    <!-- ═══ 2. ENTERPRISE INDUSTRIAL HERO / JUMBOTRON SECTION ═══ -->
-    <section class="hero-industrial-wrapper" id="beranda">
-        <!-- Industrial Stage Background Effects -->
-        <div class="hero-industrial-bg">
-            <div class="hero-blueprint-grid"></div>
-            <div class="hero-gold-arc"></div>
-            <div class="hero-radial-glow glow-left"></div>
-            <div class="hero-radial-glow glow-center"></div>
-            <div class="hero-radial-glow glow-right"></div>
-        </div>
+    <main>
+        <!-- ═══════════════════════════════════════════════════════════════════
+             2. HERO STAGE: SCULPTED ECLIPSE GLOW + TELEMETRY FRAME + MARQUEE
+             ═══════════════════════════════════════════════════════════════════ -->
+        <section class="dark-stage noise-overlay hero-stage" id="beranda">
+            <!-- Sculpted Eclipse Light Sources & Erasers (premium-saas-web shared/light.md) -->
+            <div class="sculpted-glow" aria-hidden="true">
+                <span class="g g1"></span>
+                <span class="g g2"></span>
+                <span class="g e1"></span>
+                <span class="g core"></span>
+            </div>
+            <!-- Faint 4-Column Structural Guides -->
+            <div class="column-guides" aria-hidden="true"></div>
 
-        <div class="container hero-main-container">
-            <!-- 2-Column / Unified Hero Composition -->
-            <div class="hero-composition-grid">
-                
-                <!-- LEFT COLUMN: Value Proposition, Benefits & CTAs -->
-                <div class="hero-left-content">
-                    <h1 class="hero-headline-industrial story-reveal delay-2">
-                        Mesin Tahu Berkualitas<br>
-                        <span class="gold-gradient-text">Presisi, Higienis &amp; Efisien</span>
-                    </h1>
+            <div class="container">
+                <div class="hero-main-grid">
+                    <!-- Left Column: Tight-Tracked Display Copy + Beam CTA -->
+                    <div class="hero-copy-col" id="heroCopyBlock">
+                        <div class="eyebrow-pill">
+                            <i class="fa-solid fa-star" style="color: var(--gold-bright);"></i>
+                            <span>4.9/5 GOOGLE RATING &bull; WORKSHOP RESMI BANDUNG EST. 2002</span>
+                        </div>
 
-                    <p class="hero-subheadline-industrial story-reveal delay-3">
-                        Tingkatkan hasil ekstraksi perasan sari kedelai dan percepat ritme produksi Anda dengan mesin manufaktur standar food-grade SUS 304 dari workshop resmi Adam Jaya Bandung.
+                        <h1 class="display-headline">
+                            Rekayasa Mesin Tahu <span class="gold-metal-text">Presisi Tinggi.</span><br>
+                            <span class="dim">Standar Higienis SUS 304.</span>
+                        </h1>
+
+                        <p class="hero-lead">
+                            Tingkatkan rendemen ekstraksi sari kedelai dan percepat ritme produksi harian pabrik Anda dengan mesin manufaktur tangan pertama dari bengkel resmi PT Adam Jaya Enterprise di Bandung.
+                        </p>
+
+                        <div class="hero-cta-row">
+                            <a href="https://wa.me/6281221601558?text=Halo%20PT%20Adam%20Jaya%20Enterprise,%20saya%20ingin%20konsultasi%20spesifikasi%20dan%20penawaran%20mesin%20produksi%20tahu" target="_blank" rel="noopener" class="btn-beam">
+                                <i class="fa-brands fa-whatsapp" style="color: var(--gold-bright);"></i>
+                                <span>Konsultasi Mesin via WA</span>
+                                <i class="fa-solid fa-arrow-right" style="font-size: 0.78rem;"></i>
+                            </a>
+                            <a href="#katalog-stok" class="btn-glass">
+                                <span>Telusuri Master Katalog</span>
+                            </a>
+                        </div>
+
+                        <div class="hero-capabilities">
+                            <span><i class="fa-solid fa-check"></i> 100% BAJA FOOD-GRADE SUS 304</span>
+                            <span><i class="fa-solid fa-check"></i> KALIBRASI BALANCING 2 JAM</span>
+                            <span><i class="fa-solid fa-check"></i> MEKANIK SIAGA 24/7</span>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Hardware Telemetry Frame + Transparent Machine Render -->
+                    <div class="hero-visual-col" id="heroVisualBlock">
+                        <div class="hero-hardware-frame">
+                            <div class="hardware-topbar">
+                                <div class="hardware-dots" aria-hidden="true">
+                                    <i></i><i></i><i></i>
+                                </div>
+                                <span class="hardware-id">SPEC // AJ-SUS304-SERIES</span>
+                            </div>
+
+                            <div class="hardware-stage-body">
+                                <img src="{{ asset('assets/hero_machine_transparent.png') }}"
+                                     alt="Unit Mesin Manufaktur Pengolah Kedelai Stainless Steel SUS 304 PT Adam Jaya Enterprise"
+                                     class="hero-machine-visual"
+                                     id="heroMachineImg"
+                                     width="410"
+                                     height="380">
+
+                                <div class="hardware-telemetry-grid">
+                                    <div class="telemetry-cell">
+                                        <span class="telemetry-label">MATERIAL PLAT</span>
+                                        <span class="telemetry-val">SUS 304 Murni</span>
+                                    </div>
+                                    <div class="telemetry-cell">
+                                        <span class="telemetry-label">KONSTRUKSI LAS</span>
+                                        <span class="telemetry-val">Argon Food-Grade</span>
+                                    </div>
+                                    <div class="telemetry-cell">
+                                        <span class="telemetry-label">GARANSI RESMI</span>
+                                        <span class="telemetry-val">Tangan Pertama</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Infinite Masked-Edge Partner Marquee (premium-saas-web shared/components.md) -->
+                <div class="hero-marquee-band">
+                    <div class="marquee-header">
+                        <span class="mono-tag" style="color: var(--fg-45);">DIPERCAYA OLEH 4.200+ PABRIK PENGOLAHAN &amp; SENTRA KULINER NUSANTARA</span>
+                        <span class="mono-tag" style="color: var(--gold-bright);">24+ TAHUN DEDIKASI MANUFAKTUR</span>
+                    </div>
+
+                    <div class="marquee-mask" aria-label="Daftar Mitra Industri Adam Jaya">
+                        <div class="marquee-track">
+                            <!-- Set 1 -->
+                            <div class="partner-tile">
+                                <div>
+                                    <span class="partner-tile-name">TAHU YUN SEN</span>
+                                    <span class="partner-tile-sub">SENTRA KULINER BANDUNG &bull; EST. 1938</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile">
+                                <div>
+                                    <span class="partner-tile-name">TAHU SUSU LEMBANG</span>
+                                    <span class="partner-tile-sub">IKON PARIWISATA JAWA BARAT</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile">
+                                <div>
+                                    <span class="partner-tile-name">PABRIK TAHU LESTARI JAYA</span>
+                                    <span class="partner-tile-sub">KAPASITAS 500 KG/HARI &bull; BANDUNG</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile">
+                                <div>
+                                    <span class="partner-tile-name">SUMEDANG MANDIRI</span>
+                                    <span class="partner-tile-sub">SENTRA TAHU KUNING SUMEDANG</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile">
+                                <div>
+                                    <span class="partner-tile-name">SENTOSA MAKMUR KEDELAI</span>
+                                    <span class="partner-tile-sub">RANTAI PASOK PANGAN JAWA BARAT</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile">
+                                <div>
+                                    <span class="partner-tile-name">PRIMA PACKAGING</span>
+                                    <span class="partner-tile-sub">KEMASAN &amp; SABLON FOOD-GRADE CIMAHI</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile">
+                                <div>
+                                    <span class="partner-tile-name">BERKAH FOOD INDO</span>
+                                    <span class="partner-tile-sub">PABRIK SEMI-OTOMATIS BANDUNG</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile">
+                                <div>
+                                    <span class="partner-tile-name">KARYA TAHU NUSANTARA</span>
+                                    <span class="partner-tile-sub">DISTRIBUSI PANGAN NASIONAL</span>
+                                </div>
+                            </div>
+
+                            <!-- Set 2 (Duplicate for Seamless Infinite Loop) -->
+                            <div class="partner-tile" aria-hidden="true">
+                                <div>
+                                    <span class="partner-tile-name">TAHU YUN SEN</span>
+                                    <span class="partner-tile-sub">SENTRA KULINER BANDUNG &bull; EST. 1938</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile" aria-hidden="true">
+                                <div>
+                                    <span class="partner-tile-name">TAHU SUSU LEMBANG</span>
+                                    <span class="partner-tile-sub">IKON PARIWISATA JAWA BARAT</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile" aria-hidden="true">
+                                <div>
+                                    <span class="partner-tile-name">PABRIK TAHU LESTARI JAYA</span>
+                                    <span class="partner-tile-sub">KAPASITAS 500 KG/HARI &bull; BANDUNG</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile" aria-hidden="true">
+                                <div>
+                                    <span class="partner-tile-name">SUMEDANG MANDIRI</span>
+                                    <span class="partner-tile-sub">SENTRA TAHU KUNING SUMEDANG</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile" aria-hidden="true">
+                                <div>
+                                    <span class="partner-tile-name">SENTOSA MAKMUR KEDELAI</span>
+                                    <span class="partner-tile-sub">RANTAI PASOK PANGAN JAWA BARAT</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile" aria-hidden="true">
+                                <div>
+                                    <span class="partner-tile-name">PRIMA PACKAGING</span>
+                                    <span class="partner-tile-sub">KEMASAN &amp; SABLON FOOD-GRADE CIMAHI</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile" aria-hidden="true">
+                                <div>
+                                    <span class="partner-tile-name">BERKAH FOOD INDO</span>
+                                    <span class="partner-tile-sub">PABRIK SEMI-OTOMATIS BANDUNG</span>
+                                </div>
+                            </div>
+                            <div class="partner-tile" aria-hidden="true">
+                                <div>
+                                    <span class="partner-tile-name">KARYA TAHU NUSANTARA</span>
+                                    <span class="partner-tile-sub">DISTRIBUSI PANGAN NASIONAL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════════════════
+             3. SCROLL-FILL STATEMENT (premium-saas-web shared/typography.md)
+             ═══════════════════════════════════════════════════════════════════ -->
+        <section class="statement-section" aria-label="Komitmen Manufaktur">
+            <div class="container">
+                <span class="eyebrow-pill light">FILOSOFI REKAYASA &amp; STANDAR MUTU</span>
+                <p class="scroll-statement" id="scrollFillStatement">
+                    Selama lebih dari <span class="kw-wine">24 tahun</span>, PT Adam Jaya Enterprise memproduksi peralatan pengolahan kedelai berstandar <span class="kw-gold">Food-Grade SUS 304</span> langsung dari workshop Bandung — menghadirkan ekstraksi sari yang presisi, ketahanan korosi asam tertinggi, serta kepastian <span class="kw-wine">suku cadang</span> bagi ribuan pabrik di Indonesia.
+                </p>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════════════════
+             4. MASTER KATALOG & REAL-TIME STOCK FILTER ($products)
+             ═══════════════════════════════════════════════════════════════════ -->
+        <section class="catalog-section" id="katalog-stok">
+            <div class="container">
+                <div class="catalog-head-row reveal-up">
+                    <div>
+                        <span class="eyebrow-pill light">INVENTARIS &amp; HARGA BENGKEL TANGAN PERTAMA</span>
+                        <h2 class="section-heading">
+                            Master Katalog &amp; <span class="wine-metal-text">Spesifikasi Mesin.</span>
+                        </h2>
+                    </div>
+                    <p class="section-subcopy">
+                        Mesin giling kedelai presisi, tahang stainless SUS 304, ketel uap boiler, batu corundum, hingga plastik kemasan sablon terdaftar resmi langsung dari workshop kami.
+                    </p>
+                </div>
+
+                <!-- Tactile Command Deck: Search + Sort + Single-Row Filter Bar -->
+                <div class="catalog-deck reveal-up">
+                    <div class="catalog-deck-top">
+                        <div class="search-input-wrap">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" id="catalogSearchInput" placeholder="Cari mesin giling, tahang stainless, batu corundum, plastik sablon..." oninput="handleLiveSearch()" aria-label="Cari produk di katalog">
+                        </div>
+
+                        <div class="sort-select-wrap">
+                            <label for="catalogSortSelect">URUTKAN:</label>
+                            <select id="catalogSortSelect" onchange="handleCatalogSort()">
+                                <option value="rekomendasi">Rekomendasi Utama</option>
+                                <option value="harga-asc">Harga Terendah</option>
+                                <option value="harga-desc">Harga Tertinggi</option>
+                                <option value="terbaru">Terbaru</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Unbroken Single-Row Filter Bar (Creating-Oneshot-Hero-Landing-Pages) -->
+                    <div class="catalog-filter-row" role="tablist" aria-label="Kategori Produk">
+                        <button type="button" class="filter-btn active" data-filter="all" onclick="filterCatalog('all', this)">
+                            <span>Semua Produk</span>
+                            <span class="filter-count" id="countAll">{{ count($products) }}</span>
+                        </button>
+                        <button type="button" class="filter-btn" data-filter="mesin-tahu" onclick="filterCatalog('mesin-tahu', this)">
+                            <span>Mesin Tahu &amp; Stainless</span>
+                            <span class="filter-count" id="countTahu">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'mesin-tahu')) }}</span>
+                        </button>
+                        <button type="button" class="filter-btn" data-filter="mesin-plastik" onclick="filterCatalog('mesin-plastik', this)">
+                            <span>Plastik Sablon</span>
+                            <span class="filter-count" id="countPlastik">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'mesin-plastik')) }}</span>
+                        </button>
+                        <button type="button" class="filter-btn" data-filter="mesin-kemasan" onclick="filterCatalog('mesin-kemasan', this)">
+                            <span>Mesin Kemasan &amp; Sealer</span>
+                            <span class="filter-count" id="countKemasan">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'mesin-kemasan')) }}</span>
+                        </button>
+                        <button type="button" class="filter-btn" data-filter="sparepart" onclick="filterCatalog('sparepart', this)">
+                            <span>Peralatan &amp; Sparepart</span>
+                            <span class="filter-count" id="countSparepart">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'sparepart')) }}</span>
+                        </button>
+                        <button type="button" class="filter-btn" data-filter="lainnya" onclick="filterCatalog('lainnya', this)">
+                            <span>Lainnya</span>
+                            <span class="filter-count" id="countLainnya">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'lainnya')) }}</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 4-Column Soft-Lift Product Grid -->
+                <div class="products-grid" id="catalogGrid">
+                    @foreach($products as $index => $item)
+                        @php
+                            $variantsCount = count($item['variants'] ?? []);
+                            $hasImg = !empty($item['gambar']) && file_exists(public_path($item['gambar']));
+                            $imgSrc = $hasImg ? asset($item['gambar']) : null;
+                            $priceDisplay = 'Hubungi CS';
+                            $rawPrice = $item['min_price'] ?? 0;
+
+                            if (!empty($item['min_price']) && $item['min_price'] > 0) {
+                                if ($item['min_price'] == $item['max_price']) {
+                                    $unit = $item['variants'][0]['satuan'] ?? 'unit';
+                                    $priceDisplay = 'Rp ' . number_format($item['min_price'], 0, ',', '.') . ($unit === 'kg' ? ' / kg' : '');
+                                } else {
+                                    $priceDisplay = 'Rp ' . number_format($item['min_price'], 0, ',', '.') . ' – Rp ' . number_format($item['max_price'], 0, ',', '.');
+                                }
+                            }
+                        @endphp
+                        <article class="product-card"
+                                 data-cat="{{ $item['category'] ?? 'lainnya' }}"
+                                 data-name="{{ $item['nama_barang'] }}"
+                                 data-id="{{ $item['id'] }}"
+                                 data-price="{{ $rawPrice }}"
+                                 data-order="{{ $index + 1 }}">
+                            <div class="product-img-wrap">
+                                @if($hasImg)
+                                    <img src="{{ $imgSrc }}" alt="{{ $item['nama_barang'] }} — PT Adam Jaya Enterprise" loading="lazy" width="300" height="215">
+                                @else
+                                    <div class="product-placeholder-box">
+                                        <i class="fa-solid {{ ($item['category'] ?? '') === 'mesin-plastik' ? 'fa-boxes-packing' : (($item['category'] ?? '') === 'mesin-tahu' ? 'fa-gears' : 'fa-screwdriver-wrench') }}"></i>
+                                        <span class="mono-tag">{{ $item['category_label'] ?? 'Peralatan Pabrik' }}</span>
+                                    </div>
+                                @endif
+                                <span class="product-chip-left">ASLI BENGKEL</span>
+                                <span class="product-chip-right">
+                                    {{ $variantsCount > 1 ? $variantsCount . ' VARIAN' : 'TERSEDIA' }}
+                                </span>
+                            </div>
+
+                            <div class="product-body">
+                                <span class="product-cat-mono">{{ $item['category_label'] ?? 'Perlengkapan Manufaktur' }}</span>
+                                <h3>{{ $item['nama_barang'] }}</h3>
+                                <p class="product-variants-preview">
+                                    @if(!empty($item['variants']))
+                                        Varian: {{ implode(', ', array_slice(array_column($item['variants'], 'nama_jenis'), 0, 3)) }}{{ count($item['variants']) > 3 ? '...' : '' }}
+                                    @else
+                                        Diproduksi langsung sesuai standar mutu bengkel PT Adam Jaya Enterprise.
+                                    @endif
+                                </p>
+
+                                <div class="product-price-band">
+                                    <span class="price-caption">{{ !empty($item['min_price']) && $item['min_price'] > 0 && $item['min_price'] != $item['max_price'] ? 'Rentang' : 'Mulai' }}</span>
+                                    <span class="price-value">{{ $priceDisplay }}</span>
+                                </div>
+
+                                <div class="product-card-actions">
+                                    <button type="button" class="btn-outline-tactile" onclick="showCatalogProductModal({{ $item['id'] }})">
+                                        <span>Detail Varian</span>
+                                    </button>
+                                    <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20saya%20tanya%20stok%20dan%20harga%20{{ urlencode($item['nama_barang']) }}" target="_blank" rel="noopener" class="btn-wine-tactile">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>Pesan</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    @endforeach
+                </div>
+
+                <!-- Empty State -->
+                <div class="catalog-empty" id="catalogEmptyState">
+                    <p class="mono-tag" style="color: var(--wine); margin-bottom: 0.5rem;">PENCARIAN TIDAK DITEMUKAN</p>
+                    <h3 style="font-family: var(--font-display); font-size: 1.25rem; margin-bottom: 0.5rem;">Barang Belum Tercantum di Filter Ini</h3>
+                    <p style="color: var(--ink-60); max-width: 480px; margin: 0 auto 1.25rem;">
+                        Kami juga menerima pesanan pembuatan mesin, tahang stainless, dan peralatan dengan ukuran custom sesuai kapasitas pabrik Anda.
+                    </p>
+                    <button type="button" class="btn-wine-tactile" onclick="resetCatalogSearch()">
+                        <span>Tampilkan Semua Barang</span>
+                    </button>
+                </div>
+
+                <!-- Load More Controls -->
+                <div id="catalogLoadMoreWrap" style="text-align: center; margin-top: 2.5rem;">
+                    <button type="button" class="btn-wine-tactile" id="btnLoadMore" onclick="loadMoreCatalog()" style="padding: 0.85rem 2rem;">
+                        <span>Tampilkan Produk Lainnya</span>
+                        <span class="mono-tag" id="loadMoreCountBadge" style="color: var(--gold-light);">(+8)</span>
+                    </button>
+                    <div id="catalogAllLoadedText" style="display: none; font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-60); margin-top: 1rem;">
+                        SELURUH <strong id="totalVisibleBadge">0</strong> PRODUK PADA KATEGORI INI TELAH DITAMPILKAN.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════════════════
+             5. 6-COLUMN BENTO GRID WITH MINI-UIS & ROLLING COUNTERS (premium-saas-web)
+             ═══════════════════════════════════════════════════════════════════ -->
+        <section class="dark-stage noise-overlay bento-section" id="keunggulan">
+            <div class="sculpted-glow" aria-hidden="true">
+                <span class="g g1" style="top: 10%; left: 30%; opacity: 0.55;"></span>
+                <span class="g core" style="bottom: 5%; left: 80%;"></span>
+            </div>
+            <div class="column-guides" aria-hidden="true"></div>
+
+            <div class="container">
+                <div style="position: relative; z-index: 2; max-width: 680px; margin-bottom: 3rem;" class="reveal-up">
+                    <span class="eyebrow-pill">ARSITEKTUR REKAYASA &amp; KEUNGGULAN KOMPETITIF</span>
+                    <h2 class="section-heading">
+                        Kenapa Ribuan Pabrik Memilih <span class="gold-metal-text">Bengkel Adam Jaya?</span>
+                    </h2>
+                    <p class="section-subcopy">
+                        Produsen manufaktur peralatan pengolah kedelai tangan pertama di Bandung dengan kendali mutu 100% di bengkel sendiri dan dukungan mekanik lintas provinsi.
+                    </p>
+                </div>
+
+                <!-- 4 Rolling Statistics Counters -->
+                <div class="stats-counter-grid reveal-up" id="whyStatsRibbon">
+                    <div class="stat-cell">
+                        <span class="stat-big-num stat-counter" data-target="24" data-suffix="+">24+</span>
+                        <span class="stat-title">Tahun Pengalaman</span>
+                        <span class="stat-sub">Spesialisasi manufaktur mesin tahu</span>
+                    </div>
+                    <div class="stat-cell">
+                        <span class="stat-big-num stat-counter" data-target="4200" data-suffix="+" data-format="thousand">4.200+</span>
+                        <span class="stat-title">Unit Terdistribusi</span>
+                        <span class="stat-sub">Beroperasi di seluruh Nusantara</span>
+                    </div>
+                    <div class="stat-cell">
+                        <span class="stat-big-num stat-counter" data-target="100" data-suffix="%">100%</span>
+                        <span class="stat-title">SUS 304 Food-Grade</span>
+                        <span class="stat-sub">Tahan korosi asam cuka &amp; uap panas</span>
+                    </div>
+                    <div class="stat-cell">
+                        <span class="stat-big-num stat-counter" data-target="24" data-suffix="/7">24/7</span>
+                        <span class="stat-title">Teknisi Siaga</span>
+                        <span class="stat-sub">Suku cadang asli selalu tersedia</span>
+                    </div>
+                </div>
+
+                <!-- 6-Column Asymmetric Bento Grid with Spotlight (.spot) & Mini-UIs -->
+                <div class="bento-grid" id="proyek">
+                    <!-- Cell 1 (Span 4): Factory Direct & 4-Step Pipeline Mini-UI -->
+                    <article class="bento-cell span-4 leak-gold spot reveal-up">
+                        <div>
+                            <span class="mono-tag" style="color: var(--gold-bright);">01 // FACTORY DIRECT MANUFACTURING</span>
+                            <h3 style="margin-top: 0.4rem;">Fabrikasi Tangan Pertama &amp; Alur QC 4 Tahap</h3>
+                            <p>
+                                Seluruh proses dikerjakan langsung di bengkel resmi kami di Babakan Ciparay, Bandung — tanpa markup perantara toko dan dapat dikustomisasi sesuai ukuran ruang maupun target kapasitas giling harian Anda.
+                            </p>
+                        </div>
+
+                        <!-- Mini-UI: 4-Stage Engineering Pipeline -->
+                        <div class="mini-ui-panel">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                                <span class="mono-tag" style="color: var(--fg-60);">PIPELINE MANUFAKTUR BENGKEL</span>
+                                <span class="mono-tag" style="color: #10B981;">ISO-GRADE WORKFLOW</span>
+                            </div>
+                            <div class="pipeline-nodes">
+                                <div class="pipe-node">
+                                    <span class="pipe-node-step">STEP 01</span>
+                                    <span class="pipe-node-title">Rancang &amp; Ukur</span>
+                                    <span style="font-size: 0.74rem; color: var(--fg-45);">Kapasitas 100–500kg+</span>
+                                </div>
+                                <div class="pipe-node">
+                                    <span class="pipe-node-step">STEP 02</span>
+                                    <span class="pipe-node-title">Bubut Presisi</span>
+                                    <span style="font-size: 0.74rem; color: var(--fg-45);">Senter as &amp; dudukan</span>
+                                </div>
+                                <div class="pipe-node">
+                                    <span class="pipe-node-step">STEP 03</span>
+                                    <span class="pipe-node-title">Las Argon 304</span>
+                                    <span style="font-size: 0.74rem; color: var(--fg-45);">Anti-rembes &amp; higienis</span>
+                                </div>
+                                <div class="pipe-node">
+                                    <span class="pipe-node-step">STEP 04</span>
+                                    <span class="pipe-node-title">QC Balancing</span>
+                                    <span style="font-size: 0.74rem; color: var(--fg-45);">Uji putar nonstop 2 jam</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cell 2 (Span 2): 24/7 Emergency Support Mini-UI -->
+                    <article class="bento-cell span-2 leak-wine spot reveal-up">
+                        <div>
+                            <span class="mono-tag" style="color: var(--gold-bright);">02 // 24-HOUR DISPATCH</span>
+                            <h3 style="margin-top: 0.4rem;">Respon Mekanik Darurat 24 Jam</h3>
+                            <p>
+                                Produksi tahu dimulai dini hari. Tim mekanik dan stok suku cadang kami selalu siap dipanggil kapan pun mesin membutuhkan penanganan.
+                            </p>
+                        </div>
+
+                        <!-- Mini-UI: Live Mechanic Dispatch Status -->
+                        <div class="mini-ui-panel dispatch-status-ui">
+                            <div class="dispatch-live-row">
+                                <span class="mono-tag" style="color: #FFFFFF;"><i class="pulse-dot"></i>MEKANIK SIAGA</span>
+                                <span class="mono-tag" style="color: #10B981;">AKTIF 24/7</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--fg-60);">
+                                <span>Stok Batu Corundum &amp; Bearing</span>
+                                <strong style="color: var(--gold-light);">Ready 100%</strong>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--fg-60);">
+                                <span>Hotline Kepala Bengkel</span>
+                                <strong style="color: #FFFFFF;">0812-2160-1558</strong>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cell 3 (Span 3): SUS 304 Metallurgy Comparison Mini-UI -->
+                    <article class="bento-cell span-3 spot reveal-up">
+                        <div>
+                            <span class="mono-tag" style="color: var(--gold-bright);">03 // FOOD-GRADE METALLURGY</span>
+                            <h3 style="margin-top: 0.4rem;">Ketahanan Ekstrem Stainless SUS 304</h3>
+                            <p>
+                                Air asam cuka tahu (biang) dan uap panas bertekanan tinggi dengan cepat mengikis plat logam biasa. Kami hanya menggunakan plat Stainless Steel SUS 304 murni.
+                            </p>
+                        </div>
+
+                        <div class="mini-ui-panel metal-bar-group">
+                            <div>
+                                <div class="metal-bar-label">
+                                    <span>ADAM JAYA SUS 304 FOOD-GRADE</span>
+                                    <span style="color: var(--gold-bright);">100% ANTI-KOROSI ASAM</span>
+                                </div>
+                                <div class="metal-track"><div class="metal-fill-gold"></div></div>
+                            </div>
+                            <div>
+                                <div class="metal-bar-label">
+                                    <span style="color: var(--fg-45);">PLAT BESI / STAINLESS 201 BIASA</span>
+                                    <span style="color: var(--fg-45);">RENTAN KARAT &amp; BOCOR</span>
+                                </div>
+                                <div class="metal-track"><div class="metal-fill-dim"></div></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cell 4 (Span 3): Extraction Yield & Packaging Ecosystem -->
+                    <article class="bento-cell span-3 spot reveal-up">
+                        <div>
+                            <span class="mono-tag" style="color: var(--gold-bright);">04 // HIGH-YIELD EXTRACTION &amp; PACKAGING</span>
+                            <h3 style="margin-top: 0.4rem;">Ekstraksi Sari Maksimal &amp; Sablon Tahan Panas</h3>
+                            <p>
+                                Presisi kerapatan batu giling corundum menghasilkan ampas yang kering dalam sekali giling, dipadukan layanan plastik kemasan sablon PE/PP anti-luntur.
+                            </p>
+                        </div>
+
+                        <div class="mini-ui-panel" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;">
+                            <div style="padding: 0.65rem; border-radius: 8px; background: rgba(255,255,255,0.03); border: 1px solid var(--line-dark);">
+                                <span class="mono-tag" style="color: var(--fg-45); display: block;">HASIL PERASAN</span>
+                                <strong style="font-family: var(--font-display); font-size: 1.05rem; color: var(--gold-light);">Ampas Lebih Kering</strong>
+                            </div>
+                            <div style="padding: 0.65rem; border-radius: 8px; background: rgba(255,255,255,0.03); border: 1px solid var(--line-dark);">
+                                <span class="mono-tag" style="color: var(--fg-45); display: block;">TINTA SABLON PE</span>
+                                <strong style="font-family: var(--font-display); font-size: 1.05rem; color: #FFFFFF;">Tahan Kuah Panas</strong>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════════════════
+             6. WORKSHOP DOCUMENTATION & VERIFIED GOOGLE REVIEWS
+             ═══════════════════════════════════════════════════════════════════ -->
+        <section class="proof-section" id="testimoni">
+            <div class="container">
+                <div style="max-width: 680px; margin-bottom: 2.75rem;" class="reveal-up">
+                    <span class="eyebrow-pill light">BUKTI FABRIKASI &amp; ULASAN MITRA</span>
+                    <h2 class="section-heading">
+                        Dokumentasi Nyata &amp; <span class="wine-metal-text">Kepercayaan Pengrajin.</span>
+                    </h2>
+                    <p class="section-subcopy">
+                        Rekam jejak pengerjaan unit di workshop Bandung serta ulasan terverifikasi dari para pengusaha pabrik tahu dan kemasan di seluruh Indonesia.
+                    </p>
+                </div>
+
+                <!-- 3 Real Asset Documentation Tiles (Click to Zoom Lightbox) -->
+                <div class="showcase-grid reveal-up">
+                    <article class="showcase-tile" onclick="openLightbox('{{ asset('assets/hero_machine.jpg') }}', 'Perakitan Mesin Giling Kedelai &amp; Konstruksi Baja Presisi — Workshop Adam Jaya Bandung')">
+                        <img src="{{ asset('assets/hero_machine.jpg') }}" alt="Workshop Perakitan Mesin Adam Jaya Bandung" loading="lazy" width="400" height="250">
+                        <div class="showcase-caption">
+                            <span>DOKUMENTASI WORKSHOP // 01</span>
+                            <h3>Perakitan Mesin Giling &amp; Rangka Presisi</h3>
+                        </div>
+                    </article>
+
+                    <article class="showcase-tile" onclick="openLightbox('{{ asset('assets/hero_machine_packaging.jpg') }}', 'Lini Mesin Sealer Kemasan &amp; Produksi Plastik Sablon Tahan Panas')">
+                        <img src="{{ asset('assets/hero_machine_packaging.jpg') }}" alt="Mesin Pengemas dan Sablon Plastik Kemasan Adam Jaya" loading="lazy" width="400" height="250">
+                        <div class="showcase-caption">
+                            <span>SISTEM KEMASAN // 02</span>
+                            <h3>Integrasi Continuous Sealer &amp; Sablon PE</h3>
+                        </div>
+                    </article>
+
+                    <article class="showcase-tile" onclick="openLightbox('{{ asset('assets/hero_machine_perspective_transparent.png') }}', 'Detail Fabrikasi Corong &amp; Bejana Stainless Steel SUS 304 Food-Grade')">
+                        <img src="{{ asset('assets/hero_machine_perspective_transparent.png') }}" alt="Detail Fabrikasi Stainless SUS 304 Adam Jaya" loading="lazy" width="400" height="250" style="object-fit: contain; padding: 1.25rem; background: #090D16;">
+                        <div class="showcase-caption">
+                            <span>STANDAR MATERIAL // 03</span>
+                            <h3>Fabrikasi Las Argon Stainless SUS 304</h3>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Verified Google Review Scoreboard -->
+                <div class="google-proof-bar reveal-up">
+                    <div style="display: flex; align-items: center; gap: 1.1rem;">
+                        <div style="width: 52px; height: 52px; border-radius: 14px; background: var(--light-0); border: 1px solid var(--line-light); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: #4285F4;">
+                            <i class="fa-brands fa-google"></i>
+                        </div>
+                        <div>
+                            <div style="display: flex; align-items: center; gap: 0.6rem;">
+                                <strong style="font-family: var(--font-display); font-size: 1.75rem; font-weight: 800; line-height: 1;">4.9</strong>
+                                <div style="color: #D97706; font-size: 0.85rem;">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="mono-tag" style="color: #059669;">TERVERIFIKASI</span>
+                            </div>
+                            <p style="font-size: 0.84rem; color: var(--ink-60); margin-top: 0.2rem;">
+                                Berdasarkan <strong>4.211+ Ulasan Pengrajin Tahu &amp; Mitra Bengkel</strong> di Google Maps
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="https://maps.google.com/?q=Jl.+Aki+Padma+No.51,+Babakan,+Kec.+Babakan+Ciparay,+Kota+Bandung,+Jawa+Barat+40222" target="_blank" rel="noopener" class="btn-outline-tactile">
+                        <i class="fa-brands fa-google"></i>
+                        <span>Lihat Profil Google Maps</span>
+                    </a>
+                </div>
+
+                <!-- 3 Verified Review Cards -->
+                <div class="reviews-grid">
+                    <article class="review-card reveal-up">
+                        <div>
+                            <div class="review-stars" aria-label="Bintang 5">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="review-quote">
+                                “Mesin gilingan dan tahang stainless dari Adam Jaya luar biasa presisi. Kapasitas 400 kg kedelai per hari selesai 3 jam lebih cepat, ampasnya kering dan hasil tahu lebih kenyal. Layanan servis darurat malam hari benar-benar standby.”
+                            </p>
+                        </div>
+                        <div class="review-author">
+                            <div class="review-avatar">BS</div>
+                            <div>
+                                <strong style="font-family: var(--font-display); font-size: 0.92rem; display: block;">Budi Santoso <i class="fa-solid fa-circle-check" style="color: #059669; font-size: 0.78rem;"></i></strong>
+                                <span style="font-size: 0.78rem; color: var(--ink-60);">Pemilik Pabrik Tahu Lestari Jaya &bull; Bandung</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="review-card reveal-up">
+                        <div>
+                            <div class="review-stars" aria-label="Bintang 5">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="review-quote">
+                                “Pesan sablon plastik PE &amp; continuous band sealer untuk kemasan tahu sutra. Tinta sablonnya tidak luntur kena kuah panas dan mesin sealer rekat rapat anti bocor. Garapan workshop sangat profesional dan tepat waktu.”
+                            </p>
+                        </div>
+                        <div class="review-author">
+                            <div class="review-avatar" style="background: var(--wine);">RH</div>
+                            <div>
+                                <strong style="font-family: var(--font-display); font-size: 0.92rem; display: block;">Rian Hidayat <i class="fa-solid fa-circle-check" style="color: #059669; font-size: 0.78rem;"></i></strong>
+                                <span style="font-size: 0.78rem; color: var(--ink-60);">Usaha Kemasan Plastik Prima &bull; Cimahi</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="review-card reveal-up">
+                        <div>
+                            <div class="review-stars" aria-label="Bintang 5">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="review-quote">
+                                “Ketel boiler uap buatan Adam Jaya sangat efisien hemat kayu bakar &amp; gas. Batu gilingan corundum grade A putarannya seimbang tanpa getaran bising. Harga bengkel tangan pertama sangat transparan dan bergaransi.”
+                            </p>
+                        </div>
+                        <div class="review-author">
+                            <div class="review-avatar" style="background: #162C4E;">DK</div>
+                            <div>
+                                <strong style="font-family: var(--font-display); font-size: 0.92rem; display: block;">Bpk. Dadang Kusnadi <i class="fa-solid fa-circle-check" style="color: #059669; font-size: 0.78rem;"></i></strong>
+                                <span style="font-size: 0.78rem; color: var(--ink-60);">Pengrajin Tahu Sumedang Mandiri &bull; Sumedang</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════════════════════
+             7. 2-COLUMN STICKY FAQ ACCORDION (premium-saas-web shared/components.md)
+             ═══════════════════════════════════════════════════════════════════ -->
+        <section class="faq-section" id="faq">
+            <div class="container faq-split-layout">
+                <!-- Left Sticky Column -->
+                <div class="faq-sticky-left reveal-up">
+                    <span class="eyebrow-pill light">INFORMASI PEMESANAN &amp; TEKNIS</span>
+                    <h2 class="section-heading">
+                        Pertanyaan Umum <span class="dim-light">Seputar Pabrikasi.</span>
+                    </h2>
+                    <p class="section-subcopy">
+                        Jawaban transparan mengenai kustomisasi ukuran mesin, pengiriman kargo luar pulau, hingga jaminan ketersediaan suku cadang.
                     </p>
 
-                    <!-- 3 Benefit Highlight Cards (Staggered) -->
-                    <div class="hero-benefits-trio">
-                        <div class="benefit-card-mini story-reveal delay-4">
-                            <div class="benefit-icon-box">
-                                <i class="fa-solid fa-shield-halved"></i>
-                            </div>
-                            <div class="benefit-text-box">
-                                <strong>Food-Grade</strong>
-                                <span>SUS 304</span>
-                            </div>
-                        </div>
-
-                        <div class="benefit-card-mini story-reveal delay-5">
-                            <div class="benefit-icon-box">
-                                <i class="fa-solid fa-clock-rotate-left"></i>
-                            </div>
-                            <div class="benefit-text-box">
-                                <strong>Servis Darurat</strong>
-                                <span>24 Jam</span>
-                            </div>
-                        </div>
-
-                        <div class="benefit-card-mini story-reveal delay-6">
-                            <div class="benefit-icon-box">
-                                <i class="fa-solid fa-award"></i>
-                            </div>
-                            <div class="benefit-text-box">
-                                <strong>Garansi</strong>
-                                <span>Bengkel Resmi</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Primary Action Buttons -->
-                    <div class="hero-cta-group story-reveal delay-7">
-                        <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20saya%20ingin%20konsultasi%20pemesanan%20mesin%20dan%20peralatan%20tahu" target="_blank" class="btn-hero-primary">
+                    <div class="faq-support-card">
+                        <span class="mono-tag" style="color: var(--wine);">BUTUH SPESIFIKASI KHUSUS?</span>
+                        <h3 style="font-family: var(--font-display); font-size: 1.05rem; margin: 0.35rem 0 0.5rem;">Konsultasi Langsung Kepala Mekanik</h3>
+                        <p style="font-size: 0.85rem; color: var(--ink-60); margin-bottom: 1rem;">
+                            Tim teknis kami siap menghitung kapasitas peralatan paling efisien sesuai target produksi harian Anda.
+                        </p>
+                        <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20saya%20ingin%20konsultasi%20ukuran%20mesin%20custom" target="_blank" rel="noopener" class="btn-wine-tactile" style="width: 100%;">
                             <i class="fa-brands fa-whatsapp"></i>
-                            <span>Konsultasi Mesin via WA</span>
-                        </a>
-                        <a href="#katalog-stok" class="btn-hero-secondary">
-                            <i class="fa-solid fa-layer-group"></i>
-                            <span>Lihat Master Katalog</span>
+                            <span>Hubungi 0812-2160-1558</span>
                         </a>
                     </div>
                 </div>
 
-                <!-- RIGHT COLUMN: Transparent Machine Focal Point (Slide-in from Right) -->
-                <div class="hero-center-visual">
-                    <div class="machine-stage-wrap story-slide-right delay-3">
-                        <div class="machine-backdrop-glow"></div>
-                        <img src="{{ asset('assets/hero_machine_transparent.png') }}" alt="Mesin Manufaktur &amp; Pabrikasi Adam Jaya Enterprise" class="hero-machine-img" id="heroMachineImg">
-                        <div class="machine-floor-shadow"></div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- BOTTOM: Integrated Statistics Glass Bar (Scale Up) -->
-            <div class="hero-stats-integrated story-scale-up delay-6">
-                <div class="hero-stats-glass-card">
-                    <div class="hero-stat-cell">
-                        <div class="hero-stat-icon-sq"><i class="fa-solid fa-calendar-check"></i></div>
-                        <div class="hero-stat-info">
-                            <span class="hero-stat-value">24+</span>
-                            <span class="hero-stat-name">Tahun Dedikasi</span>
-                        </div>
-                    </div>
-
-                    <div class="hero-stat-cell">
-                        <div class="hero-stat-icon-sq"><i class="fa-solid fa-gears"></i></div>
-                        <div class="hero-stat-info">
-                            <span class="hero-stat-value">4.200+</span>
-                            <span class="hero-stat-name">Unit Terdistribusi</span>
-                        </div>
-                    </div>
-
-                    <div class="hero-stat-cell">
-                        <div class="hero-stat-icon-sq"><i class="fa-solid fa-shield-halved"></i></div>
-                        <div class="hero-stat-info">
-                            <span class="hero-stat-value">100%</span>
-                            <span class="hero-stat-name">Food-Grade SUS 304</span>
-                        </div>
-                    </div>
-
-                    <div class="hero-stat-cell">
-                        <div class="hero-stat-icon-sq"><i class="fa-solid fa-headset"></i></div>
-                        <div class="hero-stat-info">
-                            <span class="hero-stat-value">24 Jam</span>
-                            <span class="hero-stat-name">Layanan &amp; Servis</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- ═══ TRUSTED BY ENTERPRISE PARTNERS RIBBON ═══ -->
-        <div class="trusted-by-section story-reveal delay-2" id="trustedSection">
-            <div class="container">
-                <div class="trusted-header">
-                    <span class="trusted-pill-tag"><i class="fa-solid fa-building-circle-check"></i> DIPERCAYA MITRA INDUSTRI</span>
-                    <h3 class="trusted-title">Dipercaya oleh <span class="gold-gradient-text">4.200+ Pelaku Industri &amp; Pabrik Tahu</span> Terkemuka</h3>
-                </div>
-            </div>
-
-            <!-- Slider / Carousel Wrapper -->
-            <div class="trusted-slider-wrapper" id="trustedSliderWrapper">
-                <div class="trusted-logos-grid" id="trustedTrack">
-                        <!-- Logo 1: Tahu Yun Sen -->
-                        <div class="trusted-logo-card active" data-index="0">
-                            <div class="trusted-card-top-tags">
-                                <span class="trusted-top-pill"><i class="fa-solid fa-award"></i> Sentra Kuliner</span>
-                                <span class="trusted-top-loc"><i class="fa-solid fa-location-dot"></i> Kota Bandung</span>
-                            </div>
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-award"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">TAHU YUN SEN</span>
-                                    <span class="trusted-logo-desc">Sentra Kuliner Bandung (Est. 1938)</span>
-                                </div>
-                            </div>
-                            <div class="trusted-card-bottom-info">
-                                <span class="trusted-sector-label">Sektor:</span>
-                                <span class="trusted-sector-tag">Sentra Legendaris</span>
-                            </div>
-                        </div>
-
-                        <!-- Logo 2: Tahu Susu Lembang -->
-                        <div class="trusted-logo-card" data-index="1">
-                            <div class="trusted-card-top-tags">
-                                <span class="trusted-top-pill"><i class="fa-solid fa-fire"></i> Ikon Kuliner</span>
-                                <span class="trusted-top-loc"><i class="fa-solid fa-location-dot"></i> Lembang, Jabar</span>
-                            </div>
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-mountain-sun"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">TAHU SUSU LEMBANG</span>
-                                    <span class="trusted-logo-desc">Sentra Ikonik Jawa Barat</span>
-                                </div>
-                            </div>
-                            <div class="trusted-card-bottom-info">
-                                <span class="trusted-sector-label">Sektor:</span>
-                                <span class="trusted-sector-tag">Pariwisata &amp; Oleh-oleh</span>
-                            </div>
-                        </div>
-
-                        <!-- Logo 3: Pabrik Tahu Lestari Jaya -->
-                        <div class="trusted-logo-card" data-index="2">
-                            <div class="trusted-card-top-tags">
-                                <span class="trusted-top-pill"><i class="fa-solid fa-industry"></i> Pabrikasi</span>
-                                <span class="trusted-top-loc"><i class="fa-solid fa-location-dot"></i> Babakan, Bdg</span>
-                            </div>
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-industry"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">TAHU LESTARI JAYA</span>
-                                    <span class="trusted-logo-desc">Pabrikasi Kapasitas 500kg/Hari</span>
-                                </div>
-                            </div>
-                            <div class="trusted-card-bottom-info">
-                                <span class="trusted-sector-label">Sektor:</span>
-                                <span class="trusted-sector-tag">Manufaktur Pangan</span>
-                            </div>
-                        </div>
-
-                        <!-- Logo 4: Tahu Sutra Sumedang Mandiri -->
-                        <div class="trusted-logo-card" data-index="3">
-                            <div class="trusted-card-top-tags">
-                                <span class="trusted-top-pill"><i class="fa-solid fa-fire-burner"></i> Produksi Gurih</span>
-                                <span class="trusted-top-loc"><i class="fa-solid fa-location-dot"></i> Sumedang</span>
-                            </div>
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-fire-burner"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">SUMEDANG MANDIRI</span>
-                                    <span class="trusted-logo-desc">Produsen Tahu Kuning Gurih</span>
-                                </div>
-                            </div>
-                            <div class="trusted-card-bottom-info">
-                                <span class="trusted-sector-label">Sektor:</span>
-                                <span class="trusted-sector-tag">UMKM Unggulan</span>
-                            </div>
-                        </div>
-
-                        <!-- Logo 5: Sentosa Makmur Kedelai -->
-                        <div class="trusted-logo-card" data-index="4">
-                            <div class="trusted-card-top-tags">
-                                <span class="trusted-top-pill"><i class="fa-solid fa-seedling"></i> Bahan Baku</span>
-                                <span class="trusted-top-loc"><i class="fa-solid fa-location-dot"></i> Jawa Barat</span>
-                            </div>
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-seedling"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">SENTOSA KEDELAI</span>
-                                    <span class="trusted-logo-desc">Distributor Kedelai Premium</span>
-                                </div>
-                            </div>
-                            <div class="trusted-card-bottom-info">
-                                <span class="trusted-sector-label">Sektor:</span>
-                                <span class="trusted-sector-tag">Rantai Pasok Pangan</span>
-                            </div>
-                        </div>
-
-                        <!-- Logo 6: Prima Kemasan Plastik -->
-                        <div class="trusted-logo-card" data-index="5">
-                            <div class="trusted-card-top-tags">
-                                <span class="trusted-top-pill"><i class="fa-solid fa-box-open"></i> Packaging</span>
-                                <span class="trusted-top-loc"><i class="fa-solid fa-location-dot"></i> Cimahi</span>
-                            </div>
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-box-open"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">PRIMA PACKAGING</span>
-                                    <span class="trusted-logo-desc">Industri Kemasan Food-Grade</span>
-                                </div>
-                            </div>
-                            <div class="trusted-card-bottom-info">
-                                <span class="trusted-sector-label">Sektor:</span>
-                                <span class="trusted-sector-tag">Kemasan &amp; Sablon</span>
-                            </div>
-                        </div>
-
-                        <!-- Logo 7: Berkah Abadi Food Indo -->
-                        <div class="trusted-logo-card" data-index="6">
-                            <div class="trusted-card-top-tags">
-                                <span class="trusted-top-pill"><i class="fa-solid fa-shield-halved"></i> Food-Grade</span>
-                                <span class="trusted-top-loc"><i class="fa-solid fa-location-dot"></i> Bandung</span>
-                            </div>
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-shield-halved"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">BERKAH FOOD INDO</span>
-                                    <span class="trusted-logo-desc">Pengolahan Kedelai Modern</span>
-                                </div>
-                            </div>
-                            <div class="trusted-card-bottom-info">
-                                <span class="trusted-sector-label">Sektor:</span>
-                                <span class="trusted-sector-tag">Pabrik Semi-Otomatis</span>
-                            </div>
-                        </div>
-
-                        <!-- Logo 8: Karya Tahu Nusantara -->
-                        <div class="trusted-logo-card" data-index="7">
-                            <div class="trusted-card-top-tags">
-                                <span class="trusted-top-pill"><i class="fa-solid fa-truck-fast"></i> Distribusi</span>
-                                <span class="trusted-top-loc"><i class="fa-solid fa-location-dot"></i> Nasional</span>
-                            </div>
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-truck-fast"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">KARYA NUSANTARA</span>
-                                    <span class="trusted-logo-desc">Jaringan Distribusi Tahu</span>
-                                </div>
-                            </div>
-                            <div class="trusted-card-bottom-info">
-                                <span class="trusted-sector-label">Sektor:</span>
-                                <span class="trusted-sector-tag">Distribusi &amp; Logistik</span>
-                            </div>
-                        </div>
-
-                        <!-- Duplicate Clones for Continuous Desktop Marquee (Hidden on Mobile) -->
-                        <div class="trusted-logo-card trusted-clone" aria-hidden="true">
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-award"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">TAHU YUN SEN</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trusted-logo-card trusted-clone" aria-hidden="true">
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-mountain-sun"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">TAHU SUSU LEMBANG</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trusted-logo-card trusted-clone" aria-hidden="true">
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-industry"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">TAHU LESTARI JAYA</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trusted-logo-card trusted-clone" aria-hidden="true">
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-fire-burner"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">SUMEDANG MANDIRI</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trusted-logo-card trusted-clone" aria-hidden="true">
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-seedling"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">SENTOSA KEDELAI</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trusted-logo-card trusted-clone" aria-hidden="true">
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-box-open"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">PRIMA PACKAGING</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trusted-logo-card trusted-clone" aria-hidden="true">
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-shield-halved"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">BERKAH FOOD INDO</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trusted-logo-card trusted-clone" aria-hidden="true">
-                            <div class="trusted-card-main-content">
-                                <div class="trusted-logo-emblem"><i class="fa-solid fa-truck-fast"></i></div>
-                                <div class="trusted-logo-info">
-                                    <span class="trusted-logo-name">KARYA NUSANTARA</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Mobile Navigation Controls (Arrows + Pagination Dots) -->
-                    <div class="trusted-carousel-nav" id="trustedCarouselNav">
-                        <button class="trusted-nav-btn trusted-btn-prev" onclick="moveTrustedCarousel(-1)" aria-label="Mitra Sebelumnya">
-                            <i class="fa-solid fa-chevron-left"></i>
+                <!-- Right Accordion Column (grid-template-rows: 0fr -> 1fr) -->
+                <div class="faq-accordion-list reveal-up">
+                    <div class="faq-row active">
+                        <button type="button" class="faq-trigger" onclick="toggleFaqRow(this)" aria-expanded="true">
+                            <span>Apakah bisa memesan mesin atau tahang dengan ukuran spesifikasi custom?</span>
+                            <span class="faq-plus-circle" aria-hidden="true">&minus;</span>
                         </button>
-                        <div class="trusted-carousel-dots" id="trustedDots"></div>
-                        <button class="trusted-nav-btn trusted-btn-next" onclick="moveTrustedCarousel(1)" aria-label="Mitra Selanjutnya">
-                            <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-grid-body">
+                            <div class="faq-body-inner">
+                                <p>Ya, sangat bisa. Karena kami adalah produsen langsung dengan bengkel manufaktur spesialis di Bandung, Anda dapat memesan tahang stainless, mesin giling kedelai, cetakan press tahu, atau ketel boiler dengan dimensi, ketebalan plat SUS 304, maupun kapasitas daya dinamo sesuai kebutuhan pabrik Anda.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-row">
+                        <button type="button" class="faq-trigger" onclick="toggleFaqRow(this)" aria-expanded="false">
+                            <span>Bagaimana sistem pengiriman mesin ke luar Bandung atau luar pulau?</span>
+                            <span class="faq-plus-circle" aria-hidden="true">+</span>
                         </button>
-                    </div>
-                </div>
-        </div>
-
-        <!-- Wave into Next Section -->
-        <div class="hero-wave-divider" style="background:#380812;">
-            <svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0,20 C320,55 640,5 960,35 C1200,52 1360,18 1440,70 L0,70 Z" fill="#F8FAFC"></path>
-            </svg>
-        </div>
-    </section>
-
-    <!-- ═══ 5. MASTER KATALOG & REAL-TIME STOCK FILTER (4 COLUMNS) ═══ -->
-    <section class="section" id="katalog-stok">
-        <div class="container">
-            <div class="section-head">
-                <h2 class="section-title story-reveal delay-2">Master Inventaris &amp; <span class="wine-gold-gradient-text">Katalog Mesin Presisi</span></h2>
-                <p class="section-desc story-reveal delay-3">Peralatan pengolah kedelai, mesin giling presisi, tahang stainless SUS 304, sparepart original, hingga plastik kemasan sablon terdaftar resmi langsung tangan pertama bengkel Adam Jaya.</p>
-            </div>
-
-            <!-- 3D Executive Command Deck: Search Bar + Sorting + Category Filters -->
-            <div class="catalog-command-deck story-reveal delay-3">
-                <div class="command-deck-top">
-                    <!-- Live Search Bar -->
-                    <div class="catalog-search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" id="catalogSearchInput" placeholder="🔍 Cari mesin atau produk..." oninput="handleLiveSearch()">
-                    </div>
-
-                    <!-- Sorting Dropdown -->
-                    <div class="catalog-sort-wrap">
-                        <span class="sort-label"><i class="fa-solid fa-arrow-down-short-wide"></i> Urutkan:</span>
-                        <select id="catalogSortSelect" class="sort-select" onchange="handleCatalogSort()">
-                            <option value="rekomendasi">Rekomendasi</option>
-                            <option value="harga-asc">Harga Terendah</option>
-                            <option value="harga-desc">Harga Tertinggi</option>
-                            <option value="terbaru">Terbaru</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="deck-divider"></div>
-
-                <!-- Category Filters (Semua, Mesin Plastik, Mesin Kemasan, Mesin Tahu, Sparepart, Lainnya) -->
-                <div class="catalog-filters">
-                    <button class="filter-btn active" data-filter="all" onclick="filterCatalog('all', this)">
-                        <i class="fa-solid fa-layer-group"></i> Semua <span class="filter-count" id="countAll">{{ count($products) }}</span>
-                    </button>
-                    <button class="filter-btn" data-filter="mesin-tahu" onclick="filterCatalog('mesin-tahu', this)">
-                        <i class="fa-solid fa-gears"></i> Mesin Tahu <span class="filter-count" id="countTahu">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'mesin-tahu')) }}</span>
-                    </button>
-                    <button class="filter-btn" data-filter="mesin-plastik" onclick="filterCatalog('mesin-plastik', this)">
-                        <i class="fa-solid fa-boxes-packing"></i> Plastik Sablon <span class="filter-count" id="countPlastik">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'mesin-plastik')) }}</span>
-                    </button>
-                    <button class="filter-btn" data-filter="mesin-kemasan" onclick="filterCatalog('mesin-kemasan', this)">
-                        <i class="fa-solid fa-box-archive"></i> Kemasan &amp; Packing <span class="filter-count" id="countKemasan">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'mesin-kemasan')) }}</span>
-                    </button>
-                    <button class="filter-btn" data-filter="sparepart" onclick="filterCatalog('sparepart', this)">
-                        <i class="fa-solid fa-screwdriver-wrench"></i> Peralatan &amp; Sparepart <span class="filter-count" id="countSparepart">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'sparepart')) }}</span>
-                    </button>
-                    <button class="filter-btn" data-filter="lainnya" onclick="filterCatalog('lainnya', this)">
-                        <i class="fa-solid fa-boxes-stacked"></i> Lainnya <span class="filter-count" id="countLainnya">{{ count(array_filter($products, fn($p) => ($p['category'] ?? '') === 'lainnya')) }}</span>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Products Grid (4 COLUMNS) Dynamic Master Database Loop -->
-            <div class="products-grid" id="catalogGrid">
-                @foreach($products as $index => $item)
-                    @php
-                        $variantsCount = count($item['variants'] ?? []);
-                        $hasImg = !empty($item['gambar']) && file_exists(public_path($item['gambar']));
-                        $imgSrc = $hasImg ? asset($item['gambar']) : null;
-                        $priceDisplay = 'Hubungi CS';
-                        $rawPrice = $item['min_price'] ?? 0;
-
-                        if (!empty($item['min_price']) && $item['min_price'] > 0) {
-                            if ($item['min_price'] == $item['max_price']) {
-                                $unit = $item['variants'][0]['satuan'] ?? 'unit';
-                                $priceDisplay = 'Rp ' . number_format($item['min_price'], 0, ',', '.') . ($unit === 'kg' ? ' / kg' : '');
-                            } else {
-                                $priceDisplay = 'Rp ' . number_format($item['min_price'], 0, ',', '.') . ' - Rp ' . number_format($item['max_price'], 0, ',', '.');
-                            }
-                        }
-                    @endphp
-                    <div class="product-card story-scale-up" 
-                         data-cat="{{ $item['category'] ?? 'lainnya' }}" 
-                         data-name="{{ $item['nama_barang'] }}" 
-                         data-id="{{ $item['id'] }}" 
-                         data-price="{{ $rawPrice }}" 
-                         data-order="{{ $index + 1 }}">
-                        <div class="product-img-wrap">
-                            @if($hasImg)
-                                <img src="{{ $imgSrc }}" alt="{{ $item['nama_barang'] }}" loading="lazy">
-                            @else
-                                <div class="product-placeholder-box">
-                                    <i class="fa-solid {{ ($item['category'] ?? '') === 'mesin-plastik' ? 'fa-boxes-packing' : (($item['category'] ?? '') === 'mesin-tahu' ? 'fa-gears' : 'fa-wrench') }}"></i>
-                                    <span>{{ $item['category_label'] ?? 'Peralatan Pabrik' }}</span>
-                                </div>
-                            @endif
-                            <div class="product-gradient-overlay"></div>
-                            <span class="product-badge-verified"><i class="fa-solid fa-circle-check"></i> Asli Bengkel</span>
-                            <span class="product-status-pill {{ $variantsCount > 1 ? 'status-blue' : '' }}">
-                                {{ $variantsCount > 1 ? $variantsCount . ' Varian' : 'TERSEDIA 🟢' }}
-                            </span>
-                            <div class="quick-view-overlay">
-                                <button class="btn-quick-view" onclick="showCatalogProductModal({{ $item['id'] }})">
-                                    <i class="fa-solid fa-eye"></i> Lihat Detail →
-                                </button>
-                            </div>
-                        </div>
-                        <div class="product-body">
-                            <div class="product-meta-row">
-                                <span class="product-cat">{{ $item['category_label'] ?? 'Perlengkapan' }}</span>
-                                <div class="product-rating"><i class="fa-solid fa-star"></i> 4.9 <span class="rating-count">(Teruji)</span></div>
-                            </div>
-                            <h3>{{ $item['nama_barang'] }}</h3>
-                            <p>
-                                @if(!empty($item['variants']))
-                                    Varian: {{ implode(', ', array_slice(array_column($item['variants'], 'nama_jenis'), 0, 3)) }}{{ count($item['variants']) > 3 ? '...' : '' }}
-                                @else
-                                    Peralatan standar bengkel manufaktur Adam Jaya.
-                                @endif
-                            </p>
-                            
-                            <!-- Floating Price Box -->
-                            <div class="product-price-box">
-                                <span class="price-label">{{ !empty($item['min_price']) && $item['min_price'] > 0 && $item['min_price'] != $item['max_price'] ? 'Rentang Harga' : 'Mulai dari' }}</span>
-                                <span class="price-amount">{{ $priceDisplay }}</span>
-                            </div>
-
-                            <div class="product-specs">
-                                <span class="spec-tag"><i class="fa-solid fa-layer-group"></i> {{ $variantsCount }} Pilihan Varian</span>
-                                <span class="spec-tag"><i class="fa-solid fa-shield-halved"></i> Tangan Pertama</span>
-                            </div>
-                            <div class="product-footer">
-                                <button class="btn btn-outline btn-sm" onclick="showCatalogProductModal({{ $item['id'] }})">
-                                    <i class="fa-solid fa-circle-info"></i> Detail
-                                </button>
-                                <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20saya%20tanya%20stok%20{{ urlencode($item['nama_barang']) }}" target="_blank" class="btn btn-wine btn-sm">
-                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                                </a>
+                        <div class="faq-grid-body">
+                            <div class="faq-body-inner">
+                                <p>Kami melayani pengiriman ke seluruh wilayah Jawa Barat, Pulau Jawa, Sumatera, Kalimantan, Sulawesi, hingga kawasan timur Indonesia menggunakan ekspedisi kargo terpercaya dengan pengemasan rangka palet kayu kokoh tahan guncangan.</p>
                             </div>
                         </div>
                     </div>
-                @endforeach
-            </div>
 
-            <!-- Empty State If Search Nothing -->
-            <div class="catalog-empty" id="catalogEmptyState">
-                <i class="fa-solid fa-box-open"></i>
-                <h3>Barang Tidak Ditemukan</h3>
-                <p>Tidak ada produk yang cocok dengan filter atau kata kunci pencarian Anda. Kami juga menerima pesanan mesin dan perlengkapan custom khusus.</p>
-                <button class="btn btn-wine btn-md" style="margin-top:1rem;" onclick="resetCatalogSearch()">
-                    <i class="fa-solid fa-rotate-left"></i> Tampilkan Semua Barang
-                </button>
-            </div>
-
-            <!-- Load More Controls (Initial 8 items with smooth pagination) -->
-            <div class="catalog-load-more-wrap" id="catalogLoadMoreWrap" style="text-align:center; margin-top:2.5rem;">
-                <button class="btn btn-wine btn-md" id="btnLoadMore" onclick="loadMoreCatalog()" style="padding:0.75rem 2.2rem; box-shadow:0 10px 25px rgba(122,30,51,0.25);">
-                    <i class="fa-solid fa-layer-group"></i> <span>Tampilkan Produk Lainnya</span> (<span id="loadMoreCountBadge">+8</span>)
-                </button>
-                <div id="catalogAllLoadedText" style="display:none; font-family:var(--font-head); font-size:0.85rem; font-weight:700; color:var(--ink-muted); margin-top:1rem;">
-                    <i class="fa-solid fa-circle-check" style="color:#10B981;"></i> Seluruh <span id="totalVisibleBadge">0</span> produk pada kategori ini telah ditampilkan.
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-
-    <!-- ═══ 7. SECTION KENAPA MEMILIH ADAM JAYA (VISUAL ARCHITECTURE & ANIMATED STATS) ═══ -->
-    <section class="section section-alt why-section-wrapper" id="keunggulan">
-        <div class="container">
-            <div class="section-head">
-                <h2 class="section-title story-reveal delay-2">Kenapa Memilih <span class="wine-gold-gradient-text">Bengkel Adam Jaya?</span></h2>
-                <p class="section-desc story-reveal delay-3">Produsen manufaktur peralatan pengolah kedelai tangan pertama di Bandung dengan rekam jejak teruji puluhan tahun dan komitmen total pada kelancaran operasional mitra.</p>
-            </div>
-
-            <!-- 1. ANIMATED STATISTICS COUNT-UP RIBBON (TRIGGERS ON VIEWPORT ENTRY) -->
-            <div class="why-stats-ribbon story-reveal delay-2" id="whyStatsRibbon">
-                <div class="why-stat-box">
-                    <div class="why-stat-icon">
-                        <i class="fa-solid fa-calendar-check"></i>
+                    <div class="faq-row">
+                        <button type="button" class="faq-trigger" onclick="toggleFaqRow(this)" aria-expanded="false">
+                            <span>Apakah tersedia suku cadang presisi dan garansi servis resmi?</span>
+                            <span class="faq-plus-circle" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-grid-body">
+                            <div class="faq-body-inner">
+                                <p>Semua mesin rakitan PT Adam Jaya Enterprise dilengkapi garansi servis resmi. Suku cadang habis pakai seperti batu gilingan corundum, vanbelt, puli transmisi, bearing, kran kuningan/stainless, serta kain peresan selalu ready stock di workshop kami.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="why-stat-info">
-                        <span class="why-stat-number stat-counter" data-target="24" data-suffix="+">0+</span>
-                        <span class="why-stat-label">Tahun Pengalaman</span>
-                        <span class="why-stat-desc">Spesialisasi manufaktur mesin tahu</span>
-                    </div>
-                </div>
 
-                <div class="why-stat-box">
-                    <div class="why-stat-icon">
-                        <i class="fa-solid fa-gears"></i>
+                    <div class="faq-row">
+                        <button type="button" class="faq-trigger" onclick="toggleFaqRow(this)" aria-expanded="false">
+                            <span>Berapa lama estimasi fabrikasi untuk pesanan ketel uap atau sablon plastik?</span>
+                            <span class="faq-plus-circle" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-grid-body">
+                            <div class="faq-body-inner">
+                                <p>Untuk unit dan suku cadang ready stock dapat dikirim pada hari yang sama. Untuk fabrikasi custom atau pencetakan sablon plastik kemasan bermerek, waktu pengerjaan berkisar 3–10 hari kerja tergantung spesifikasi dan volume pesanan.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="why-stat-info">
-                        <span class="why-stat-number stat-counter" data-target="4200" data-suffix="+" data-format="thousand">0+</span>
-                        <span class="why-stat-label">Unit Mesin Terpasang</span>
-                        <span class="why-stat-desc">Dipercaya pabrik seluruh Nusantara</span>
-                    </div>
-                </div>
 
-                <div class="why-stat-box">
-                    <div class="why-stat-icon">
-                        <i class="fa-solid fa-shield-halved"></i>
-                    </div>
-                    <div class="why-stat-info">
-                        <span class="why-stat-number stat-counter" data-target="100" data-suffix="%">0%</span>
-                        <span class="why-stat-label">SUS 304 Food-Grade</span>
-                        <span class="why-stat-desc">Higienis &amp; tahan korosi asam</span>
-                    </div>
-                </div>
-
-                <div class="why-stat-box">
-                    <div class="why-stat-icon">
-                        <i class="fa-solid fa-headset"></i>
-                    </div>
-                    <div class="why-stat-info">
-                        <span class="why-stat-number stat-counter" data-target="24" data-suffix="/7">0/7</span>
-                        <span class="why-stat-label">Respon Teknisi Darurat</span>
-                        <span class="why-stat-desc">Mekanik standby nonstop</span>
+                    <div class="faq-row">
+                        <button type="button" class="faq-trigger" onclick="toggleFaqRow(this)" aria-expanded="false">
+                            <span>Kapan jam operasional kunjungan ke workshop Adam Jaya Bandung?</span>
+                            <span class="faq-plus-circle" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-grid-body">
+                            <div class="faq-body-inner">
+                                <p>Workshop bengkel manufaktur kami buka setiap hari Senin sampai Jumat pukul 07.00 pagi hingga 18.00 sore WIB di Jl. Aki Padma No. 51, Babakan Ciparay, Kota Bandung. Hari Sabtu &amp; Minggu melayani kunjungan melalui janji temu, dan hotline teknis tetap siaga 24 jam.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- 2. CENTERPIECE VISUAL ARCHITECTURE BLUEPRINT -->
-            <div class="why-hub-architecture story-scale-up delay-3">
-                
-                <!-- MIDDLE CORE MATRIX: FACTORY DIRECT + CENTER EMBLEM + 24/7 SUPPORT -->
-                <div class="why-middle-core-grid">
-                    
-                    <!-- LEFT FLANK: Factory Direct Card -->
-                    <div class="why-pillar-card">
-                        <div class="why-pillar-header">
-                            <div class="why-pillar-icon">
-                                <i class="fa-solid fa-industry"></i>
-                            </div>
-                            <h3>Factory Direct Manufaktur</h3>
-                        </div>
-                        <p>Produsen langsung tangan pertama dari bengkel resmi kami di Babakan Bandung — tanpa perantara, bebas markup toko, dan bisa custom ukuran sesuai kapasitas produksi.</p>
-                        <div class="why-pillar-list">
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Harga langsung produsen tangan pertama</div>
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Custom kapasitas giling &amp; dimensi alat</div>
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Pengelasan argon rapi dan halus</div>
-                        </div>
-                    </div>
-
-                    <!-- CENTER NODE: ADAM JAYA ENTERPRISE EMBLEM -->
-                    <div class="why-center-emblem-node">
-                        <div class="why-emblem-logo-box">
-                            <img src="{{ asset('assets/adamjaya.png') }}" alt="Adam Jaya Enterprise">
-                        </div>
-                        <h4>ADAM JAYA</h4>
-                        <span>ENTERPRISE</span>
-                        <p class="why-center-tagline">Pusat Rekayasa Mesin Pengolah Kedelai &amp; Peralatan Tahu Presisi Tinggi</p>
-                        <div style="margin-top:0.8rem;">
-                            <span class="why-trust-pill" style="font-size:0.68rem; padding:0.25rem 0.65rem;">
-                                <i class="fa-solid fa-certificate"></i> Bengkel Resmi Bandung
-                            </span>
-                        </div>
-                    </div>
-
-                    <!-- RIGHT FLANK: 24/7 Lifetime Support Card -->
-                    <div class="why-pillar-card">
-                        <div class="why-pillar-header">
-                            <div class="why-pillar-icon">
-                                <i class="fa-solid fa-clock-rotate-left"></i>
-                            </div>
-                            <h3>24/7 Support &amp; Mekanik Siaga</h3>
-                        </div>
-                        <p>Pabrik tahu beroperasi dini hari dan malam hari. Teknisi kami siap siaga membantu kendala mesin mendadak serta jaminan ketersediaan suku cadang asli selalu ready stock.</p>
-                        <div class="why-pillar-list">
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Layanan teknisi darurat 24 jam nonstop</div>
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Sparepart asli (batu, dinamo, tahang) ready</div>
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Konsultasi teknis &amp; setting mesin gratis</div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- BOTTOM DUO GRID: SUS 304 + ZERO VIBRATION QC -->
-                <div class="why-bottom-duo-grid">
-                    <div class="why-pillar-card">
-                        <div class="why-pillar-header">
-                            <div class="why-pillar-icon" style="background:rgba(16, 185, 129, 0.1); color:#10B981;">
-                                <i class="fa-solid fa-shield-virus"></i>
-                            </div>
-                            <h3>100% Baja Stainless SUS 304 Food-Grade</h3>
-                        </div>
-                        <p>Material higienis standar industri pangan internasional. Tahan asam cuka pengental tahu, anti-korosi seumur hidup, dan menjaga kemurnian rasa tahu tanpa residu logam.</p>
-                    </div>
-
-                    <div class="why-pillar-card">
-                        <div class="why-pillar-header">
-                            <div class="why-pillar-icon" style="background:rgba(201, 151, 62, 0.15); color:var(--gold-dark);">
-                                <i class="fa-solid fa-compass-drafting"></i>
-                            </div>
-                            <h3>Zero-Vibration Dynamic Balancing QC</h3>
-                        </div>
-                        <p>Setiap unit mesin melalui uji putaran dinamis dan kalibrasi batu gilingan untuk memastikan putaran stabil bebas getaran bising serta umur bearing motor lebih panjang.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Wave into Dark Proyek Section -->
-    <div class="section-wave-bottom" style="background:#FAF8F5;">
-        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,20 C360,52 720,8 1080,38 C1260,50 1380,20 1440,25 L1440,60 L0,60 Z" fill="#380812"></path>
-        </svg>
-    </div>
-
-    <!-- ═══ 8. SECTION FABRIKASI & PROSES WORKSHOP ═══ -->
-    <section class="section section-dark" id="proyek">
-        <!-- Ambient Industrial Background Stage -->
-        <div class="proyek-bg-effects">
-            <div class="proyek-grid-pattern"></div>
-            <div class="proyek-glow-left"></div>
-            <div class="proyek-glow-center"></div>
-            <div class="proyek-glow-right"></div>
-        </div>
-
-        <div class="container">
-            <div class="section-head">
-                <h2 class="section-title story-reveal delay-2">Tahapan Fabrikasi <span class="gold-gradient-text">Mesin Presisi</span></h2>
-                <p class="section-desc story-reveal delay-3">4 langkah manufaktur resmi bengkel Adam Jaya Bandung untuk menghasilkan mesin tahan lama, higienis food-grade, dan siap produksi.</p>
+        <!-- ═══════════════════════════════════════════════════════════════════
+             8. FINAL CTA STAGE + WORKSHOP MAP & DIRECT RFQ (premium-saas-web)
+             ═══════════════════════════════════════════════════════════════════ -->
+        <section class="dark-stage noise-overlay final-cta-stage" id="lokasi">
+            <div class="sculpted-glow" aria-hidden="true">
+                <span class="g g1" style="top: -10%; left: 60%;"></span>
+                <span class="g core" style="bottom: 0; left: 30%;"></span>
             </div>
 
-            <!-- 4-Step Compact Process Grid -->
-            <div class="fabrikasi-steps-grid story-reveal delay-2">
-                <!-- Step 1 -->
-                <div class="fabrikasi-step-card">
-                    <div class="fabrikasi-step-top">
-                        <span class="fabrikasi-step-badge">01</span>
-                        <div class="fabrikasi-step-icon">
-                            <i class="fa-solid fa-clipboard-check"></i>
-                        </div>
-                    </div>
-                    <h3 class="fabrikasi-step-title">Konsultasi &amp; Kapasitas</h3>
-                    <p class="fabrikasi-step-desc">Penyesuaian kapasitas produksi (50 – 1.000+ kg/hari) dan daya listrik pabrik Anda (1 Phase / 3 Phase / Diesel).</p>
-                    <div class="fabrikasi-step-tag">
-                        <i class="fa-solid fa-sliders"></i> 100% Kustom
-                    </div>
-                </div>
-
-                <!-- Step 2 -->
-                <div class="fabrikasi-step-card">
-                    <div class="fabrikasi-step-top">
-                        <span class="fabrikasi-step-badge">02</span>
-                        <div class="fabrikasi-step-icon">
-                            <i class="fa-solid fa-compass-drafting"></i>
-                        </div>
-                    </div>
-                    <h3 class="fabrikasi-step-title">Rancang Presisi</h3>
-                    <p class="fabrikasi-step-desc">Rangka cor tebal anti-getar dan kalibrasi presisi celah batu asah corundum untuk perasan sari kedelai kental.</p>
-                    <div class="fabrikasi-step-tag">
-                        <i class="fa-solid fa-ruler-combined"></i> Rangka Kokoh
-                    </div>
-                </div>
-
-                <!-- Step 3 -->
-                <div class="fabrikasi-step-card">
-                    <div class="fabrikasi-step-top">
-                        <span class="fabrikasi-step-badge">03</span>
-                        <div class="fabrikasi-step-icon">
-                            <i class="fa-solid fa-fire-burner"></i>
-                        </div>
-                    </div>
-                    <h3 class="fabrikasi-step-title">Fabrikasi SUS 304</h3>
-                    <p class="fabrikasi-step-desc">Pengelasan gas argon berstandar food-grade, anti-bocor, tahan panas uap, dan anti-karat air asam cuka tahu.</p>
-                    <div class="fabrikasi-step-tag">
-                        <i class="fa-solid fa-shield-virus"></i> Food-Grade 304
-                    </div>
-                </div>
-
-                <!-- Step 4 -->
-                <div class="fabrikasi-step-card">
-                    <div class="fabrikasi-step-top">
-                        <span class="fabrikasi-step-badge">04</span>
-                        <div class="fabrikasi-step-icon">
-                            <i class="fa-solid fa-truck-fast"></i>
-                        </div>
-                    </div>
-                    <h3 class="fabrikasi-step-title">QC &amp; Siap Kirim</h3>
-                    <p class="fabrikasi-step-desc">Uji balancing nonstop 2 jam di workshop, packing peti pallet kayu kokoh, dan kirim siap pakai ke seluruh Indonesia.</p>
-                    <div class="fabrikasi-step-tag">
-                        <i class="fa-solid fa-circle-check"></i> Garansi Resmi
-                    </div>
-                </div>
-            </div>
-
-            <!-- Featured Documentation Real Photos Gallery -->
-            <div class="fabrikasi-gallery-wrap story-reveal delay-3">
-                <div class="section-head" style="margin-bottom:1.6rem; margin-top:2.8rem;">
-                    <span class="section-tag" style="color:#DFC183; background:rgba(201,151,62,0.15);"><i class="fa-solid fa-camera"></i> GALERI DOKUMENTASI BENGKEL</span>
-                    <h3 style="font-family:var(--font-head); font-size:1.45rem; font-weight:800; color:#FFFFFF;">Bukti Nyata Workshop &amp; Fabrikasi</h3>
-                </div>
-
-                <div class="portfolio-slider">
-                    <div class="portfolio-track" id="portfolioTrack">
-                        <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&q=90', 'Workshop Perakitan Mesin Adam Jaya Bandung')">
-                            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80" alt="Mesin di workshop Adam Jaya">
-                            <div class="portfolio-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-tag">Katalog Manufaktur</span>
-                                <h4 class="portfolio-title">📸 Workshop Perakitan Mesin</h4>
-                            </div>
-                        </div>
-
-                        <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1200&q=90', 'Proses Fabrikasi & Pengelasan Stainless Presisi')">
-                            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80" alt="Proses fabrikasi & pengelasan stainless">
-                            <div class="portfolio-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-tag">Workshop Production</span>
-                                <h4 class="portfolio-title">📸 Fabrikasi Stainless SUS 304</h4>
-                            </div>
-                        </div>
-
-                        <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=90', 'Uji Coba Mesin Giling di Pabrik Mitra Tahu')">
-                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80" alt="Mesin sedang digunakan produksi">
-                            <div class="portfolio-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-tag">Operational Testing</span>
-                                <h4 class="portfolio-title">📸 Uji Coba Produksi di Mitra</h4>
-                            </div>
-                        </div>
-
-                        <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=1200&q=90', 'Instalasi & Setting Tahang Stainless di Lokasi')">
-                            <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&q=80" alt="Instalasi mesin di lokasi pelanggan">
-                            <div class="portfolio-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-tag">Client Installation</span>
-                                <h4 class="portfolio-title">📸 Instalasi &amp; Setting Mesin</h4>
-                            </div>
-                        </div>
-
-                        <div class="portfolio-item" onclick="openLightbox('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=90', 'Hasil Produksi Tahu Putih Higienis & Berkualitas')">
-                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Hasil produksi tahu putih berkualitas">
-                            <div class="portfolio-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-tag">Quality Output</span>
-                                <h4 class="portfolio-title">📸 Output Tahu Higienis</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-nav story-reveal delay-4">
-                    <button class="port-btn" onclick="prevPortSlide()" title="Sebelumnya" aria-label="Slide sebelumnya"><i class="fa-solid fa-arrow-left"></i></button>
-                    <button class="port-btn" onclick="nextPortSlide()" title="Selanjutnya" aria-label="Slide selanjutnya"><i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Wave out of Dark Proyek Section into Testimoni -->
-    <div class="section-wave-top" style="background:#380812;">
-        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,25 C300,55 620,12 940,42 C1180,58 1340,18 1440,25 L1440,60 L0,60 Z" fill="#FAF8F5"></path>
-        </svg>
-    </div>
-
-    <!-- ═══ 9. SECTION TESTIMONI PELANGGAN (GOOGLE-STYLE & VIDEO SPOTLIGHT) ═══ -->
-    <section class="section section-alt" id="testimoni">
-        <div class="container">
-            <div class="section-head">
-                <h2 class="section-title story-reveal delay-2">Apa Kata Pengrajin &amp; <span class="wine-gold-gradient-text">Pengusaha Tahu?</span></h2>
-                <p class="section-desc story-reveal delay-3">Ulasan jujur dan terverifikasi dari pengrajin tahu terkemuka di Bandung, Sumedang, serta pengusaha kemasan di seluruh Indonesia.</p>
-            </div>
-
-            <!-- 1. Google Review Scoreboard Ribbon -->
-            <div class="google-review-scoreboard story-reveal delay-2">
-                <div class="google-brand-left">
-                    <div class="google-icon-box">
-                        <i class="fa-brands fa-google" style="color:#4285F4;"></i>
-                    </div>
+            <div class="container cta-location-grid">
+                <!-- Left Panel: Workshop Address, Hours & Direct Actions -->
+                <div class="workshop-info-panel reveal-up">
                     <div>
-                        <div style="display:flex; align-items:center; gap:0.6rem;">
-                            <span class="google-score-num">4.9</span>
-                            <div>
-                                <div class="google-stars">
-                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span class="eyebrow-pill">BENGKEL MANUFAKTUR RESMI BANDUNG</span>
+                        <h2 class="section-heading" style="margin-bottom: 0.65rem;">
+                            Kunjungi Workshop <span class="gold-metal-text">Adam Jaya.</span>
+                        </h2>
+                        <p class="section-subcopy">
+                            Tinjau langsung kualitas pengelasan Stainless Steel SUS 304, uji putaran mesin giling, atau diskusikan kebutuhan pabrik Anda bersama kepala mekanik kami.
+                        </p>
+
+                        <div class="workshop-detail-list">
+                            <div class="workshop-detail-item">
+                                <div class="workshop-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <strong style="color: #FFFFFF; display: block; font-size: 0.92rem;">Alamat Workshop &amp; Fabrikasi</strong>
+                                    <span style="color: var(--fg-60); font-size: 0.86rem;">Jl. Aki Padma No.51, Babakan, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40222</span>
                                 </div>
-                                <span style="font-size:0.75rem; font-weight:800; color:var(--navy);">GOOGLE RATING TERVERIFIKASI</span>
+                            </div>
+
+                            <div class="workshop-detail-item">
+                                <div class="workshop-detail-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div>
+                                    <strong style="color: #FFFFFF; display: block; font-size: 0.92rem;">Hotline Konsultasi &amp; Servis 24 Jam</strong>
+                                    <span style="color: var(--gold-light); font-family: var(--font-mono); font-size: 0.88rem;">0812-2160-1558 (Fast Response WhatsApp)</span>
+                                </div>
+                            </div>
+
+                            <div class="workshop-detail-item">
+                                <div class="workshop-detail-icon"><i class="fa-solid fa-clock"></i></div>
+                                <div>
+                                    <strong style="color: #FFFFFF; display: block; font-size: 0.92rem;">Jam Operasional Kunjungan</strong>
+                                    <span style="color: var(--fg-60); font-size: 0.86rem;">Senin – Jumat: 07.00 – 18.00 WIB (Sabtu &amp; Minggu: Janji Temu)</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="google-verified-text">Berdasarkan 4.211+ Ulasan Pengrajin Tahu &amp; Mitra Bengkel Manufaktur</div>
+                    </div>
+
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.85rem;">
+                        <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20saya%20mau%20berkunjung%20ke%20workshop%20Bandung" target="_blank" rel="noopener" class="btn-beam">
+                            <i class="fa-brands fa-whatsapp" style="color: var(--gold-bright);"></i>
+                            <span>Jadwalkan Kunjungan via WA</span>
+                        </a>
+                        <a href="https://maps.google.com/?q=Jl.+Aki+Padma+No.51,+Babakan,+Kec.+Babakan+Ciparay,+Kota+Bandung,+Jawa+Barat+40222" target="_blank" rel="noopener" class="btn-glass">
+                            <i class="fa-solid fa-diamond-turn-right"></i>
+                            <span>Buka Petunjuk GPS</span>
+                        </a>
                     </div>
                 </div>
-                <div>
-                    <a href="https://maps.google.com/?q=Jl.+Aki+Padma+No.51,+Babakan,+Kec.+Babakan+Ciparay,+Kota+Bandung,+Jawa+Barat+40222" target="_blank" class="btn btn-outline btn-md">
-                        <i class="fa-brands fa-google"></i> <span>Lihat Profil Google Maps</span>
+
+                <!-- Right Panel: Embedded Google Map + Quick RFQ Form -->
+                <div class="workshop-map-card reveal-up">
+                    <iframe class="workshop-map-frame"
+                            src="https://maps.google.com/maps?q=Jl.+Aki+Padma+No.51,+Babakan,+Kec.+Babakan+Ciparay,+Kota+Bandung,+Jawa+Barat+40222&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Peta Lokasi Workshop PT Adam Jaya Enterprise Bandung"></iframe>
+
+                    <form class="rfq-quick-form" onsubmit="submitQuickRfq(event)">
+                        <div>
+                            <span class="mono-tag" style="color: var(--gold-bright);">PERMINTAAN PENAWARAN CEPAT (RFQ)</span>
+                            <h3 style="font-family: var(--font-display); font-size: 1.15rem; color: #FFFFFF; margin-top: 0.25rem;">
+                                Kirim Rincian Kebutuhan ke Tim Teknis
+                            </h3>
+                        </div>
+
+                        <div class="rfq-form-grid">
+                            <input type="text" id="rfqName" class="dark-input" placeholder="Nama Anda / Perusahaan *" required aria-label="Nama Anda atau Perusahaan">
+                            <select id="rfqCategory" class="dark-input" aria-label="Kategori Kebutuhan">
+                                <option value="Paket Mesin Produksi Tahu">Paket Mesin Produksi Tahu</option>
+                                <option value="Mesin Giling & Batu Corundum">Mesin Giling &amp; Batu Corundum</option>
+                                <option value="Tahang Stainless SUS 304 & Ketel Uap">Tahang Stainless SUS 304 &amp; Ketel Uap</option>
+                                <option value="Plastik Sablon & Mesin Sealer">Plastik Sablon &amp; Mesin Sealer</option>
+                                <option value="Sparepart & Servis Mekanik">Sparepart &amp; Servis Mekanik</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn-gold-tactile" style="width: 100%;">
+                            <span>Minta Estimasi Harga Resmi via WhatsApp</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+         9. CORPORATE FOOTER WITH GIANT CROPPED WORDMARK
+         ═══════════════════════════════════════════════════════════════════ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <a href="#beranda" class="nav-brand" style="margin-bottom: 1rem;">
+                        <img src="{{ asset('assets/adamjaya.png') }}" alt="Logo Adam Jaya" width="38" height="38">
+                        <div>
+                            <span class="nav-brand-title">PT ADAM JAYA ENTERPRISE</span>
+                            <span class="nav-brand-sub">Industrial Food Machinery</span>
+                        </div>
                     </a>
-                </div>
-            </div>
-
-            <!-- 3. Google-Style Verified Customer Review Cards Carousel / Grid -->
-            <div class="google-reviews-slider-wrapper" id="reviewsSliderWrapper">
-                <div class="google-reviews-grid" id="googleReviewsGrid">
-                    
-                    <!-- Review 1: Budi Santoso -->
-                    <div class="google-review-card active story-reveal delay-1">
-                        <div>
-                            <div class="review-author-head">
-                                <div class="review-avatar-box" style="background:linear-gradient(135deg, #1E3A8A 0%, #0F172A 100%);">
-                                    BS
-                                </div>
-                                <div class="review-author-info">
-                                    <div class="review-author-name">
-                                        <span>Budi Santoso</span>
-                                        <span class="verified-customer-badge" title="Pembeli Terverifikasi"><i class="fa-solid fa-circle-check"></i></span>
-                                    </div>
-                                    <div class="review-author-role">Pemilik Pabrik Tahu Lestari Jaya</div>
-                                </div>
-                            </div>
-
-                            <div class="review-rating-row">
-                                <div class="review-stars">
-                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="review-date-tag">2 minggu lalu</span>
-                            </div>
-
-                            <p class="review-content-text">
-                                "Mesin gilingan dan tahang stainless dari Adam Jaya luar biasa presisi. Kapasitas 400 kg kedelai per hari selesai 3 jam lebih cepat, ampasnya kering dan hasil tahu lebih kenyal. Layanan servis darurat malam hari benar-benar standby!"
-                            </p>
-                        </div>
-
-                        <div>
-                            <div class="review-product-tag">
-                                <i class="fa-solid fa-box-open" style="color:var(--wine);"></i>
-                                <span>Mesin Giling Pak Ukat + Tahang SUS 304</span>
-                            </div>
-                            <div class="review-location-pin">
-                                <i class="fa-solid fa-location-dot" style="color:#EF4444;"></i>
-                                <span>Babakan Ciparay, Kota Bandung</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Review 2: Rian Plastik Sablon -->
-                    <div class="google-review-card story-reveal delay-2">
-                        <div>
-                            <div class="review-author-head">
-                                <div class="review-avatar-box" style="background:linear-gradient(135deg, #7A1E33 0%, #380812 100%);">
-                                    RH
-                                </div>
-                                <div class="review-author-info">
-                                    <div class="review-author-name">
-                                        <span>Rian Hidayat</span>
-                                        <span class="verified-customer-badge" title="Pembeli Terverifikasi"><i class="fa-solid fa-circle-check"></i></span>
-                                    </div>
-                                    <div class="review-author-role">Usaha Kemasan Plastik Prima</div>
-                                </div>
-                            </div>
-
-                            <div class="review-rating-row">
-                                <div class="review-stars">
-                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="review-date-tag">1 bulan lalu</span>
-                            </div>
-
-                            <p class="review-content-text">
-                                "Pesan sablon plastik PE &amp; continuous band sealer untuk kemasan tahu sutra. Tinta sablonnya tidak luntur kena kuah panas dan mesin sealer rekat rapat anti bocor. Garapan workshop sangat profesional dan tepat waktu."
-                            </p>
-                        </div>
-
-                        <div>
-                            <div class="review-product-tag">
-                                <i class="fa-solid fa-box-open" style="color:var(--wine);"></i>
-                                <span>Continuous Sealer + Plastik Sablon PE</span>
-                            </div>
-                            <div class="review-location-pin">
-                                <i class="fa-solid fa-location-dot" style="color:#EF4444;"></i>
-                                <span>Cimahi, Jawa Barat</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Review 3: Bpk. Dadang Kusnadi -->
-                    <div class="google-review-card story-reveal delay-3">
-                        <div>
-                            <div class="review-author-head">
-                                <div class="review-avatar-box" style="background:linear-gradient(135deg, #059669 0%, #064E3B 100%);">
-                                    DK
-                                </div>
-                                <div class="review-author-info">
-                                    <div class="review-author-name">
-                                        <span>Bpk. Dadang Kusnadi</span>
-                                        <span class="verified-customer-badge" title="Pembeli Terverifikasi"><i class="fa-solid fa-circle-check"></i></span>
-                                    </div>
-                                    <div class="review-author-role">Pengrajin Tahu Sumedang Branch</div>
-                                </div>
-                            </div>
-
-                            <div class="review-rating-row">
-                                <div class="review-stars">
-                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="review-date-tag">1 bulan lalu</span>
-                            </div>
-
-                            <p class="review-content-text">
-                                "Ketel boiler uap buatan Adam Jaya sangat efisien hemat kayu bakar &amp; gas. Batu gilingan corundum grade A putarannya seimbang tanpa getaran bising. Harga bengkel tangan pertama sangat transparan dan bergaransi."
-                            </p>
-                        </div>
-
-                        <div>
-                            <div class="review-product-tag">
-                                <i class="fa-solid fa-box-open" style="color:var(--wine);"></i>
-                                <span>Katel Jubung Boiler + Batu Corundum 10"</span>
-                            </div>
-                            <div class="review-location-pin">
-                                <i class="fa-solid fa-location-dot" style="color:#EF4444;"></i>
-                                <span>Sumedang, Jawa Barat</span>
-                            </div>
-                        </div>
-                    </div>
-
+                    <p style="font-size: 0.86rem; line-height: 1.7; color: var(--fg-60);">
+                        Produsen peralatan produksi tahu berstandar Food-Grade SUS 304 dan sistem kemasan plastik sablon terlengkap. Workshop bengkel manufaktur terpercaya di Bandung sejak 2002.
+                    </p>
                 </div>
 
-                <!-- Mobile Reviews Pagination Dots -->
-                <div class="reviews-carousel-dots" id="reviewsDots">
-                    <span class="review-dot active" role="button" aria-label="Review 1" onclick="goToReviewSlide(0)"></span>
-                    <span class="review-dot" role="button" aria-label="Review 2" onclick="goToReviewSlide(1)"></span>
-                    <span class="review-dot" role="button" aria-label="Review 3" onclick="goToReviewSlide(2)"></span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Wave into Dark FAQ Section -->
-    <div class="section-wave-bottom" style="background:#FAF8F5;">
-        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,22 C340,54 700,10 1060,38 C1240,50 1360,20 1440,25 L1440,60 L0,60 Z" fill="#380812"></path>
-        </svg>
-    </div>
-
-    <!-- ═══ 10. SECTION FAQ ACCORDION (3D LUXURY STAGE) ═══ -->
-    <section class="section" id="faq">
-        <!-- Ambient Stage Background -->
-        <div class="faq-bg-effects">
-            <div class="faq-grid-pattern"></div>
-            <div class="faq-glow-left"></div>
-            <div class="faq-glow-right"></div>
-        </div>
-
-        <div class="container">
-            <div class="section-head">
-                <h2 class="section-title story-reveal delay-2"><span class="gold-gradient-text">Tanya Jawab</span></h2>
-                <p class="section-desc story-reveal delay-3">Jawaban lengkap dan transparan seputar pemesanan mesin pabrikasi tahu, garansi resmi, pengiriman ke seluruh Indonesia, dan servis darurat 24 jam.</p>
-            </div>
-
-            <div class="faq-wrap story-reveal delay-4">
-                <!-- FAQ Item 1 -->
-                <div class="faq-item active">
-                    <div class="faq-question" onclick="toggleFaq(this)">
-                        <div class="faq-q-left">
-                            <div class="faq-icon-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-                            <span class="faq-q-text">Apakah bisa pesan mesin dengan ukuran atau spesifikasi custom?</span>
-                        </div>
-                        <div class="faq-toggle-btn"><i class="fa-solid fa-chevron-down"></i></div>
-                    </div>
-                    <div class="faq-answer">
-                        <div class="faq-answer-inner">
-                            <p><strong>Ya, sangat bisa!</strong> Karena kami adalah produsen langsung dengan bengkel manufaktur spesialis, Anda bisa memesan tahang stainless, mesin giling kedelai, cetakan press tahu, atau ketel boiler dengan dimensi, ketebalan plat SUS 304, maupun kapasitas daya dinamo sesuai kebutuhan pabrik Anda.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 2 -->
-                <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFaq(this)">
-                        <div class="faq-q-left">
-                            <div class="faq-icon-box"><i class="fa-solid fa-truck-fast"></i></div>
-                            <span class="faq-q-text">Bagaimana sistem pengiriman ke luar kota Bandung atau luar pulau?</span>
-                        </div>
-                        <div class="faq-toggle-btn"><i class="fa-solid fa-chevron-down"></i></div>
-                    </div>
-                    <div class="faq-answer">
-                        <div class="faq-answer-inner">
-                            <p>Kami melayani pengiriman ke seluruh wilayah <strong>Jawa Barat, Pulau Jawa, Sumatera, Kalimantan, Sulawesi, hingga kawasan timur Indonesia</strong> menggunakan ekspedisi kargo terpercaya dengan pengemasan rangka kayu kokoh tahan guncangan.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 3 -->
-                <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFaq(this)">
-                        <div class="faq-q-left">
-                            <div class="faq-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
-                            <span class="faq-q-text">Apakah tersedia sparepart presisi dan garansi servis resmi?</span>
-                        </div>
-                        <div class="faq-toggle-btn"><i class="fa-solid fa-chevron-down"></i></div>
-                    </div>
-                    <div class="faq-answer">
-                        <div class="faq-answer-inner">
-                            <p>Semua mesin rakitan Adam Jaya dilengkapi dengan <strong>garansi servis resmi</strong>. Ketersediaan suku cadang seperti batu gilingan corundum, vanbelt, puli transmisi, kran kuningan/stainless, serta kain peresan selalu <em>ready stock</em> di workshop kami.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 4 -->
-                <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFaq(this)">
-                        <div class="faq-q-left">
-                            <div class="faq-icon-box"><i class="fa-solid fa-clock-rotate-left"></i></div>
-                            <span class="faq-q-text">Kapan jam operasional workshop dan layanan Adam Jaya?</span>
-                        </div>
-                        <div class="faq-toggle-btn"><i class="fa-solid fa-chevron-down"></i></div>
-                    </div>
-                    <div class="faq-answer">
-                        <div class="faq-answer-inner">
-                            <p>Workshop bengkel manufaktur kami buka setiap hari <strong>Senin sampai Jumat dari pukul 07.00 pagi hingga 18.00 sore WIB</strong>. Untuk hari Sabtu &amp; Minggu melayani via janji temu, dan konsultasi teknis darurat tetap dapat dihubungi melalui Hotline WhatsApp kami.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Wave out of Dark FAQ Section into Lokasi -->
-    <div class="section-wave-top" style="background:#380812;">
-        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,25 C280,55 600,10 920,40 C1160,55 1320,15 1440,25 L1440,60 L0,60 Z" fill="#F8FAFC"></path>
-        </svg>
-    </div>
-
-    <!-- ═══ 12. SECTION LOKASI WORKSHOP & PETA ═══ -->
-    <section class="section" id="lokasi">
-        <div class="container">
-            <div class="location-card story-scale-up delay-2">
-                <div class="location-inner">
-                    <div class="location-info">
-                        <span class="section-tag"><i class="fa-solid fa-location-crosshairs"></i> BENGKEL MANUFAKTUR BANDUNG</span>
-                        <h3>Kunjungi Workshop Kami</h3>
-                        <p>Pusat pembuatan &amp; perbaikan peralatan pabrikasi tahu, mesin giling kedelai, cetakan stainless, serta alat cetak sablon plastik kemasan.</p>
-
-                        <div class="location-detail">
-                            <div class="location-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
-                            <div>
-                                <h4>Alamat Workshop</h4>
-                                <p>Jl. Aki Padma No.51, Babakan, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40222</p>
-                            </div>
-                        </div>
-
-                        <div class="location-detail">
-                            <div class="location-detail-icon"><i class="fa-solid fa-phone"></i></div>
-                            <div>
-                                <h4>Telepon / WhatsApp</h4>
-                                <p><strong style="color:var(--wine);">0812-2160-1558</strong> (Fast Response Hotline)</p>
-                            </div>
-                        </div>
-
-                        <div class="location-detail">
-                            <div class="location-detail-icon"><i class="fa-solid fa-clock"></i></div>
-                            <div>
-                                <h4>Jam Operasional Workshop</h4>
-                                <p><strong style="color:#059669;">Senin – Jumat: 07.00 – 18.00 WIB</strong> (Sabtu &amp; Minggu: Janji Temu)</p>
-                            </div>
-                        </div>
-
-                        <div class="location-btns">
-                            <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20saya%20mau%20berkunjung%20ke%20workshop" target="_blank" class="btn btn-wine btn-md">
-                                <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp
-                            </a>
-                            <a href="https://maps.google.com/?q=Jl.+Aki+Padma+No.51,+Babakan,+Kec.+Babakan+Ciparay,+Kota+Bandung,+Jawa+Barat+40222" target="_blank" class="btn btn-gold btn-md">
-                                <i class="fa-solid fa-diamond-turn-right"></i> Petunjuk Arah (GPS)
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Embedded Google Maps Frame -->
-                    <div class="location-map">
-                        <iframe src="https://maps.google.com/maps?q=Jl.+Aki+Padma+No.51,+Babakan,+Kec.+Babakan+Ciparay,+Kota+Bandung,+Jawa+Barat+40222&t=&z=16&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Peta Lokasi Workshop Adam Jaya"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Wave into Dark Corporate Footer -->
-    <div class="section-wave-bottom" style="background:#F8FAFC;">
-        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,20 C320,50 680,10 1020,40 C1220,52 1360,22 1440,25 L1440,60 L0,60 Z" fill="#380812"></path>
-        </svg>
-    </div>
-
-    <!-- ═══ 13. FOOTER CORPORATE ═══ -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div>
-                    <a href="#beranda" class="footer-brand">
-                        <img src="{{ asset('assets/adamjaya.png') }}" alt="Logo Adam Jaya">
-                        <span class="footer-brand-name">ADAM JAYA</span>
-                    </a>
-                    <p class="footer-desc">Solusi peralatan produksi tahu berkualitas dan perlengkapan plastik sablon terlengkap. Workshop bengkel manufaktur terpercaya di Bandung dengan dedikasi lebih dari 24 tahun.</p>
-                </div>
-
-                <div>
-                    <h4 class="footer-title">Kategori Unggulan</h4>
+                <div class="footer-col">
+                    <h4>Lini Produksi</h4>
                     <ul class="footer-links">
-                        <li><a href="#katalog-stok" onclick="filterCatalog('mesin', null)">Mesin Giling Kedelai</a></li>
-                        <li><a href="#katalog-stok" onclick="filterCatalog('mesin', null)">Pemecah Kulit Ari</a></li>
-                        <li><a href="#katalog-stok" onclick="filterCatalog('stainless', null)">Tahang Stainless Steel</a></li>
-                        <li><a href="#katalog-stok" onclick="filterCatalog('stainless', null)">Batu Gilingan &amp; Katel</a></li>
-                        <li><a href="#katalog-stok" onclick="filterCatalog('plastik', null)">Plastik Sablon Custom</a></li>
+                        <li><a href="#katalog-stok" onclick="filterCatalog('mesin-tahu', null)">Mesin Giling Kedelai Presisi</a></li>
+                        <li><a href="#katalog-stok" onclick="filterCatalog('mesin-tahu', null)">Tahang Stainless Steel SUS 304</a></li>
+                        <li><a href="#katalog-stok" onclick="filterCatalog('mesin-tahu', null)">Ketel Uap Boiler &amp; Cetakan</a></li>
+                        <li><a href="#katalog-stok" onclick="filterCatalog('mesin-plastik', null)">Plastik Kemasan Sablon PE/PP</a></li>
+                        <li><a href="#katalog-stok" onclick="filterCatalog('sparepart', null)">Batu Gilingan Corundum &amp; Sparepart</a></li>
                     </ul>
                 </div>
 
-                <div>
-                    <h4 class="footer-title">Navigasi Cepat</h4>
+                <div class="footer-col">
+                    <h4>Navigasi &amp; Portal</h4>
                     <ul class="footer-links">
-                        <li><a href="#beranda">Beranda</a></li>
-                        <li><a href="#katalog-stok">Master Stok Barang</a></li>
-                        <li><a href="#keunggulan">Keunggulan Mutu</a></li>
-                        <li><a href="#proyek">Galeri Fabrikasi</a></li>
-                        <li><a href="http://localhost/adamjaya-enterprise/login.php" target="_blank">Portal Enterprise B2B</a></li>
+                        <li><a href="#beranda">Beranda Utama</a></li>
+                        <li><a href="#katalog-stok">Master Stok &amp; Harga</a></li>
+                        <li><a href="#keunggulan">Arsitektur Mutu SUS 304</a></li>
+                        <li><a href="#testimoni">Bukti Fabrikasi &amp; Ulasan</a></li>
+                        <li><a href="http://localhost/adamjaya-enterprise/login.php" target="_blank" rel="noopener" style="color: var(--gold-light);">Portal Enterprise B2B &rarr;</a></li>
                     </ul>
                 </div>
 
-                <div>
-                    <h4 class="footer-title">Workshop Bandung</h4>
-                    <div style="font-size:0.82rem; color:rgba(255,255,255,0.7); line-height:1.65;">
-                        <p><strong>Jl. Aki Padma No.51</strong>, Babakan, Kec. Babakan Ciparay, Bandung 40222</p>
-                        <p style="margin-top:0.4rem;"><strong>Jam Operasional:</strong> <span style="color:var(--gold-bright);">Senin – Jumat (07.00 – 18.00 WIB)</span></p>
-                        <p style="margin-top:0.4rem;"><strong>Hotline WhatsApp:</strong> 0812-2160-1558</p>
+                <div class="footer-col">
+                    <h4>Workshop Bandung</h4>
+                    <div style="font-size: 0.85rem; line-height: 1.7;">
+                        <p><strong style="color: #FFFFFF;">Jl. Aki Padma No.51</strong>, Babakan, Kec. Babakan Ciparay, Kota Bandung 40222</p>
+                        <p style="margin-top: 0.45rem;"><strong style="color: #FFFFFF;">Operasional:</strong> <span style="color: var(--gold-light);">Senin – Jumat (07.00 – 18.00 WIB)</span></p>
+                        <p style="margin-top: 0.45rem;"><strong style="color: #FFFFFF;">Hotline WA:</strong> 0812-2160-1558</p>
                     </div>
                 </div>
             </div>
 
-            <div class="footer-bottom">
-                <span>&copy; {{ date('Y') }} PT Adam Jaya Enterprise. All rights reserved.</span>
-                <span>Google Rating: 4.9 ⭐ (4.211 Ulasan) — Bandung Machine Workshop</span>
+            <div class="footer-meta-bar">
+                <span>&copy; {{ date('Y') }} PT Adam Jaya Enterprise. Hak Cipta Dilindungi.</span>
+                <span>Google Verified Rating: 4.9 / 5.0 (4.211 Ulasan) &bull; Bandung Machine Workshop</span>
             </div>
         </div>
+
+        <!-- Giant Cropped Signature Wordmark (premium-saas-web shared/components.md) -->
+        <div class="footer-giant-wordmark" aria-hidden="true">ADAM JAYA</div>
     </footer>
 
-    <!-- ═══ 14. FLOATING ACTION HUBS ═══ -->
-    <!-- Floating Live Assistant (AI Machine Advisor) -->
+    <!-- ═══════════════════════════════════════════════════════════════════
+         10. FLOATING AI ADVISOR, SCROLL-TOP & PRODUCT / LIGHTBOX MODALS
+         ═══════════════════════════════════════════════════════════════════ -->
     <div class="floating-assistant-trigger" onclick="toggleAssistantModal()" title="Konsultasi Mesin dengan Asisten AI">
         <div class="assistant-btn-circle">
             <i class="fa-solid fa-robot"></i>
             <div class="assistant-online-dot"></div>
         </div>
         <div class="assistant-callout-pill">
-            <i class="fa-solid fa-comments"></i>
-            <span>Butuh Bantuan Memilih Mesin?</span>
+            <span>Asisten Teknis AI</span>
         </div>
     </div>
 
-    <!-- Assistant Chat Modal Window (AI Natural Language Engine) -->
     <div class="assistant-modal-chat" id="machineAssistantModal">
         <div class="assistant-chat-header">
-            <div class="assistant-header-left">
-                <div class="assistant-avatar-head">
-                    <i class="fa-solid fa-robot"></i>
-                </div>
+            <div style="display: flex; align-items: center; gap: 0.65rem;">
+                <i class="fa-solid fa-robot" style="color: var(--gold-bright);"></i>
                 <div>
-                    <h4 class="assistant-header-title">Adam Jaya AI</h4>
-                    <span class="assistant-header-sub"><i class="fa-solid fa-circle"></i> Online • AI Advisor Aktif</span>
+                    <strong style="font-family: var(--font-display); font-size: 0.9rem; display: block;">Adam Jaya AI Advisor</strong>
+                    <span class="mono-tag" style="font-size: 0.62rem; color: #10B981;">ONLINE &bull; REKOMENDASI KAPASITAS &amp; STOK</span>
                 </div>
             </div>
-            <div class="assistant-header-actions">
-                <button class="assistant-action-btn" onclick="resetAssistantChat()" title="Reset Percakapan"><i class="fa-solid fa-rotate-right"></i></button>
-                <button class="assistant-action-btn" onclick="toggleAssistantModal()" title="Tutup"><i class="fa-solid fa-xmark"></i></button>
+            <div style="display: flex; gap: 0.4rem;">
+                <button type="button" onclick="resetAssistantChat()" title="Reset Percakapan" aria-label="Reset Percakapan" style="color: var(--fg-60); padding: 0.3rem;"><i class="fa-solid fa-rotate-right"></i></button>
+                <button type="button" onclick="toggleAssistantModal()" title="Tutup" aria-label="Tutup Chat" style="color: var(--fg-60); padding: 0.3rem;"><i class="fa-solid fa-xmark"></i></button>
             </div>
         </div>
 
-        <div class="assistant-chat-body" id="assistantChatBody">
-            <!-- Messages rendered dynamically by JS -->
-        </div>
+        <div class="assistant-chat-body" id="assistantChatBody"></div>
 
-        <!-- Quick Suggestion Prompt Chips -->
         <div class="assistant-quick-chips" id="assistantQuickChips">
-            <button class="assistant-chip-btn" onclick="sendAssistantQuickPrompt('Jam buka dan operasional workshop Adam Jaya')">🕒 Jam Buka (07.00 - 18.00)</button>
-            <button class="assistant-chip-btn" onclick="sendAssistantQuickPrompt('Rekomendasi mesin untuk 250 kg kedelai per hari')">💡 250 kg/hari</button>
-            <button class="assistant-chip-btn" onclick="sendAssistantQuickPrompt('Berapa harga mesin giling kedelai?')">💰 Mesin Giling Kedelai</button>
-            <button class="assistant-chip-btn" onclick="sendAssistantQuickPrompt('Bagaimana 5 tahapan proses fabrikasi mesin?')">⚙️ Proses Fabrikasi</button>
-            <button class="assistant-chip-btn" onclick="sendAssistantQuickPrompt('Alamat workshop dan nomor WhatsApp')">📍 Alamat &amp; Kontak</button>
+            <button type="button" class="assistant-chip-btn" onclick="sendAssistantQuickPrompt('Rekomendasi mesin untuk 250 kg kedelai per hari')">Kapasitas 250 kg/hari</button>
+            <button type="button" class="assistant-chip-btn" onclick="sendAssistantQuickPrompt('Berapa harga mesin giling kedelai?')">Harga Mesin Giling</button>
+            <button type="button" class="assistant-chip-btn" onclick="sendAssistantQuickPrompt('Jam buka dan alamat workshop Adam Jaya')">Alamat &amp; Jam Buka</button>
         </div>
 
-        <!-- Text Input Form for Natural Typing -->
         <form class="assistant-input-bar" id="assistantChatForm" onsubmit="event.preventDefault(); submitAssistantInput();">
-            <input type="text" id="assistantTextInput" class="assistant-text-input" placeholder="Tulis pertanyaan Anda seputar mesin..." autocomplete="off">
-            <button type="submit" class="assistant-send-btn" id="assistantSendBtn" title="Kirim Pertanyaan">
+            <input type="text" id="assistantTextInput" class="assistant-text-input" placeholder="Tulis pertanyaan teknis Anda..." autocomplete="off" aria-label="Tulis pertanyaan untuk AI">
+            <button type="submit" class="assistant-send-btn" id="assistantSendBtn" title="Kirim Pertanyaan" aria-label="Kirim">
                 <i class="fa-solid fa-paper-plane"></i>
             </button>
         </form>
     </div>
 
-    <!-- ═══ 14. FLOATING BACK TO TOP ═══ -->
-    <button id="scrollTopBtn" class="scroll-top" onclick="scrollToTop()" title="Kembali ke atas" aria-label="Scroll ke atas">
+    <button type="button" id="scrollTopBtn" class="scroll-top" onclick="scrollToTop()" title="Kembali ke atas" aria-label="Scroll ke atas">
         <i class="fa-solid fa-arrow-up"></i>
     </button>
 
-    <!-- ═══ 15. INTERACTIVE PRODUCT DETAIL MODAL ═══ -->
-    <div class="modal-overlay" id="productModal">
+    <!-- Product Specification & Real Database Variants Modal -->
+    <div class="modal-overlay" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalProductName">
         <div class="modal-box">
-            <button class="modal-close" onclick="closeProductModal()" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
-            <div class="modal-head">
-                <div class="modal-icon">
-                    <i class="fa-solid fa-gear"></i>
-                </div>
-                <div>
-                    <h3 id="modalProductName">Nama Produk</h3>
-                    <span id="modalProductCategory">Kategori</span>
-                </div>
+            <button type="button" class="modal-close" onclick="closeProductModal()" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+            <div style="margin-bottom: 1rem;">
+                <span id="modalProductCategory" class="mono-tag" style="color: var(--wine);">KATEGORI</span>
+                <h3 id="modalProductName" style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; color: var(--ink-100); margin-top: 0.2rem;">Nama Produk</h3>
             </div>
 
-            <p id="modalProductDesc" style="font-size:0.88rem; color:var(--ink-muted); line-height:1.6; margin-bottom:1rem;">Deskripsi produk.</p>
+            <p id="modalProductDesc" style="font-size: 0.88rem; color: var(--ink-60); line-height: 1.65; margin-bottom: 1rem;">Deskripsi produk.</p>
 
             <table class="spec-table">
                 <tbody>
@@ -1364,126 +1101,172 @@
                         <td id="modalSpecPower">-</td>
                     </tr>
                     <tr>
-                        <td>Material Bodi</td>
+                        <td>Material Konstruksi</td>
                         <td id="modalSpecMaterial">-</td>
                     </tr>
                     <tr>
-                        <td>Kapasitas Output</td>
+                        <td>Kapasitas / Varian</td>
                         <td id="modalSpecCapacity">-</td>
                     </tr>
                     <tr>
-                        <td>Garansi &amp; Servis</td>
+                        <td>Garansi &amp; Purna Jual</td>
                         <td id="modalSpecWarranty">-</td>
                     </tr>
                 </tbody>
             </table>
 
-            <!-- Pilihan Varian Ukuran & Harga Satuan Real Database -->
-            <div id="modalVariantsWrap" style="margin: 1.2rem 0; display: none;">
-                <h4 style="font-family:var(--font-head); font-size:0.88rem; font-weight:800; color:var(--ink); margin-bottom:0.6rem; display:flex; align-items:center; gap:0.4rem;">
-                    <i class="fa-solid fa-list-check" style="color:var(--gold-bright);"></i> Pilihan Varian Ukuran &amp; Harga:
-                </h4>
-                <div style="max-height: 190px; overflow-y: auto; border: 1px solid rgba(10,22,40,0.1); border-radius: 12px; background:#FFFFFF;">
-                    <table class="spec-table" style="margin:0; width:100%;">
+            <div id="modalVariantsWrap" style="margin: 1.25rem 0; display: none;">
+                <h4 class="mono-tag" style="color: var(--ink-100); margin-bottom: 0.55rem;">PILIHAN VARIAN UKURAN &amp; HARGA RESMI:</h4>
+                <div style="max-height: 195px; overflow-y: auto; border: 1px solid var(--line-light); border-radius: 10px;">
+                    <table class="spec-table" style="margin: 0;">
                         <thead>
-                            <tr style="background:#F8FAFC; border-bottom:1px solid rgba(10,22,40,0.1);">
-                                <th style="padding:0.6rem 0.85rem; font-size:0.75rem; text-align:left; color:var(--ink); font-weight:800;">Nama Jenis / Ukuran</th>
-                                <th style="padding:0.6rem 0.85rem; font-size:0.75rem; text-align:right; color:var(--ink); font-weight:800;">Harga Satuan</th>
+                            <tr style="background: var(--light-0); border-bottom: 1px solid var(--line-light);">
+                                <th style="padding: 0.6rem 0.85rem; font-size: 0.75rem; text-align: left; color: var(--ink-60);">Nama Jenis / Ukuran</th>
+                                <th style="padding: 0.6rem 0.85rem; font-size: 0.75rem; text-align: right; color: var(--ink-60);">Harga Satuan</th>
                             </tr>
                         </thead>
-                        <tbody id="modalVariantsBody">
-                            <!-- Populated dynamically by showCatalogProductModal -->
-                        </tbody>
+                        <tbody id="modalVariantsBody"></tbody>
                     </table>
                 </div>
             </div>
 
-            <div class="modal-benefits">
-                <h4><i class="fa-solid fa-circle-check" style="color:#10B981;"></i> Fasilitas Pembelian Adam Jaya:</h4>
-                <ul>
-                    <li>100% Produk Tangan Pertama Bengkel Manufaktur Resmi</li>
-                    <li>Gratis Konsultasi Setting Mesin &amp; Kapasitas Produksi</li>
-                    <li>Suku Cadang &amp; Mekanik Siap Panggil 24 Jam Nonstop</li>
-                </ul>
-            </div>
-
-            <button onclick="submitModalWA()" class="btn btn-wine btn-lg" style="width:100%;">
-                <i class="fa-brands fa-whatsapp"></i> Dapatkan Penawaran Harga via WhatsApp
+            <button type="button" onclick="submitModalWA()" class="btn-wine-tactile" style="width: 100%; margin-top: 0.75rem;">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Dapatkan Penawaran Harga via WhatsApp</span>
             </button>
         </div>
     </div>
 
-    <!-- ═══ 16. LIGHTBOX IMAGE ZOOM MODAL ═══ -->
-    <div class="modal-overlay" id="lightboxModal" onclick="closeLightbox()">
-        <div style="max-width:850px; width:90%; position:relative;" onclick="event.stopPropagation()">
-            <button class="modal-close" onclick="closeLightbox()" style="top:-15px; right:-15px; background:#fff; color:#000;" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
-            <img id="lightboxImg" src="" alt="Zoom Foto Fabrikasi" style="width:100%; border-radius:var(--r-xl); box-shadow:0 20px 60px rgba(0,0,0,0.8); border:3px solid var(--gold-bright);">
-            <div id="lightboxCaption" style="color:#fff; text-align:center; margin-top:0.8rem; font-family:var(--font-head); font-weight:700; font-size:1rem;">Caption Foto</div>
+    <!-- Lightbox Image Modal -->
+    <div class="modal-overlay" id="lightboxModal" onclick="closeLightbox()" role="dialog" aria-modal="true" aria-label="Perbesar Foto Dokumentasi">
+        <div style="max-width: 840px; width: 92%; position: relative;" onclick="event.stopPropagation()">
+            <button type="button" class="modal-close" onclick="closeLightbox()" style="top: -44px; right: 0; background: #FFFFFF;" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+            <img id="lightboxImg" src="" alt="Dokumentasi Fabrikasi Adam Jaya" style="width: 100%; border-radius: var(--r-card); border: 2px solid var(--gold);">
+            <div id="lightboxCaption" style="color: #FFFFFF; text-align: center; margin-top: 0.85rem; font-family: var(--font-display); font-weight: 600; font-size: 0.96rem;"></div>
         </div>
     </div>
 
-    <!-- ═══ 17. JAVASCRIPT — COMPLETE INTERACTIVE ENGINE ═══ -->
+    <!-- ═══════════════════════════════════════════════════════════════════
+         11. INTERACTIVE ENGINE (PROGRESS-LOCKED SCROLL, SPOTLIGHT, CATALOG, AI)
+         ═══════════════════════════════════════════════════════════════════ -->
     <script>
-    // ── Floating Navbar Glass Scrolled Effect & Scroll-To-Top Listener ──
-    const mainNavbar = document.getElementById('mainNavbar');
+    // ── 1. Floating Pill Navbar & ScrollSpy ──
+    const navWrap = document.getElementById('navWrap');
     const scrollTopBtn = document.getElementById('scrollTopBtn');
 
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 40) {
-            mainNavbar.classList.add('scrolled');
+    function handleGlobalScroll() {
+        const y = window.scrollY;
+        if (y > 40) {
+            navWrap?.classList.add('scrolled');
         } else {
-            mainNavbar.classList.remove('scrolled');
+            navWrap?.classList.remove('scrolled');
         }
 
-        if (window.scrollY > 350) {
-            scrollTopBtn.classList.add('visible');
+        if (y > 420) {
+            scrollTopBtn?.classList.add('visible');
         } else {
-            scrollTopBtn.classList.remove('visible');
+            scrollTopBtn?.classList.remove('visible');
         }
 
         updateScrollSpy();
-    });
+    }
+
+    window.addEventListener('scroll', handleGlobalScroll, { passive: true });
+    handleGlobalScroll();
 
     function scrollToTop() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     function toggleMobileDrawer() {
-        document.getElementById('mobileDrawer').classList.toggle('active');
-    }
-
-    // Auto-close mobile drawer when tapping outside
-    document.addEventListener('click', (e) => {
         const drawer = document.getElementById('mobileDrawer');
         const toggle = document.getElementById('mobileNavToggle');
-        if (drawer && drawer.classList.contains('active')) {
-            if (!drawer.contains(e.target) && !toggle.contains(e.target)) {
-                drawer.classList.remove('active');
-            }
-        }
-    });
+        if (!drawer) return;
+        const isOpen = drawer.classList.toggle('active');
+        if (toggle) toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
 
-    // ── ScrollSpy for Navigation Links ──
     function updateScrollSpy() {
         const sections = document.querySelectorAll('section[id]');
-        const scrollPos = window.scrollY + 120;
-
+        const scrollPos = window.scrollY + 140;
         sections.forEach(sec => {
             const top = sec.offsetTop;
             const height = sec.offsetHeight;
             const id = sec.getAttribute('id');
             const link = document.querySelector(`.nav-link[href="#${id}"]`);
-
-            if (link) {
-                if (scrollPos >= top && scrollPos < top + height) {
-                    document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-                    link.classList.add('active');
-                }
+            if (link && scrollPos >= top && scrollPos < top + height) {
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
             }
         });
     }
 
-    // ── Live Catalog Filter, Search & Pagination Engine ──
+    // ── 2. Cursor Spotlight on Bento Cards (premium-saas-web shared/components.md) ──
+    document.querySelectorAll('.spot').forEach(card => {
+        card.addEventListener('pointermove', e => {
+            const r = card.getBoundingClientRect();
+            card.style.setProperty('--x', (e.clientX - r.left) + 'px');
+            card.style.setProperty('--y', (e.clientY - r.top) + 'px');
+        });
+    });
+
+    // ── 3. Word-by-Word Scroll-Fill Statement (premium-saas-web shared/typography.md) ──
+    function initScrollFillStatement() {
+        const statement = document.getElementById('scrollFillStatement');
+        if (!statement) return;
+
+        // Wrap words in .w while preserving keyword classes
+        const tokens = [];
+        statement.childNodes.forEach(node => {
+            if (node.nodeType === Node.TEXT_NODE) {
+                node.textContent.split(/(\s+)/).forEach(part => {
+                    if (part.trim().length > 0) {
+                        tokens.push(`<span class="w">${part}</span>`);
+                    } else {
+                        tokens.push(part);
+                    }
+                });
+            } else if (node.nodeType === Node.ELEMENT_NODE) {
+                const cls = node.className;
+                node.textContent.split(/(\s+)/).forEach(part => {
+                    if (part.trim().length > 0) {
+                        tokens.push(`<span class="w ${cls}">${part}</span>`);
+                    } else {
+                        tokens.push(part);
+                    }
+                });
+            }
+        });
+        statement.innerHTML = tokens.join('');
+
+        const wordSpans = Array.from(statement.querySelectorAll('.w'));
+        function updateWordsOnScroll() {
+            const r = statement.getBoundingClientRect();
+            const progress = Math.min(1, Math.max(0, (window.innerHeight * 0.82 - r.top) / (r.height * 0.95)));
+            const activeCount = Math.round(progress * wordSpans.length);
+            wordSpans.forEach((w, idx) => w.classList.toggle('on', idx < activeCount));
+        }
+
+        window.addEventListener('scroll', updateWordsOnScroll, { passive: true });
+        updateWordsOnScroll();
+    }
+
+    // ── 4. Progress-Locked Hero Machine Parallax (Creating-Oneshot-Hero-Landing-Pages) ──
+    function initHeroScrollParallax() {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        const heroSection = document.getElementById('beranda');
+        const machineImg = document.getElementById('heroMachineImg');
+        if (!heroSection || !machineImg) return;
+
+        window.addEventListener('scroll', () => {
+            const rect = heroSection.getBoundingClientRect();
+            if (rect.bottom < 0) return;
+            const progress = Math.max(0, Math.min(1, -rect.top / Math.max(1, rect.height)));
+            machineImg.style.transform = `translate3d(0, ${(progress * -22).toFixed(1)}px, 0)`;
+        }, { passive: true });
+    }
+
+    // ── 5. Live Catalog Filter, Search & Sort Engine ($products) ──
     let activeFilterCat = 'all';
     const ITEMS_PER_PAGE = 8;
     let currentDisplayLimit = ITEMS_PER_PAGE;
@@ -1491,10 +1274,10 @@
     function filterCatalog(category, btn) {
         activeFilterCat = category;
         currentDisplayLimit = ITEMS_PER_PAGE;
-        if (btn) {
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-        }
+        document.querySelectorAll('.filter-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.filter === category);
+        });
+        if (btn) btn.classList.add('active');
         applyCatalogFilters();
     }
 
@@ -1507,28 +1290,22 @@
         const sortValue = document.getElementById('catalogSortSelect').value;
         const grid = document.getElementById('catalogGrid');
         const cards = Array.from(grid.querySelectorAll('.product-card'));
-        const emptyState = document.getElementById('catalogEmptyState');
 
         cards.sort((a, b) => {
-            const priceA = parseInt(a.dataset.price || '0');
-            const priceB = parseInt(b.dataset.price || '0');
-            const idA = parseInt(a.dataset.id || '0');
-            const idB = parseInt(b.dataset.id || '0');
-            const orderA = parseInt(a.dataset.order || '0');
-            const orderB = parseInt(b.dataset.order || '0');
+            const priceA = parseInt(a.dataset.price || '0', 10);
+            const priceB = parseInt(b.dataset.price || '0', 10);
+            const idA = parseInt(a.dataset.id || '0', 10);
+            const idB = parseInt(b.dataset.id || '0', 10);
+            const orderA = parseInt(a.dataset.order || '0', 10);
+            const orderB = parseInt(b.dataset.order || '0', 10);
 
-            if (sortValue === 'harga-asc') {
-                return priceA - priceB;
-            } else if (sortValue === 'harga-desc') {
-                return priceB - priceA;
-            } else if (sortValue === 'terbaru') {
-                return idB - idA;
-            } else {
-                return orderA - orderB;
-            }
+            if (sortValue === 'harga-asc') return priceA - priceB;
+            if (sortValue === 'harga-desc') return priceB - priceA;
+            if (sortValue === 'terbaru') return idB - idA;
+            return orderA - orderB;
         });
 
-        cards.forEach(card => grid.insertBefore(card, emptyState));
+        cards.forEach(card => grid.appendChild(card));
         currentDisplayLimit = ITEMS_PER_PAGE;
         applyCatalogFilters();
     }
@@ -1539,18 +1316,17 @@
     }
 
     function applyCatalogFilters() {
-        const query = document.getElementById('catalogSearchInput').value.toLowerCase().trim();
+        const query = (document.getElementById('catalogSearchInput')?.value || '').toLowerCase().trim();
         const cards = document.querySelectorAll('#catalogGrid .product-card');
-        let matchingCards = [];
+        const matchingCards = [];
 
         cards.forEach(card => {
             const cat = card.dataset.cat;
             const name = (card.dataset.name || '').toLowerCase();
-            const id = (card.dataset.id || '').toLowerCase();
             const textContent = card.innerText.toLowerCase();
 
             const matchCat = (activeFilterCat === 'all' || cat === activeFilterCat);
-            const matchSearch = (query === '' || name.includes(query) || id.includes(query) || textContent.includes(query));
+            const matchSearch = (query === '' || name.includes(query) || textContent.includes(query));
 
             if (matchCat && matchSearch) {
                 matchingCards.push(card);
@@ -1559,13 +1335,8 @@
             }
         });
 
-        // Paginate matching cards
         matchingCards.forEach((card, index) => {
-            if (index < currentDisplayLimit) {
-                card.style.display = 'flex';
-            } else {
-                card.style.display = 'none';
-            }
+            card.style.display = index < currentDisplayLimit ? 'flex' : 'none';
         });
 
         const totalMatching = matchingCards.length;
@@ -1577,16 +1348,16 @@
         const totalVisibleBadge = document.getElementById('totalVisibleBadge');
 
         if (totalMatching === 0) {
-            emptyState.classList.add('active');
+            emptyState?.classList.add('active');
             if (loadMoreWrap) loadMoreWrap.style.display = 'none';
         } else {
-            emptyState.classList.remove('active');
+            emptyState?.classList.remove('active');
             if (loadMoreWrap) {
                 loadMoreWrap.style.display = 'block';
                 if (currentDisplayLimit < totalMatching) {
                     btnLoadMore.style.display = 'inline-flex';
                     const remaining = totalMatching - currentDisplayLimit;
-                    loadMoreCountBadge.textContent = `+${Math.min(ITEMS_PER_PAGE, remaining)}`;
+                    loadMoreCountBadge.textContent = `(+${Math.min(ITEMS_PER_PAGE, remaining)})`;
                     catalogAllLoadedText.style.display = 'none';
                 } else {
                     btnLoadMore.style.display = 'none';
@@ -1604,182 +1375,81 @@
     function resetCatalogSearch() {
         document.getElementById('catalogSearchInput').value = '';
         document.getElementById('catalogSortSelect').value = 'rekomendasi';
-        currentDisplayLimit = ITEMS_PER_PAGE;
         filterCatalog('all', document.querySelector('.filter-btn[data-filter="all"]'));
         handleCatalogSort();
     }
 
-    // Dynamic Filter Count Updater
-    function updateCatalogCounts() {
-        const allCards = document.querySelectorAll('#catalogGrid .product-card');
-        const countMap = {
-            'all': allCards.length,
-            'mesin-plastik': 0,
-            'mesin-kemasan': 0,
-            'mesin-tahu': 0,
-            'sparepart': 0,
-            'lainnya': 0
-        };
-
-        allCards.forEach(card => {
-            const cat = card.dataset.cat;
-            if (countMap[cat] !== undefined) {
-                countMap[cat]++;
-            }
-        });
-
-        const countAll = document.getElementById('countAll');
-        if (countAll) countAll.textContent = countMap['all'];
-        const countPlastik = document.getElementById('countPlastik');
-        if (countPlastik) countPlastik.textContent = countMap['mesin-plastik'];
-        const countKemasan = document.getElementById('countKemasan');
-        if (countKemasan) countKemasan.textContent = countMap['mesin-kemasan'];
-        const countTahu = document.getElementById('countTahu');
-        if (countTahu) countTahu.textContent = countMap['mesin-tahu'];
-        const countSparepart = document.getElementById('countSparepart');
-        if (countSparepart) countSparepart.textContent = countMap['sparepart'];
-        const countLainnya = document.getElementById('countLainnya');
-        if (countLainnya) countLainnya.textContent = countMap['lainnya'];
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-        updateCatalogCounts();
-        applyCatalogFilters();
-    });
-
-
-
-    // ═══════════════════════════════════════════════════════════
-    // ── 7. ANIMATED STATISTICS COUNT-UP OBSERVER ──
-    // ═══════════════════════════════════════════════════════════
+    // ── 6. Rolling Statistics Counter Observer ──
     function initStatsCounter() {
         const statCounters = document.querySelectorAll('.stat-counter');
         if (!statCounters.length) return;
-
         let hasAnimated = false;
 
         function runCountUp() {
             if (hasAnimated) return;
             hasAnimated = true;
-
             statCounters.forEach(counter => {
-                const target = parseInt(counter.dataset.target || '0');
+                const target = parseInt(counter.dataset.target || '0', 10);
                 const suffix = counter.dataset.suffix || '';
                 const format = counter.dataset.format || '';
-                const duration = 1800; // ms
+                const duration = 1600;
                 let startTimestamp = null;
 
                 function step(timestamp) {
                     if (!startTimestamp) startTimestamp = timestamp;
                     const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-                    const easeProgress = 1 - Math.pow(1 - progress, 3); // easeOutCubic
+                    const easeProgress = 1 - Math.pow(1 - progress, 3);
                     const current = Math.round(target * easeProgress);
-
-                    let formattedCurrent = current;
-                    if (format === 'thousand') {
-                        formattedCurrent = new Intl.NumberFormat('id-ID').format(current);
-                    }
-
-                    counter.textContent = `${formattedCurrent}${suffix}`;
-
-                    if (progress < 1) {
-                        window.requestAnimationFrame(step);
-                    } else {
-                        let finalVal = target;
-                        if (format === 'thousand') finalVal = new Intl.NumberFormat('id-ID').format(target);
-                        counter.textContent = `${finalVal}${suffix}`;
-                    }
+                    const formatted = format === 'thousand' ? new Intl.NumberFormat('id-ID').format(current) : current;
+                    counter.textContent = `${formatted}${suffix}`;
+                    if (progress < 1) window.requestAnimationFrame(step);
                 }
-
                 window.requestAnimationFrame(step);
             });
         }
 
         if ('IntersectionObserver' in window) {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        runCountUp();
-                        observer.disconnect();
-                    }
-                });
-            }, { threshold: 0.2 });
-
-            const triggerElem = document.getElementById('whyStatsRibbon') || document.getElementById('keunggulan');
-            if (triggerElem) observer.observe(triggerElem);
-        } else {
-            runCountUp();
+            const obs = new IntersectionObserver(entries => {
+                if (entries.some(e => e.isIntersecting)) {
+                    runCountUp();
+                    obs.disconnect();
+                }
+            }, { threshold: 0.25 });
+            const el = document.getElementById('whyStatsRibbon');
+            if (el) obs.observe(el);
         }
     }
 
-    document.addEventListener('DOMContentLoaded', initStatsCounter);
-
-    // ── Portfolio Carousel Slider ──
-    let portIndex = 0;
-    const portTrack = document.getElementById('portfolioTrack');
-    const portItems = document.querySelectorAll('.portfolio-item');
-
-    function updatePortSlide() {
-        if (!portItems.length) return;
-        const itemWidth = portItems[0].getBoundingClientRect().width + 19.2;
-        portTrack.style.transform = `translateX(-${portIndex * itemWidth}px)`;
-    }
-
-    function nextPortSlide() {
-        const visibleItems = window.innerWidth <= 768 ? 1 : (window.innerWidth <= 1024 ? 2 : 3);
-        const maxIndex = Math.max(0, portItems.length - visibleItems);
-        portIndex = portIndex >= maxIndex ? 0 : portIndex + 1;
-        updatePortSlide();
-    }
-
-    function prevPortSlide() {
-        const visibleItems = window.innerWidth <= 768 ? 1 : (window.innerWidth <= 1024 ? 2 : 3);
-        const maxIndex = Math.max(0, portItems.length - visibleItems);
-        portIndex = portIndex <= 0 ? maxIndex : portIndex - 1;
-        updatePortSlide();
-    }
-
-    window.addEventListener('resize', updatePortSlide);
-
-    // ── Product Detail Modal Handlers (Real Database Catalog) ──
+    // ── 7. Product Detail Modal ($products) ──
     const catalogMaster = @json($products);
     let selectedProductName = '';
-    let selectedProductID = '';
 
     function showCatalogProductModal(id) {
         const item = catalogMaster.find(p => p.id == id);
         if (!item) return;
 
         selectedProductName = item.nama_barang;
-        selectedProductID = item.id;
-
         document.getElementById('modalProductName').textContent = item.nama_barang;
         document.getElementById('modalProductCategory').textContent = item.category_label || 'Peralatan Pabrik';
-        
-        let desc = `Produk ${item.nama_barang} resmi dari Bengkel Manufaktur Adam Jaya Enterprise Bandung. Dikerjakan langsung tangan pertama dengan presisi tinggi dan mutu teruji.`;
-        let power = item.category === 'mesin-tahu' ? 'Dinamo Listrik / Mesin Bensin' : (item.category === 'mesin-kemasan' ? 'Daya Pemanas Otomatis' : 'Manual / Sesuai Penggunaan');
-        let material = item.nama_barang.toLowerCase().includes('sten') ? 'Stainless Steel SUS 304 Food-Grade' : (item.nama_barang.toLowerCase().includes('jati') ? 'Kayu Jati Asli Pilihan' : 'Baja Padat / Standar Manufaktur');
-        let cap = item.variants && item.variants.length ? `${item.variants.length} Pilihan Varian` : 'Sesuai Spesifikasi';
-        let warranty = 'Garansi Servis Resmi Bengkel';
 
-        document.getElementById('modalProductDesc').textContent = desc;
-        document.getElementById('modalSpecPower').textContent = power;
-        document.getElementById('modalSpecMaterial').textContent = material;
-        document.getElementById('modalSpecCapacity').textContent = cap;
-        document.getElementById('modalSpecWarranty').textContent = warranty;
+        const nameLower = item.nama_barang.toLowerCase();
+        document.getElementById('modalProductDesc').textContent = `Produk ${item.nama_barang} resmi dari Bengkel Manufaktur PT Adam Jaya Enterprise Bandung. Dikerjakan langsung tangan pertama dengan presisi tinggi dan mutu teruji.`;
+        document.getElementById('modalSpecPower').textContent = item.category === 'mesin-tahu' ? 'Dinamo Listrik / Mesin Penggerak' : (item.category === 'mesin-kemasan' ? 'Daya Pemanas Otomatis' : 'Manual / Sesuai Spesifikasi');
+        document.getElementById('modalSpecMaterial').textContent = (nameLower.includes('sten') || nameLower.includes('tahang')) ? 'Stainless Steel SUS 304 Food-Grade' : (nameLower.includes('jati') ? 'Kayu Jati Asli Pilihan' : 'Baja Padat / Standar Manufaktur');
+        document.getElementById('modalSpecCapacity').textContent = item.variants && item.variants.length ? `${item.variants.length} Pilihan Varian` : 'Sesuai Spesifikasi';
+        document.getElementById('modalSpecWarranty').textContent = 'Garansi Servis Resmi Bengkel & Sparepart Ready';
 
-        // Variants Table
         const variantsWrap = document.getElementById('modalVariantsWrap');
         const variantsBody = document.getElementById('modalVariantsBody');
         if (variantsWrap && variantsBody) {
             if (item.variants && item.variants.length > 0) {
                 variantsWrap.style.display = 'block';
                 variantsBody.innerHTML = item.variants.map(v => {
-                    const priceFormatted = v.harga > 0 ? `Rp ${new Intl.NumberFormat('id-ID').format(v.harga)} / ${v.satuan || 'unit'}` : '<span style="color:var(--gold-dark); font-weight:700;">Hubungi CS</span>';
-                    const stokBadge = v.stok > 0 ? `<span style="font-size:0.7rem; background:rgba(16,185,129,0.12); color:#059669; padding:0.1rem 0.4rem; border-radius:4px; margin-left:0.3rem;">Stok: ${v.stok}</span>` : '';
+                    const priceFormatted = v.harga > 0 ? `Rp ${new Intl.NumberFormat('id-ID').format(v.harga)} / ${v.satuan || 'unit'}` : 'Hubungi CS';
+                    const stokBadge = v.stok > 0 ? `<span style="font-family:var(--font-mono); font-size:0.68rem; background:rgba(16,185,129,0.12); color:#059669; padding:0.1rem 0.4rem; border-radius:4px; margin-left:0.35rem;">Stok: ${v.stok}</span>` : '';
                     return `<tr>
-                        <td style="padding:0.55rem 0.85rem; font-weight:600; font-size:0.82rem; color:var(--ink);">${v.nama_jenis} ${stokBadge}</td>
-                        <td style="padding:0.55rem 0.85rem; text-align:right; font-weight:700; color:var(--wine); font-size:0.82rem;">${priceFormatted}</td>
+                        <td style="padding:0.55rem 0.85rem; font-weight:600; color:var(--ink-100);">${v.nama_jenis} ${stokBadge}</td>
+                        <td style="padding:0.55rem 0.85rem; text-align:right; font-weight:700; color:var(--wine);">${priceFormatted}</td>
                     </tr>`;
                 }).join('');
             } else {
@@ -1787,12 +1457,7 @@
                 variantsBody.innerHTML = '';
             }
         }
-
         document.getElementById('productModal').classList.add('active');
-    }
-
-    function openProductModal(name, id, cat, desc, power, material, cap, warranty) {
-        showCatalogProductModal(id);
     }
 
     function closeProductModal() {
@@ -1805,10 +1470,28 @@
         window.open(`https://wa.me/6281221601558?text=${msg}`, '_blank');
     }
 
-    // ── Lightbox Image Modal ──
+    // ── 8. FAQ Accordion (grid-template-rows 0fr -> 1fr) ──
+    function toggleFaqRow(btn) {
+        const row = btn.parentElement;
+        const isActive = row.classList.contains('active');
+        document.querySelectorAll('.faq-row').forEach(r => {
+            r.classList.remove('active');
+            r.querySelector('.faq-trigger')?.setAttribute('aria-expanded', 'false');
+            const sym = r.querySelector('.faq-plus-circle');
+            if (sym) sym.innerHTML = '+';
+        });
+        if (!isActive) {
+            row.classList.add('active');
+            btn.setAttribute('aria-expanded', 'true');
+            const sym = row.querySelector('.faq-plus-circle');
+            if (sym) sym.innerHTML = '&minus;';
+        }
+    }
+
+    // ── 9. Lightbox & Quick RFQ Form ──
     function openLightbox(imgSrc, caption) {
         document.getElementById('lightboxImg').src = imgSrc;
-        document.getElementById('lightboxCaption').textContent = caption;
+        document.getElementById('lightboxCaption').innerHTML = caption;
         document.getElementById('lightboxModal').classList.add('active');
     }
 
@@ -1816,158 +1499,24 @@
         document.getElementById('lightboxModal').classList.remove('active');
     }
 
-    // ── FAQ Accordion Toggle ──
-    function toggleFaq(elem) {
-        const item = elem.parentElement;
-        const isActive = item.classList.contains('active');
-        
-        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
-        if (!isActive) {
-            item.classList.add('active');
-        }
+    function submitQuickRfq(e) {
+        e.preventDefault();
+        const name = document.getElementById('rfqName').value.trim();
+        const cat = document.getElementById('rfqCategory').value;
+        const msg = `Halo PT Adam Jaya Enterprise Bandung,\nSaya *${name}* ingin meminta estimasi penawaran harga untuk:\n- Kategori: *${cat}*\n\nMohon informasi spesifikasi dan katalog harganya.`;
+        window.open(`https://wa.me/6281221601558?text=${encodeURIComponent(msg)}`, '_blank');
     }
 
-    // Close Modals on Outer Click
-    const pModal = document.getElementById('productModal');
-    if (pModal) {
-        pModal.addEventListener('click', function(e) {
-            if (e.target === this) closeProductModal();
-        });
-    }
-
-    // ── 3D Interactive Card Tilt Engine ──
-    if (window.matchMedia('(pointer: fine)').matches) {
-        const pCards = document.querySelectorAll('.product-card');
-        pCards.forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                const rect = card.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-                const centerX = rect.width / 2;
-                const centerY = rect.height / 2;
-                
-                const rotateX = ((y - centerY) / centerY) * -7;
-                const rotateY = ((x - centerX) / centerX) * 7;
-                
-                card.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-8px) scale(1.02)`;
-            });
-            
-            card.addEventListener('mouseleave', () => {
-                card.style.transform = '';
-            });
-        });
-    }
-
-    // ── Scroll Storytelling IntersectionObserver Engine ──
-    document.addEventListener('DOMContentLoaded', () => {
-        const storyElements = document.querySelectorAll('.story-reveal, .story-slide-right, .story-slide-left, .story-scale-up');
-        
-        // Initial reveal for Hero elements with slight delay for cinematic entrance
-        setTimeout(() => {
-            const heroStory = document.querySelectorAll('#beranda .story-reveal, #beranda .story-slide-right, #beranda .story-slide-left, #beranda .story-scale-up');
-            heroStory.forEach(el => el.classList.add('story-revealed'));
-        }, 120);
-
-        if ('IntersectionObserver' in window) {
-            const storyObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('story-revealed');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, {
-                threshold: 0.12,
-                rootMargin: '0px 0px -50px 0px'
-            });
-
-            storyElements.forEach(el => {
-                if (!el.closest('#beranda')) {
-                    storyObserver.observe(el);
-                }
-            });
-        } else {
-            // Fallback for older browsers
-            storyElements.forEach(el => el.classList.add('story-revealed'));
-        }
-    });
-
-    // ── Video Testimonial Modal Handlers ──
-    function openVideoTestimonial() {
-        const modal = document.getElementById('videoModal');
-        const player = document.getElementById('testimonialVideoPlayer');
-        if (modal) modal.classList.add('active');
-        if (player) {
-            player.currentTime = 0;
-            player.play().catch(() => {});
-        }
-    }
-
-    function closeVideoTestimonial() {
-        const modal = document.getElementById('videoModal');
-        const player = document.getElementById('testimonialVideoPlayer');
-        if (modal) modal.classList.remove('active');
-        if (player) player.pause();
-    }
-
-    // ── Engineering Timeline Scroll-Progress Engine ──
-    function initEngineeringTimeline() {
-        const timelineWrap = document.getElementById('engineeringTimeline');
-        const spineFill = document.getElementById('timelineSpineFill');
-        const stepRows = document.querySelectorAll('.timeline-step-row');
-        if (!timelineWrap || !spineFill || !stepRows.length) return;
-
-        function updateTimeline() {
-            const rect = timelineWrap.getBoundingClientRect();
-            const windowHeight = window.innerHeight;
-            
-            // Calculate progress through timeline container
-            const startTrigger = windowHeight * 0.75;
-            const totalDistance = rect.height;
-            const scrolledPast = startTrigger - rect.top;
-            
-            let progress = Math.min(Math.max(scrolledPast / totalDistance, 0), 1);
-            spineFill.style.height = `${(progress * 100).toFixed(1)}%`;
-
-            // Activate nodes as scroll passes them
-            stepRows.forEach(row => {
-                const nodeRect = row.getBoundingClientRect();
-                if (nodeRect.top < windowHeight * 0.65) {
-                    row.classList.add('active');
-                } else {
-                    row.classList.remove('active');
-                }
-            });
-        }
-
-        window.addEventListener('scroll', updateTimeline, { passive: true });
-        window.addEventListener('resize', updateTimeline);
-        updateTimeline();
-    }
-
-    document.addEventListener('DOMContentLoaded', initEngineeringTimeline);
-
-    // ═══════════════════════════════════════════════════════════
-    // ── 16. LIVE AI MACHINE ASSISTANT (NATURAL LANGUAGE ENGINE) ──
-    // ═══════════════════════════════════════════════════════════
+    // ── 10. Floating AI Machine Advisor Engine ──
     let assistantChatHistory = [];
     let isAssistantReplying = false;
 
     function toggleAssistantModal() {
         const modal = document.getElementById('machineAssistantModal');
         if (!modal) return;
-        const isActive = modal.classList.contains('active');
-        if (isActive) {
-            modal.classList.remove('active');
-        } else {
-            modal.classList.add('active');
-            if (assistantChatHistory.length === 0) {
-                renderAssistantWelcome();
-            }
-            setTimeout(() => {
-                const input = document.getElementById('assistantTextInput');
-                if (input) input.focus();
-            }, 300);
+        const isOpen = modal.classList.toggle('active');
+        if (isOpen && assistantChatHistory.length === 0) {
+            renderAssistantWelcome();
         }
     }
 
@@ -1980,35 +1529,9 @@
     function renderAssistantWelcome() {
         const body = document.getElementById('assistantChatBody');
         if (!body) return;
-
-        const welcomeText = `👋 <strong>Halo! Saya Adam Jaya AI</strong> — Asisten Mesin Tahu.<br><br>` +
-            `Siap bantu cek <strong>stok &amp; harga</strong>, <strong>rekomendasi kapasitas</strong>, dan <strong>servis 24 jam</strong>.<br><br>` +
-            `<em>Silakan ketik pertanyaan Anda!</em>`;
-
-        body.innerHTML = `<div class="assistant-bubble-bot">${welcomeText}</div>`;
-        assistantChatHistory.push({ role: 'bot', text: welcomeText });
-        body.scrollTop = 0;
-    }
-
-    function formatAIMarkdown(text) {
-        if (!text) return '';
-        let formatted = text;
-        // Headings ###
-        formatted = formatted.replace(/### (.*?)$/gm, '<h5 style="color:#E8D5A0; font-weight:800; margin-top:0.6rem; margin-bottom:0.2rem; font-size:0.88rem;">$1</h5>');
-        formatted = formatted.replace(/## (.*?)$/gm, '<h4 style="color:#E8D5A0; font-weight:800; margin-top:0.6rem; margin-bottom:0.2rem; font-size:0.92rem;">$1</h4>');
-        // Bold
-        formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-        // Italic
-        formatted = formatted.replace(/\*(.*?)\*/g, '<em>$1</em>');
-        // Horizontal Rule
-        formatted = formatted.replace(/---/g, '<hr style="border:none; border-top:1px solid rgba(201,168,76,0.25); margin:0.6rem 0;">');
-        // Bullet points (•, *, -)
-        formatted = formatted.replace(/^[•\*\-] (.*?)$/gm, '<li style="margin-left:1.1rem; margin-bottom:0.25rem;">$1</li>');
-        // Numbers (1., 2., etc)
-        formatted = formatted.replace(/^(\d+)\. (.*?)$/gm, '<li style="margin-left:1.1rem; margin-bottom:0.25rem;"><strong>$1.</strong> $2</li>');
-        // Newlines
-        formatted = formatted.replace(/\n/g, '<br>');
-        return formatted;
+        const welcome = `<strong>Halo! Saya Adam Jaya AI</strong> — Asisten Teknis Mesin Tahu.<br>Siap membantu cek <strong>stok &amp; harga</strong>, <strong>rekomendasi kapasitas</strong>, dan <strong>layanan mekanik 24 jam</strong>.`;
+        body.innerHTML = `<div class="assistant-bubble-bot">${welcome}</div>`;
+        assistantChatHistory.push({ role: 'bot', text: welcome });
     }
 
     function sendAssistantQuickPrompt(promptText) {
@@ -2021,42 +1544,23 @@
 
     async function submitAssistantInput() {
         if (isAssistantReplying) return;
-
         const input = document.getElementById('assistantTextInput');
         const body = document.getElementById('assistantChatBody');
-        const sendBtn = document.getElementById('assistantSendBtn');
-
         if (!input || !body) return;
         const message = input.value.trim();
         if (!message) return;
 
-        // 1. Clear input & disable button
         input.value = '';
         isAssistantReplying = true;
-        if (sendBtn) sendBtn.disabled = true;
 
-        // 2. Render User Message
-        const userMsgDiv = document.createElement('div');
-        userMsgDiv.className = 'assistant-bubble-user';
-        userMsgDiv.innerText = message;
-        body.appendChild(userMsgDiv);
+        const userDiv = document.createElement('div');
+        userDiv.className = 'assistant-bubble-user';
+        userDiv.innerText = message;
+        body.appendChild(userDiv);
         assistantChatHistory.push({ role: 'user', text: message });
-
-        // 3. Render Typing Indicator
-        const typingDiv = document.createElement('div');
-        typingDiv.className = 'assistant-typing-indicator';
-        typingDiv.id = 'assistantTypingLoader';
-        typingDiv.innerHTML = `
-            <span class="typing-dot"></span>
-            <span class="typing-dot"></span>
-            <span class="typing-dot"></span>
-            <span style="font-size:0.72rem; color:var(--gold-bright); margin-left:0.3rem;">AI sedang memproses...</span>
-        `;
-        body.appendChild(typingDiv);
         body.scrollTop = body.scrollHeight;
 
         try {
-            // 4. Send request to Laravel backend
             const response = await fetch('/api/chat-ai', {
                 method: 'POST',
                 headers: {
@@ -2064,276 +1568,52 @@
                     'Accept': 'application/json',
                     'X-CSRF-TOKEN': '{{ csrf_token() }}'
                 },
-                body: JSON.stringify({
-                    message: message,
-                    history: assistantChatHistory.slice(-6) // Send recent context
-                })
+                body: JSON.stringify({ message, history: assistantChatHistory.slice(-6) })
             });
-
-            // Remove typing indicator
-            const loader = document.getElementById('assistantTypingLoader');
-            if (loader) loader.remove();
-
-            if (response.ok) {
-                const data = await response.json();
-                const replyText = data.reply || 'Maaf, terjadi kendala saat memproses jawaban. Silakan tanyakan kembali atau hubungi WhatsApp kami.';
-                
-                const botMsgDiv = document.createElement('div');
-                botMsgDiv.className = 'assistant-bubble-bot';
-                botMsgDiv.innerHTML = formatAIMarkdown(replyText);
-
-                // Add quick contact CTA if advice or price is given
-                if (replyText.toLowerCase().includes('whatsapp') || replyText.toLowerCase().includes('0812') || replyText.toLowerCase().includes('rp')) {
-                    const ctaDiv = document.createElement('div');
-                    ctaDiv.style.marginTop = '0.6rem';
-                    ctaDiv.innerHTML = `
-                        <a href="https://wa.me/6281221601558?text=${encodeURIComponent('Halo Adam Jaya, saya mau konsultasi lanjutan: ' + message)}" target="_blank" class="btn btn-wine btn-sm" style="width:100%; display:inline-flex; align-items:center; justify-content:center; gap:0.4rem; font-size:0.76rem; padding:0.4rem 0.8rem; margin-top:0.4rem;">
-                            <i class="fa-brands fa-whatsapp"></i> Hubungi Kepala Mekanik (0812-2160-1558)
-                        </a>
-                    `;
-                    botMsgDiv.appendChild(ctaDiv);
-                }
-
-                body.appendChild(botMsgDiv);
-                assistantChatHistory.push({ role: 'bot', text: replyText });
-            } else {
-                throw new Error('Server response was not ok');
-            }
-        } catch (error) {
-            console.error('Chat error:', error);
-            const loader = document.getElementById('assistantTypingLoader');
-            if (loader) loader.remove();
-
-            const errorDiv = document.createElement('div');
-            errorDiv.className = 'assistant-bubble-bot';
-            errorDiv.innerHTML = `
-                ⚠️ <em>Koneksi sedang sibuk. Silakan hubungi langsung tim teknisi kami:</em><br>
-                <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20saya%20mau%20tanya%20mesin" target="_blank" class="btn btn-wine btn-sm" style="width:100%; margin-top:0.4rem;">
-                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Teknisi 24 Jam
-                </a>
-            `;
-            body.appendChild(errorDiv);
+            const data = await response.json();
+            const replyText = (data.reply || 'Silakan hubungi WhatsApp resmi kami di 0812-2160-1558.').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+            const botDiv = document.createElement('div');
+            botDiv.className = 'assistant-bubble-bot';
+            botDiv.innerHTML = replyText;
+            body.appendChild(botDiv);
+            assistantChatHistory.push({ role: 'bot', text: replyText });
+        } catch (err) {
+            const errDiv = document.createElement('div');
+            errDiv.className = 'assistant-bubble-bot';
+            errDiv.innerHTML = `Hubungi langsung Kepala Mekanik kami via WhatsApp: <a href="https://wa.me/6281221601558" target="_blank" style="color:var(--gold-bright); text-decoration:underline;">0812-2160-1558</a>`;
+            body.appendChild(errDiv);
         } finally {
             isAssistantReplying = false;
-            if (sendBtn) sendBtn.disabled = false;
             body.scrollTop = body.scrollHeight;
-            if (input) input.focus();
         }
     }
 
-    function scrollToCatalogAndHighlight(productId) {
-        toggleAssistantModal();
-        const catalogSection = document.getElementById('katalog-stok');
-        if (catalogSection) {
-            catalogSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    }
+    // ── 11. Initialize Scroll Reveal & Engines on DOMContentLoaded ──
+    document.addEventListener('DOMContentLoaded', () => {
+        initScrollFillStatement();
+        initHeroScrollParallax();
+        initStatsCounter();
+        applyCatalogFilters();
 
-    // ── 1. Intelligent Navbar Shrink & Back-to-Top Observer ──
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    }
-
-    function initNavbarAndBackToTop() {
-        const navbar = document.querySelector('.navbar');
-        const navbarWrap = document.querySelector('.navbar-wrap');
-        const scrollBtn = document.getElementById('scrollTopBtn');
-
-        function handleScroll() {
-            const scrollPos = window.scrollY;
-
-            // Intelligent Navbar Shrink (> 40px)
-            if (scrollPos > 40) {
-                if (navbar) navbar.classList.add('scrolled');
-                if (navbarWrap) navbarWrap.classList.add('scrolled');
-            } else {
-                if (navbar) navbar.classList.remove('scrolled');
-                if (navbarWrap) navbarWrap.classList.remove('scrolled');
-            }
-
-            // Elegant Back-to-Top (> 500px)
-            if (scrollBtn) {
-                if (scrollPos > 500) {
-                    scrollBtn.classList.add('visible');
-                } else {
-                    scrollBtn.classList.remove('visible');
-                }
-            }
-        }
-
-        window.addEventListener('scroll', handleScroll, { passive: true });
-        handleScroll();
-    }
-
-    document.addEventListener('DOMContentLoaded', initNavbarAndBackToTop);
-
-    // ── 2. Subtle Hero Desktop Mouse Parallax Interaction ──
-    function initHeroMouseParallax() {
-        if (!window.matchMedia('(pointer: fine)').matches) return;
-
-        const heroWrap = document.getElementById('beranda');
-        const heroMachine = document.querySelector('.hero-machine-img');
-        const heroGlow = document.querySelector('.machine-backdrop-glow');
-        const heroGrid = document.querySelector('.hero-blueprint-grid');
-        const heroArc = document.querySelector('.hero-gold-arc');
-
-        if (!heroWrap) return;
-
-        let targetX = 0, targetY = 0;
-        let currentX = 0, currentY = 0;
-        let isHovered = false;
-
-        heroWrap.addEventListener('mousemove', (e) => {
-            const rect = heroWrap.getBoundingClientRect();
-            targetX = (e.clientX - rect.left) / rect.width - 0.5; // -0.5 to 0.5
-            targetY = (e.clientY - rect.top) / rect.height - 0.5;
-            isHovered = true;
-        }, { passive: true });
-
-        heroWrap.addEventListener('mouseleave', () => {
-            targetX = 0;
-            targetY = 0;
-            isHovered = false;
-        });
-
-        // Smooth 60fps RAF lerp loop
-        function parallaxLoop() {
-            currentX += (targetX - currentX) * 0.08;
-            currentY += (targetY - currentY) * 0.08;
-
-            if (heroMachine) {
-                heroMachine.style.transform = `translate3d(${(currentX * 10).toFixed(2)}px, ${(currentY * 8).toFixed(2)}px, 0)`;
-            }
-            if (heroGlow) {
-                heroGlow.style.transform = `translate3d(${(-currentX * 16).toFixed(2)}px, ${(-currentY * 14).toFixed(2)}px, 0)`;
-            }
-            if (heroGrid) {
-                heroGrid.style.transform = `translate3d(${(currentX * 4).toFixed(2)}px, ${(currentY * 4).toFixed(2)}px, 0)`;
-            }
-            if (heroArc) {
-                heroArc.style.transform = `translate3d(${(currentX * 6).toFixed(2)}px, ${(currentY * 6).toFixed(2)}px, 0)`;
-            }
-
-            requestAnimationFrame(parallaxLoop);
-        }
-
-        requestAnimationFrame(parallaxLoop);
-    }
-    
-    // ── 4. Google Reviews Mobile Carousel (2s Auto-Scroll + 100% Center Align) ──
-    function initReviewsMobileAutoScroll() {
-        const track = document.getElementById('googleReviewsGrid');
-        const container = document.getElementById('reviewsSliderWrapper') || track?.parentElement;
-        const dotsContainer = document.getElementById('reviewsDots');
-        if (!track || !container) return;
-
-        const cards = Array.from(track.querySelectorAll('.google-review-card'));
-        const totalReviews = cards.length;
-        if (totalReviews <= 1) return;
-
-        let currentReviewIndex = 0;
-        let reviewTimer = null;
-        let isTouching = false;
-        let touchStartX = 0;
-        let touchCurrentX = 0;
-        let isSwiping = false;
-
-        function updateCarousel() {
-            if (window.innerWidth > 768) {
-                track.style.transform = '';
-                cards.forEach(c => c.classList.remove('active'));
-                return;
-            }
-
-            // Set active class
-            cards.forEach((card, idx) => {
-                card.classList.toggle('active', idx === currentReviewIndex);
-            });
-
-            // Mathematical exact dead center
-            const containerWidth = container.clientWidth || window.innerWidth;
-            const cardWidth = cards[0].offsetWidth;
-            const cardMargin = 8; // 8px left + 8px right
-            const slotWidth = cardWidth + (cardMargin * 2);
-            const targetX = (containerWidth / 2) - ((currentReviewIndex + 0.5) * slotWidth);
-
-            track.style.transform = `translate3d(${Math.round(targetX)}px, 0, 0)`;
-
-            if (dotsContainer) {
-                const dots = dotsContainer.querySelectorAll('.review-dot');
-                dots.forEach((dot, idx) => {
-                    dot.classList.toggle('active', idx === currentReviewIndex);
+        const revealElems = document.querySelectorAll('.reveal-up');
+        if ('IntersectionObserver' in window) {
+            const revObs = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        obs.unobserve(entry.target);
+                    }
                 });
-            }
+            }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+            revealElems.forEach(el => revObs.observe(el));
+        } else {
+            revealElems.forEach(el => el.classList.add('is-visible'));
         }
+    });
 
-        window.goToReviewSlide = function(index) {
-            currentReviewIndex = (index + totalReviews) % totalReviews;
-            updateCarousel();
-        };
-
-        function startAutoScroll() {
-            stopAutoScroll();
-            reviewTimer = setInterval(() => {
-                if (window.innerWidth <= 768 && !isTouching) {
-                    currentReviewIndex = (currentReviewIndex + 1) % totalReviews;
-                    updateCarousel();
-                }
-            }, 2000); // 2-second auto-scroll
-        }
-
-        function stopAutoScroll() {
-            if (reviewTimer) {
-                clearInterval(reviewTimer);
-                reviewTimer = null;
-            }
-        }
-
-        function resetAutoScroll() {
-            stopAutoScroll();
-            startAutoScroll();
-        }
-
-        // Touch Swipe
-        track.addEventListener('touchstart', (e) => {
-            if (window.innerWidth > 768) return;
-            isTouching = true;
-            isSwiping = true;
-            touchStartX = e.touches[0].clientX;
-            stopAutoScroll();
-        }, { passive: true });
-
-        track.addEventListener('touchmove', (e) => {
-            if (!isSwiping || window.innerWidth > 768) return;
-            touchCurrentX = e.touches[0].clientX;
-        }, { passive: true });
-
-        track.addEventListener('touchend', () => {
-            if (!isSwiping || window.innerWidth > 768) return;
-            isTouching = false;
-            isSwiping = false;
-            const diffX = touchCurrentX - touchStartX;
-            if (diffX < -35) {
-                goToReviewSlide(currentReviewIndex + 1);
-            } else if (diffX > 35) {
-                goToReviewSlide(currentReviewIndex - 1);
-            }
-            startAutoScroll();
-        });
-
-        window.addEventListener('resize', updateCarousel);
-
-        setTimeout(updateCarousel, 100);
-        startAutoScroll();
-    }
-
-    document.addEventListener('DOMContentLoaded', initReviewsMobileAutoScroll);
-
-    // Run Initial Computations
-    calculateROI();
+    document.getElementById('productModal')?.addEventListener('click', function(e) {
+        if (e.target === this) closeProductModal();
+    });
     </script>
 </body>
 </html>
