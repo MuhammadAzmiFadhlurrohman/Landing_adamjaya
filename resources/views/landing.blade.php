@@ -454,7 +454,7 @@
                     <!-- Live Search Bar -->
                     <div class="catalog-search">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" id="catalogSearchInput" placeholder="🔍 Cari mesin atau produk..." oninput="handleLiveSearch()">
+                        <input type="text" id="catalogSearchInput" placeholder="Cari mesin atau produk..." oninput="handleLiveSearch()">
                     </div>
 
                     <!-- Sorting Dropdown -->
