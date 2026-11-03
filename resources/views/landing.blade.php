@@ -102,12 +102,9 @@
                         Tingkatkan hasil ekstraksi perasan sari kedelai dan percepat ritme produksi Anda dengan mesin manufaktur standar food-grade SUS 304 dari workshop resmi Adam Jaya Bandung.
                     </p>
 
-                    <!-- 3 Benefit Highlight Cards (Staggered) -->
+                    <!-- 3 Benefit Highlights (Clean Editorial Typography) -->
                     <div class="hero-benefits-trio">
                         <div class="benefit-card-mini story-reveal delay-4">
-                            <div class="benefit-icon-box">
-                                <i class="fa-solid fa-shield-halved"></i>
-                            </div>
                             <div class="benefit-text-box">
                                 <strong>Food-Grade</strong>
                                 <span>SUS 304</span>
@@ -115,9 +112,6 @@
                         </div>
 
                         <div class="benefit-card-mini story-reveal delay-5">
-                            <div class="benefit-icon-box">
-                                <i class="fa-solid fa-clock-rotate-left"></i>
-                            </div>
                             <div class="benefit-text-box">
                                 <strong>Servis Darurat</strong>
                                 <span>24 Jam</span>
@@ -125,9 +119,6 @@
                         </div>
 
                         <div class="benefit-card-mini story-reveal delay-6">
-                            <div class="benefit-icon-box">
-                                <i class="fa-solid fa-award"></i>
-                            </div>
                             <div class="benefit-text-box">
                                 <strong>Garansi</strong>
                                 <span>Bengkel Resmi</span>

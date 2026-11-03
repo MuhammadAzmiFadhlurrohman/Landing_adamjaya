@@ -599,64 +599,50 @@ section[id] { scroll-margin-top: 90px; }
 }
 
 .hero-benefits-trio {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.65rem;
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
     width: 100%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
+    padding: 0.75rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .benefit-card-mini {
-    background: rgba(11, 27, 51, 0.8);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(14px);
-    border-radius: var(--r-md);
-    padding: 0.65rem 0.85rem;
+    background: transparent;
+    border: none;
+    padding: 0;
     display: flex;
     align-items: center;
-    gap: 0.65rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s var(--ease);
+    position: relative;
 }
 
-.benefit-card-mini:hover {
-    background: rgba(16, 38, 70, 0.95);
-    border-color: rgba(197, 160, 89, 0.4);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-}
-
-.benefit-icon-box {
-    width: 34px;
-    height: 34px;
-    border-radius: var(--r-sm);
-    background: rgba(6, 20, 38, 0.9);
-    border: 1px solid rgba(197, 160, 89, 0.35);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #DFC183;
-    font-size: 0.85rem;
-    flex-shrink: 0;
+.benefit-card-mini:not(:first-child) {
+    padding-left: 1.75rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .benefit-text-box {
     display: flex;
     flex-direction: column;
+    gap: 0.15rem;
 }
 
 .benefit-text-box strong {
     font-family: var(--font-head);
-    font-size: 0.82rem;
+    font-size: 0.88rem;
     font-weight: 800;
     color: #FFFFFF;
     line-height: 1.2;
+    letter-spacing: 0.01em;
 }
 
 .benefit-text-box span {
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     font-weight: 600;
-    color: #94A3B8;
+    color: #E8D5A0;
+    letter-spacing: 0.02em;
 }
 
 .hero-cta-group {
@@ -3288,39 +3274,36 @@ section[id] { scroll-margin-top: 90px; }
     .hero-benefits-trio {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 0.4rem;
+        gap: 0;
         width: 100%;
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.35rem;
+        padding: 0.65rem 0;
     }
 
     .benefit-card-mini {
-        padding: 0.55rem 0.35rem;
-        font-size: 0.72rem;
+        padding: 0 0.4rem;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 0.3rem;
-        border-radius: 10px;
+        justify-content: center;
     }
 
-    .benefit-icon-box {
-        width: 28px;
-        height: 28px;
-        font-size: 0.75rem;
-        border-radius: 6px;
+    .benefit-card-mini:not(:first-child) {
+        padding-left: 0.4rem;
+        border-left: 1px solid rgba(255, 255, 255, 0.15);
     }
 
     .benefit-text-box strong {
         display: block;
-        font-size: 0.7rem;
-        line-height: 1.15;
+        font-size: 0.75rem;
+        line-height: 1.2;
     }
 
     .benefit-text-box span {
         display: block;
-        font-size: 0.6rem;
-        color: #94A3B8;
-        line-height: 1.15;
+        font-size: 0.65rem;
+        color: #E8D5A0;
+        line-height: 1.2;
         margin-top: 0.1rem;
     }
 
