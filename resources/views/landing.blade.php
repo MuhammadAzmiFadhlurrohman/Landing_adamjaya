@@ -610,145 +610,117 @@
 
 
 
-    <!-- ═══ 7. SECTION KENAPA MEMILIH ADAM JAYA (VISUAL ARCHITECTURE & ANIMATED STATS) ═══ -->
+    <!-- ═══ 7. SECTION KENAPA MEMILIH ADAM JAYA (INDUSTRIAL PREMIUM EDITORIAL ARCHITECTURE) ═══ -->
     <section class="section section-alt why-section-wrapper" id="keunggulan">
         <div class="container">
-            <div class="section-head">
-                <h2 class="section-title story-reveal delay-2">Kenapa Memilih <span class="wine-gold-gradient-text">Bengkel Adam Jaya?</span></h2>
-                <p class="section-desc story-reveal delay-3">Produsen manufaktur peralatan pengolah kedelai tangan pertama di Bandung dengan rekam jejak teruji puluhan tahun dan komitmen total pada kelancaran operasional mitra.</p>
-            </div>
-
-            <!-- 1. ANIMATED STATISTICS COUNT-UP RIBBON (TRIGGERS ON VIEWPORT ENTRY) -->
-            <div class="why-stats-ribbon story-reveal delay-2" id="whyStatsRibbon">
-                <div class="why-stat-box">
-                    <div class="why-stat-icon">
-                        <i class="fa-solid fa-calendar-check"></i>
-                    </div>
-                    <div class="why-stat-info">
-                        <span class="why-stat-number stat-counter" data-target="24" data-suffix="+">0+</span>
-                        <span class="why-stat-label">Tahun Pengalaman</span>
-                        <span class="why-stat-desc">Spesialisasi manufaktur mesin tahu</span>
-                    </div>
+            <!-- Bagian A: Section Heading -->
+            <div class="why-editorial-head story-reveal delay-2">
+                <div class="why-editorial-head-left">
+                    <span class="why-editorial-kicker">REKAM JEJAK &amp; STANDAR REKAYASA</span>
+                    <h2 class="why-editorial-title">Kenapa Memilih <span>Bengkel Adam Jaya?</span></h2>
                 </div>
-
-                <div class="why-stat-box">
-                    <div class="why-stat-icon">
-                        <i class="fa-solid fa-gears"></i>
-                    </div>
-                    <div class="why-stat-info">
-                        <span class="why-stat-number stat-counter" data-target="4200" data-suffix="+" data-format="thousand">0+</span>
-                        <span class="why-stat-label">Unit Mesin Terpasang</span>
-                        <span class="why-stat-desc">Dipercaya pabrik seluruh Nusantara</span>
-                    </div>
-                </div>
-
-                <div class="why-stat-box">
-                    <div class="why-stat-icon">
-                        <i class="fa-solid fa-shield-halved"></i>
-                    </div>
-                    <div class="why-stat-info">
-                        <span class="why-stat-number stat-counter" data-target="100" data-suffix="%">0%</span>
-                        <span class="why-stat-label">SUS 304 Food-Grade</span>
-                        <span class="why-stat-desc">Higienis &amp; tahan korosi asam</span>
-                    </div>
-                </div>
-
-                <div class="why-stat-box">
-                    <div class="why-stat-icon">
-                        <i class="fa-solid fa-headset"></i>
-                    </div>
-                    <div class="why-stat-info">
-                        <span class="why-stat-number stat-counter" data-target="24" data-suffix="/7">0/7</span>
-                        <span class="why-stat-label">Respon Teknisi Darurat</span>
-                        <span class="why-stat-desc">Mekanik standby nonstop</span>
-                    </div>
+                <div class="why-editorial-head-right">
+                    <p class="why-editorial-desc">Produsen manufaktur peralatan pengolah kedelai tangan pertama di Bandung dengan rekam jejak teruji puluhan tahun dan komitmen total pada kelancaran operasional mitra.</p>
                 </div>
             </div>
 
-            <!-- 2. CENTERPIECE VISUAL ARCHITECTURE BLUEPRINT -->
-            <div class="why-hub-architecture story-scale-up delay-3">
+            <!-- Bagian B: Key Statistics (Single Architectural Row with Hairline Dividers) -->
+            <div class="why-stats-strip story-reveal delay-2" id="whyStatsRibbon">
+                <div class="why-stat-item">
+                    <span class="why-stat-val stat-counter" data-target="24" data-suffix="+">24+</span>
+                    <span class="why-stat-title">Tahun Pengalaman</span>
+                    <span class="why-stat-sub">Spesialisasi manufaktur mesin tahu</span>
+                </div>
+
+                <div class="why-stat-item">
+                    <span class="why-stat-val stat-counter" data-target="4200" data-suffix="+" data-format="thousand">4.200+</span>
+                    <span class="why-stat-title">Unit Mesin Terpasang</span>
+                    <span class="why-stat-sub">Dipercaya pabrik seluruh Nusantara</span>
+                </div>
+
+                <div class="why-stat-item">
+                    <span class="why-stat-val stat-counter" data-target="100" data-suffix="%">100%</span>
+                    <span class="why-stat-title">Baja Stainless SUS 304 Food-Grade</span>
+                    <span class="why-stat-sub">Higienis &amp; tahan korosi asam</span>
+                </div>
+
+                <div class="why-stat-item">
+                    <span class="why-stat-val stat-counter" data-target="24" data-suffix="/7">24/7</span>
+                    <span class="why-stat-title">Dukungan Teknis 24/7</span>
+                    <span class="why-stat-sub">Respon teknisi darurat &amp; mekanik standby nonstop</span>
+                </div>
+            </div>
+
+            <!-- Bagian C: Keunggulan Utama Bengkel (Asymmetric Industrial Editorial Composition) -->
+            <div class="why-editorial-matrix story-reveal delay-3">
                 
-                <!-- MIDDLE CORE MATRIX: FACTORY DIRECT + CENTER EMBLEM + 24/7 SUPPORT -->
-                <div class="why-middle-core-grid">
-                    
-                    <!-- LEFT FLANK: Factory Direct Card -->
-                    <div class="why-pillar-card">
-                        <div class="why-pillar-header">
-                            <div class="why-pillar-icon">
-                                <i class="fa-solid fa-industry"></i>
-                            </div>
-                            <h3>Factory Direct Manufaktur</h3>
-                        </div>
-                        <p>Produsen langsung tangan pertama dari bengkel resmi kami di Babakan Bandung — tanpa perantara, bebas markup toko, dan bisa custom ukuran sesuai kapasitas produksi.</p>
-                        <div class="why-pillar-list">
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Harga langsung produsen tangan pertama</div>
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Custom kapasitas giling &amp; dimensi alat</div>
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Pengelasan argon rapi dan halus</div>
-                        </div>
-                    </div>
-
-                    <!-- CENTER NODE: ADAM JAYA ENTERPRISE EMBLEM -->
-                    <div class="why-center-emblem-node">
-                        <div class="why-emblem-logo-box">
-                            <img src="{{ asset('assets/adamjaya.png') }}" alt="Adam Jaya Enterprise">
-                        </div>
-                        <h4>ADAM JAYA</h4>
-                        <span>ENTERPRISE</span>
-                        <p class="why-center-tagline">Pusat Rekayasa Mesin Pengolah Kedelai &amp; Peralatan Tahu Presisi Tinggi</p>
-                        <div style="margin-top:0.8rem;">
-                            <span class="why-trust-pill" style="font-size:0.68rem; padding:0.25rem 0.65rem;">
-                                <i class="fa-solid fa-certificate"></i> Bengkel Resmi Bandung
-                            </span>
-                        </div>
-                    </div>
-
-                    <!-- RIGHT FLANK: 24/7 Lifetime Support Card -->
-                    <div class="why-pillar-card">
-                        <div class="why-pillar-header">
-                            <div class="why-pillar-icon">
-                                <i class="fa-solid fa-clock-rotate-left"></i>
-                            </div>
-                            <h3>24/7 Support &amp; Mekanik Siaga</h3>
-                        </div>
-                        <p>Pabrik tahu beroperasi dini hari dan malam hari. Teknisi kami siap siaga membantu kendala mesin mendadak serta jaminan ketersediaan suku cadang asli selalu ready stock.</p>
-                        <div class="why-pillar-list">
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Layanan teknisi darurat 24 jam nonstop</div>
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Sparepart asli (batu, dinamo, tahang) ready</div>
-                            <div class="why-pillar-list-item"><i class="fa-solid fa-circle-check"></i> Konsultasi teknis &amp; setting mesin gratis</div>
-                        </div>
-                    </div>
-
+                <!-- Kolom Kiri: Factory Direct Manufaktur -->
+                <div class="why-editorial-col why-col-left">
+                    <div class="why-col-index">01 — PRODUKSI TANGAN PERTAMA</div>
+                    <h3 class="why-col-heading">Factory Direct Manufaktur</h3>
+                    <p class="why-col-body">Produsen langsung tangan pertama dari bengkel resmi kami di Babakan Bandung — tanpa perantara, bebas markup toko, dan bisa custom ukuran sesuai kapasitas produksi.</p>
+                    <ul class="why-spec-list">
+                        <li>Harga langsung produsen tangan pertama</li>
+                        <li>Custom kapasitas giling &amp; dimensi alat</li>
+                        <li>Pengelasan argon rapi dan halus</li>
+                    </ul>
                 </div>
 
-                <!-- BOTTOM DUO GRID: SUS 304 + ZERO VIBRATION QC -->
-                <div class="why-bottom-duo-grid">
-                    <div class="why-pillar-card">
-                        <div class="why-pillar-header">
-                            <div class="why-pillar-icon" style="background:rgba(16, 185, 129, 0.1); color:#10B981;">
-                                <i class="fa-solid fa-shield-virus"></i>
+                <!-- Kolom Tengah: Identitas Brand Adam Jaya & Visual Produksi (Focal Point) -->
+                <div class="why-editorial-focal">
+                    <div class="why-focal-visual-wrap">
+                        <img src="{{ asset('assets/hero_machine.jpg') }}" alt="Proses Fabrikasi &amp; Mesin Pengolah Kedelai Bengkel Adam Jaya Bandung" class="why-focal-img" loading="lazy">
+                        <div class="why-focal-overlay"></div>
+                        <div class="why-focal-content">
+                            <div class="why-focal-brand-row">
+                                <img src="{{ asset('assets/adamjaya.png') }}" alt="Logo Adam Jaya Enterprise" class="why-focal-logo">
+                                <div class="why-focal-brand-text">
+                                    <h4>ADAM JAYA</h4>
+                                    <span>ENTERPRISE — BANDUNG</span>
+                                </div>
                             </div>
-                            <h3>100% Baja Stainless SUS 304 Food-Grade</h3>
+                            <div class="why-focal-caption">
+                                <p>Pusat Rekayasa Mesin Pengolah Kedelai &amp; Peralatan Tahu Presisi Tinggi</p>
+                                <span class="why-focal-loc">Bengkel Resmi Bandung — Est. 2000</span>
+                            </div>
                         </div>
-                        <p>Material higienis standar industri pangan internasional. Tahan asam cuka pengental tahu, anti-korosi seumur hidup, dan menjaga kemurnian rasa tahu tanpa residu logam.</p>
                     </div>
+                </div>
 
-                    <div class="why-pillar-card">
-                        <div class="why-pillar-header">
-                            <div class="why-pillar-icon" style="background:rgba(201, 151, 62, 0.15); color:var(--gold-dark);">
-                                <i class="fa-solid fa-compass-drafting"></i>
-                            </div>
-                            <h3>Zero-Vibration Dynamic Balancing QC</h3>
-                        </div>
-                        <p>Setiap unit mesin melalui uji putaran dinamis dan kalibrasi batu gilingan untuk memastikan putaran stabil bebas getaran bising serta umur bearing motor lebih panjang.</p>
-                    </div>
+                <!-- Kolom Kanan: 24/7 Support & Mekanik Siaga -->
+                <div class="why-editorial-col why-col-right">
+                    <div class="why-col-index">02 — JAMINAN PURNA JUAL</div>
+                    <h3 class="why-col-heading">24/7 Support &amp; Mekanik Siaga</h3>
+                    <p class="why-col-body">Pabrik tahu beroperasi dini hari dan malam hari. Teknisi kami siap siaga membantu kendala mesin mendadak serta jaminan ketersediaan suku cadang asli selalu ready stock.</p>
+                    <ul class="why-spec-list">
+                        <li>Layanan teknisi darurat 24 jam nonstop</li>
+                        <li>Sparepart asli (batu, dinamo, tahang) ready</li>
+                        <li>Konsultasi teknis &amp; setting mesin gratis</li>
+                    </ul>
                 </div>
 
             </div>
+
+            <!-- Bagian D: Technical Advantages (2-Column Architectural Specification Row) -->
+            <div class="why-tech-specs-row story-reveal delay-3">
+                <div class="why-tech-spec-block">
+                    <div class="why-tech-spec-meta">STANDAR MATERIAL PANGAN // SPEC-01</div>
+                    <h3 class="why-tech-spec-title">100% Baja Stainless SUS 304 Food-Grade</h3>
+                    <p class="why-tech-spec-desc">Material higienis standar industri pangan internasional. Tahan asam cuka pengental tahu, anti-korosi seumur hidup, dan menjaga kemurnian rasa tahu tanpa residu logam.</p>
+                </div>
+
+                <div class="why-tech-spec-block">
+                    <div class="why-tech-spec-meta">KALIBRASI &amp; UJI DINAMIS // SPEC-02</div>
+                    <h3 class="why-tech-spec-title">Zero-Vibration Dynamic Balancing QC</h3>
+                    <p class="why-tech-spec-desc">Setiap unit mesin melalui uji putaran dinamis dan kalibrasi batu gilingan untuk memastikan putaran stabil bebas getaran bising serta umur bearing motor lebih panjang.</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <!-- Wave into Dark Proyek Section -->
-    <div class="section-wave-bottom" style="background:#FAF8F5;">
+    <div class="section-wave-bottom" style="background:#F6F4F1;">
         <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0,20 C360,52 720,8 1080,38 C1260,50 1380,20 1440,25 L1440,60 L0,60 Z" fill="#380812"></path>
         </svg>

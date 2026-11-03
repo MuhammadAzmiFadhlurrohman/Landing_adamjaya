@@ -1734,377 +1734,348 @@ section[id] { scroll-margin-top: 90px; }
 }
 
 /* ==========================================================================
-   7. WHY CHOOSE US — ULTRA-VISUAL ECOSYSTEM ARCHITECTURE
+   7. WHY CHOOSE US — INDUSTRIAL PREMIUM EDITORIAL ARCHITECTURE
    ========================================================================== */
 .why-section-wrapper {
     position: relative;
+    background: #F6F4F1;
+    padding: 6.5rem 0 7rem;
 }
 
-/* Animated Top Stats Strip */
-.why-stats-ribbon {
+/* Bagian A: Section Heading (Editorial Split Header) */
+.why-editorial-head {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 4rem;
+    align-items: end;
+    margin-bottom: 4.5rem;
+    padding-bottom: 2.75rem;
+    border-bottom: 1px solid rgba(10, 22, 40, 0.14);
+}
+
+.why-editorial-kicker {
+    display: inline-block;
+    font-family: var(--font-head);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #7A1E33;
+    margin-bottom: 0.9rem;
+}
+
+.why-editorial-title {
+    font-family: var(--font-head);
+    font-size: clamp(2rem, 3.4vw, 2.85rem);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+    color: #0A1628;
+    margin: 0;
+}
+
+.why-editorial-title span {
+    color: #7A1E33;
+}
+
+.why-editorial-desc {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #475569;
+    margin: 0;
+    max-width: 540px;
+}
+
+/* Bagian B: Key Statistics (Single Architectural Row with Hairline Dividers) */
+.why-stats-strip {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.25rem;
-    margin-bottom: 3.5rem;
+    border-top: 2px solid #0A1628;
+    border-bottom: 1px solid rgba(10, 22, 40, 0.14);
+    margin-bottom: 5rem;
 }
 
-.why-stat-box {
-    background: #FFFFFF;
-    border: 1px solid rgba(10, 22, 40, 0.08);
-    border-radius: var(--r-lg);
-    padding: 1.6rem 1.4rem;
+.why-stat-item {
+    padding: 2.4rem 2rem 2.4rem 0;
     display: flex;
-    align-items: center;
-    gap: 1.1rem;
-    box-shadow: var(--shadow-sm);
-    transition: all 0.3s var(--ease);
+    flex-direction: column;
+    justify-content: flex-start;
     position: relative;
-    overflow: hidden;
 }
 
-.why-stat-box::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(90deg, var(--wine) 0%, var(--gold) 100%);
-    opacity: 0;
-    transition: opacity 0.3s var(--ease);
+.why-stat-item:not(:first-child) {
+    padding-left: 2.25rem;
+    border-left: 1px solid rgba(10, 22, 40, 0.12);
 }
 
-.why-stat-box:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-md);
-    border-color: rgba(201, 151, 62, 0.4);
-}
-
-.why-stat-box:hover::after {
-    opacity: 1;
-}
-
-.why-stat-icon {
-    width: 52px;
-    height: 52px;
-    border-radius: var(--r-md);
-    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-soft) 100%);
-    color: var(--gold-bright);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.4rem;
-    flex-shrink: 0;
-    box-shadow: 0 4px 12px rgba(6, 20, 38, 0.15);
-}
-
-.why-stat-number {
+.why-stat-val {
     font-family: var(--font-head);
-    font-size: 2.2rem;
-    font-weight: 900;
+    font-size: clamp(2.35rem, 3.5vw, 3.1rem);
+    font-weight: 800;
     line-height: 1;
-    color: var(--navy);
+    letter-spacing: -0.03em;
+    color: #7A1E33;
+    margin-bottom: 0.75rem;
     display: block;
-    margin-bottom: 0.25rem;
 }
 
-.why-stat-label {
-    font-size: 0.84rem;
+.why-stat-title {
+    font-family: var(--font-head);
+    font-size: 0.95rem;
     font-weight: 700;
-    color: var(--wine);
-    display: block;
-    line-height: 1.2;
-}
-
-.why-stat-desc {
-    font-size: 0.72rem;
-    color: var(--ink-light);
-    display: block;
-    margin-top: 0.15rem;
-}
-
-/* Centerpiece Ecosystem Hub */
-.why-hub-architecture {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    max-width: 1080px;
-    margin: 0 auto 3rem;
-}
-
-/* Top Experience Banner Card */
-.why-top-experience-card {
-    background: linear-gradient(135deg, var(--navy) 0%, #0D223F 100%);
-    border: 2px solid rgba(201, 151, 62, 0.4);
-    border-radius: var(--r-xl);
-    padding: 1.8rem 2.2rem;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 16px 40px rgba(6, 20, 38, 0.2);
-    position: relative;
-    overflow: hidden;
-}
-
-.why-top-experience-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 40%;
-    background: radial-gradient(circle at right center, rgba(201, 151, 62, 0.18) 0%, transparent 70%);
-    pointer-events: none;
-}
-
-.why-exp-badge-group {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.why-exp-big-number {
-    font-family: var(--font-head);
-    font-size: 3.8rem;
-    font-weight: 900;
-    color: #DFC183;
-    line-height: 0.9;
-    text-shadow: 0 4px 15px rgba(201, 151, 62, 0.3);
-}
-
-.why-exp-info h3 {
-    font-family: var(--font-head);
-    font-size: 1.35rem;
-    font-weight: 800;
-    color: #FFFFFF;
+    color: #0A1628;
+    line-height: 1.35;
     margin-bottom: 0.3rem;
+    display: block;
 }
 
-.why-exp-info p {
-    font-size: 0.88rem;
-    color: rgba(255, 255, 255, 0.75);
-    max-width: 500px;
-}
-
-.why-exp-badges {
-    display: flex;
-    gap: 0.6rem;
-    flex-wrap: wrap;
-}
-
-.why-trust-pill {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(201, 151, 62, 0.35);
-    color: #DFC183;
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 0.35rem 0.85rem;
-    border-radius: var(--r-pill);
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-}
-
-/* Middle Core Hub Matrix (Factory + Center Node + Support) */
-.why-middle-core-grid {
-    display: grid;
-    grid-template-columns: 1fr 300px 1fr;
-    gap: 1.5rem;
-    align-items: stretch;
-}
-
-.why-pillar-card {
-    background: #FFFFFF;
-    border: 1.5px solid rgba(10, 22, 40, 0.09);
-    border-radius: var(--r-xl);
-    padding: 2rem 1.8rem;
-    box-shadow: var(--shadow-sm);
-    transition: all 0.35s var(--ease);
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-}
-
-.why-pillar-card:hover {
-    transform: translateY(-6px);
-    border-color: var(--wine);
-    box-shadow: var(--shadow-lg);
-}
-
-.why-pillar-header {
-    display: flex;
-    align-items: center;
-    gap: 0.9rem;
-    margin-bottom: 1rem;
-}
-
-.why-pillar-icon {
-    width: 48px;
-    height: 48px;
-    border-radius: var(--r-md);
-    background: var(--wine-50);
-    color: var(--wine);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.3rem;
-    flex-shrink: 0;
-}
-
-.why-pillar-header h3 {
-    font-family: var(--font-head);
-    font-size: 1.12rem;
-    font-weight: 800;
-    color: var(--navy);
-    line-height: 1.25;
-}
-
-.why-pillar-card p {
-    font-size: 0.85rem;
-    color: var(--ink-muted);
-    line-height: 1.6;
-    margin-bottom: 1.2rem;
-}
-
-.why-pillar-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-top: auto;
-    padding-top: 1rem;
-    border-top: 1px dashed rgba(10, 22, 40, 0.08);
-}
-
-.why-pillar-list-item {
-    font-size: 0.78rem;
-    font-weight: 700;
-    color: var(--navy);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.why-pillar-list-item i {
-    color: #10B981;
+.why-stat-sub {
+    font-family: var(--font-body);
     font-size: 0.82rem;
+    color: #64748B;
+    line-height: 1.5;
+    display: block;
 }
 
-/* Center Emblem Node */
-.why-center-emblem-node {
-    background: linear-gradient(145deg, #061426 0%, #0D223F 100%);
-    border: 2px solid #DFC183;
-    border-radius: var(--r-xl);
-    padding: 2.2rem 1.4rem;
-    text-align: center;
-    color: #FFFFFF;
-    box-shadow: 0 16px 40px rgba(6, 20, 38, 0.35), 0 0 30px rgba(201, 151, 62, 0.15);
+/* Bagian C: Keunggulan Utama Bengkel (Asymmetric Industrial Editorial Matrix) */
+.why-editorial-matrix {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr 1fr;
+    gap: 3.25rem;
+    align-items: stretch;
+    margin-bottom: 5rem;
+}
+
+.why-editorial-col {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    justify-content: space-between;
+    padding: 0.5rem 0;
 }
 
-.why-emblem-logo-box {
-    width: 64px;
-    height: 64px;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(201, 151, 62, 0.5);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    box-shadow: 0 0 20px rgba(201, 151, 62, 0.3);
-}
-
-.why-emblem-logo-box img {
-    width: 36px;
-    height: 36px;
-    object-fit: contain;
-}
-
-.why-center-emblem-node h4 {
+.why-col-index {
     font-family: var(--font-head);
-    font-size: 1.15rem;
-    font-weight: 900;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    margin-bottom: 0.2rem;
-}
-
-.why-center-emblem-node span {
     font-size: 0.72rem;
     font-weight: 700;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: #DFC183;
+    color: #C9973E;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(10, 22, 40, 0.12);
 }
 
-.why-center-tagline {
-    font-size: 0.72rem;
-    color: rgba(255, 255, 255, 0.65);
-    margin-top: 0.8rem;
+.why-col-heading {
+    font-family: var(--font-head);
+    font-size: 1.45rem;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+    color: #0A1628;
+    margin: 0 0 1.1rem 0;
+}
+
+.why-col-body {
+    font-family: var(--font-body);
+    font-size: 0.94rem;
+    line-height: 1.72;
+    color: #475569;
+    margin: 0 0 2rem 0;
+}
+
+.why-spec-list {
+    list-style: none;
+    padding: 0;
+    margin: auto 0 0 0;
+    border-top: 1px solid rgba(10, 22, 40, 0.12);
+}
+
+.why-spec-list li {
+    font-family: var(--font-body);
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: #1E2430;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid rgba(10, 22, 40, 0.08);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
     line-height: 1.4;
 }
 
-/* Bottom Duo Cards (SUS 304 + QC Presisi) */
-.why-bottom-duo-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-}
-
-/* Workflow Ribbon Track */
-.why-process-ribbon {
-    background: #FFFFFF;
-    border: 1px solid rgba(10, 22, 40, 0.08);
-    border-radius: var(--r-xl);
-    padding: 1.5rem 2rem;
-    box-shadow: var(--shadow-sm);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
-    position: relative;
-}
-
-.why-step-item {
-    display: flex;
-    align-items: center;
-    gap: 0.85rem;
-    position: relative;
-}
-
-.why-step-number {
-    font-family: var(--font-head);
-    font-size: 1.3rem;
-    font-weight: 900;
-    color: var(--wine);
-    background: var(--wine-50);
-    width: 38px;
-    height: 38px;
-    border-radius: var(--r-md);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.why-spec-list li::before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: #7A1E33;
     flex-shrink: 0;
 }
 
-.why-step-text strong {
-    display: block;
-    font-family: var(--font-head);
-    font-size: 0.85rem;
-    font-weight: 800;
-    color: var(--navy);
+/* Focal Point Tengah: Visual Produksi & Identitas Brand */
+.why-editorial-focal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
-.why-step-text span {
+.why-focal-visual-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 440px;
+    background: #0A1628;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 3px solid #C9973E;
+}
+
+.why-focal-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: contrast(1.05) brightness(0.88);
+    transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.why-focal-visual-wrap:hover .why-focal-img {
+    transform: scale(1.03);
+}
+
+.why-focal-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(10, 22, 40, 0.78) 0%,
+        rgba(10, 22, 40, 0.25) 45%,
+        rgba(10, 22, 40, 0.94) 100%
+    );
+    pointer-events: none;
+}
+
+.why-focal-content {
+    position: relative;
+    z-index: 2;
+    padding: 2.2rem 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.why-focal-brand-row {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.why-focal-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.why-focal-brand-text h4 {
+    font-family: var(--font-head);
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    margin: 0 0 0.15rem 0;
+    line-height: 1.1;
+}
+
+.why-focal-brand-text span {
+    font-family: var(--font-head);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    color: #E8D5A0;
     display: block;
-    font-size: 0.72rem;
-    color: var(--ink-light);
+}
+
+.why-focal-caption {
+    margin-top: auto;
+    padding-top: 2rem;
+}
+
+.why-focal-caption p {
+    font-family: var(--font-head);
+    font-size: 1.12rem;
+    font-weight: 700;
+    line-height: 1.45;
+    color: #FFFFFF;
+    margin: 0 0 0.85rem 0;
+}
+
+.why-focal-loc {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #E8D5A0;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(201, 151, 62, 0.4);
+}
+
+/* Bagian D: Technical Advantages (2-Column Architectural Specification Row) */
+.why-tech-specs-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 2px solid #0A1628;
+    border-bottom: 1px solid rgba(10, 22, 40, 0.14);
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.why-tech-spec-block {
+    padding: 2.75rem 3rem 2.75rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.why-tech-spec-block:last-child {
+    padding-left: 3rem;
+    padding-right: 0;
+    border-left: 1px solid rgba(10, 22, 40, 0.12);
+}
+
+.why-tech-spec-meta {
+    font-family: var(--font-head);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #7A1E33;
+    margin-bottom: 0.75rem;
+}
+
+.why-tech-spec-title {
+    font-family: var(--font-head);
+    font-size: 1.28rem;
+    font-weight: 800;
+    color: #0A1628;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.85rem 0;
+}
+
+.why-tech-spec-desc {
+    font-family: var(--font-body);
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: #475569;
+    margin: 0;
 }
 
 /* ==========================================================================
@@ -3187,6 +3158,9 @@ section[id] { scroll-margin-top: 90px; }
     .testimonials-grid { grid-template-columns: 1fr; }
     .roi-simulator-grid { grid-template-columns: 1fr; gap: 2rem; }
     .trusted-logos-grid { grid-template-columns: repeat(2, 1fr); }
+    .why-editorial-head { grid-template-columns: 1fr; gap: 1.25rem; margin-bottom: 3rem; padding-bottom: 2rem; }
+    .why-editorial-matrix { grid-template-columns: 1fr; gap: 2.5rem; margin-bottom: 3.5rem; }
+    .why-focal-visual-wrap { min-height: 360px; }
 }
 
 @media (max-width: 768px) {
@@ -3680,103 +3654,98 @@ section[id] { scroll-margin-top: 90px; }
         gap: 0.5rem;
     }
 
-    /* Section 7: Kenapa Memilih Adam Jaya & Architecture Hub */
-    .why-stats-ribbon {
+    /* Section 7: Kenapa Memilih Adam Jaya (Industrial Editorial Mobile) */
+    .why-section-wrapper {
+        padding: 4rem 0 4.5rem;
+    }
+
+    .why-editorial-head {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-bottom: 2.25rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .why-editorial-title {
+        font-size: clamp(1.65rem, 6vw, 2.1rem);
+    }
+
+    .why-editorial-desc {
+        font-size: 0.9rem;
+    }
+
+    .why-stats-strip {
         grid-template-columns: repeat(2, 1fr);
-        gap: 0.6rem;
-        padding: 0;
+        margin-bottom: 3rem;
+    }
+
+    .why-stat-item {
+        padding: 1.4rem 0.85rem 1.4rem 0;
+    }
+
+    .why-stat-item:not(:first-child) {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .why-stat-item:nth-child(even) {
+        padding-left: 1rem;
+        padding-right: 0;
+        border-left: 1px solid rgba(10, 22, 40, 0.12);
+    }
+
+    .why-stat-item:nth-child(n+3) {
+        border-top: 1px solid rgba(10, 22, 40, 0.12);
+    }
+
+    .why-stat-val {
+        font-size: 1.95rem;
+        margin-bottom: 0.45rem;
+    }
+
+    .why-stat-title {
+        font-size: 0.84rem;
+    }
+
+    .why-stat-sub {
+        font-size: 0.74rem;
+    }
+
+    .why-editorial-matrix {
+        grid-template-columns: 1fr;
+        gap: 2.25rem;
+        margin-bottom: 3rem;
+    }
+
+    .why-col-heading {
+        font-size: 1.25rem;
+    }
+
+    .why-focal-visual-wrap {
+        min-height: 320px;
+    }
+
+    .why-focal-content {
+        padding: 1.5rem 1.35rem;
+    }
+
+    .why-tech-specs-row {
+        grid-template-columns: 1fr;
         background: transparent;
-        margin-bottom: 2rem;
     }
 
-    .why-stat-box {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0.85rem 0.8rem;
-        border-radius: 12px;
-        gap: 0.25rem;
-        background: #FFFFFF;
-        border: 1px solid rgba(10, 22, 40, 0.08);
-        box-shadow: 0 3px 12px rgba(10, 22, 40, 0.04);
-        min-height: auto;
+    .why-tech-spec-block {
+        padding: 1.85rem 0;
     }
 
-    .why-stat-icon {
-        width: 36px;
-        height: 36px;
-        min-width: 36px;
-        font-size: 1rem;
-        border-radius: 8px;
-        margin-bottom: 0.25rem;
-        box-shadow: 0 2px 8px rgba(6, 20, 38, 0.12);
+    .why-tech-spec-block:last-child {
+        padding-left: 0;
+        border-left: none;
+        border-top: 1px solid rgba(10, 22, 40, 0.12);
     }
 
-    .why-stat-number {
-        font-size: 1.45rem;
-        font-weight: 800;
-        line-height: 1.1;
-        margin-bottom: 0.1rem;
-        color: var(--navy);
-    }
-
-    .why-stat-label {
-        font-size: 0.78rem;
-        font-weight: 700;
-        color: var(--wine);
-        line-height: 1.25;
-    }
-
-    .why-stat-desc {
-        font-size: 0.68rem;
-        line-height: 1.35;
-        margin-top: 0.1rem;
-        color: var(--ink-light);
-    }
-
-    .why-top-experience-card {
-        flex-direction: column;
-        padding: 1.4rem 1.1rem;
-        gap: 1rem;
-        text-align: center;
-    }
-
-    .why-exp-badge-group {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 0.6rem;
-    }
-
-    .why-exp-big-number {
-        font-size: 2.5rem;
-    }
-
-    .why-exp-badges {
-        justify-content: center;
-    }
-
-    .why-middle-core-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .why-pillar-card {
-        padding: 1.4rem 1.1rem;
-    }
-
-    .why-center-emblem-node {
-        padding: 1.8rem 1.2rem;
-    }
-
-    .why-bottom-duo-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .why-process-ribbon {
-        grid-template-columns: 1fr;
-        gap: 0.85rem;
-        padding: 1.2rem 1rem;
+    .why-tech-spec-title {
+        font-size: 1.15rem;
     }
 
     /* Section 8: 4-Step Compact Fabrikasi Grid on Mobile */
