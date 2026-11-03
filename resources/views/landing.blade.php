@@ -202,7 +202,6 @@
         <div class="trusted-by-section story-reveal delay-2" id="trustedSection">
             <div class="container">
                 <div class="trusted-header">
-                    <span class="trusted-pill-tag"><i class="fa-solid fa-building-circle-check"></i> DIPERCAYA MITRA INDUSTRI</span>
                     <h3 class="trusted-title">Dipercaya oleh <span class="gold-gradient-text">4.200+ Pelaku Industri &amp; Pabrik Tahu</span> Terkemuka</h3>
                 </div>
             </div>
