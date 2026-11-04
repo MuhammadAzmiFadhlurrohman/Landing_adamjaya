@@ -529,20 +529,18 @@
                                 </div>
                             @endif
                             <div class="product-gradient-overlay"></div>
-                            <span class="product-badge-verified"><i class="fa-solid fa-circle-check"></i> Asli Bengkel</span>
-                            <span class="product-status-pill {{ $variantsCount > 1 ? 'status-blue' : '' }}">
-                                {{ $variantsCount > 1 ? $variantsCount . ' Varian' : 'TERSEDIA 🟢' }}
+                            <span class="product-status-pill {{ $variantsCount > 1 ? 'status-variant' : 'status-ready' }}">
+                                {{ $variantsCount > 1 ? $variantsCount . ' Pilihan Varian' : 'Tersedia' }}
                             </span>
                             <div class="quick-view-overlay">
                                 <button class="btn-quick-view" onclick="showCatalogProductModal({{ $item['id'] }})">
-                                    <i class="fa-solid fa-eye"></i> Lihat Detail →
+                                    Lihat Spesifikasi
                                 </button>
                             </div>
                         </div>
                         <div class="product-body">
                             <div class="product-meta-row">
                                 <span class="product-cat">{{ $item['category_label'] ?? 'Perlengkapan' }}</span>
-                                <div class="product-rating"><i class="fa-solid fa-star"></i> 4.9 <span class="rating-count">(Teruji)</span></div>
                             </div>
                             <h3>{{ $item['nama_barang'] }}</h3>
                             <p>
@@ -553,22 +551,18 @@
                                 @endif
                             </p>
                             
-                            <!-- Floating Price Box -->
+                            <!-- Price Row -->
                             <div class="product-price-box">
                                 <span class="price-label">{{ !empty($item['min_price']) && $item['min_price'] > 0 && $item['min_price'] != $item['max_price'] ? 'Rentang Harga' : 'Mulai dari' }}</span>
                                 <span class="price-amount">{{ $priceDisplay }}</span>
                             </div>
 
-                            <div class="product-specs">
-                                <span class="spec-tag"><i class="fa-solid fa-layer-group"></i> {{ $variantsCount }} Pilihan Varian</span>
-                                <span class="spec-tag"><i class="fa-solid fa-shield-halved"></i> Tangan Pertama</span>
-                            </div>
                             <div class="product-footer">
                                 <button class="btn btn-outline btn-sm" onclick="showCatalogProductModal({{ $item['id'] }})">
-                                    <i class="fa-solid fa-circle-info"></i> Detail
+                                    Detail
                                 </button>
                                 <a href="https://wa.me/6281221601558?text=Halo%20Adam%20Jaya,%20saya%20tanya%20stok%20{{ urlencode($item['nama_barang']) }}" target="_blank" class="btn btn-wine btn-sm">
-                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                                    <i class="fa-brands fa-whatsapp"></i> Pesan WA
                                 </a>
                             </div>
                         </div>
@@ -1794,29 +1788,6 @@
     if (pModal) {
         pModal.addEventListener('click', function(e) {
             if (e.target === this) closeProductModal();
-        });
-    }
-
-    // ── 3D Interactive Card Tilt Engine ──
-    if (window.matchMedia('(pointer: fine)').matches) {
-        const pCards = document.querySelectorAll('.product-card');
-        pCards.forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                const rect = card.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-                const centerX = rect.width / 2;
-                const centerY = rect.height / 2;
-                
-                const rotateX = ((y - centerY) / centerY) * -7;
-                const rotateY = ((x - centerX) / centerX) * 7;
-                
-                card.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-8px) scale(1.02)`;
-            });
-            
-            card.addEventListener('mouseleave', () => {
-                card.style.transform = '';
-            });
         });
     }
 
